@@ -1,0 +1,4409 @@
+{
+  "Variables": [],
+  "Enums": [],
+  "Classes": [
+    {
+      "Type": {
+        "UnmappedName": "IFunctionBlock",
+        "Namespace": {
+          "Raw": "daq",
+          "Components": [
+            "daq"
+          ]
+        },
+        "UnmappedNamespace": {
+          "Raw": "daq",
+          "Components": [
+            "daq"
+          ]
+        },
+        "Guid": "30b37b92-8907-592f-83c4-d57551d21922",
+        "NonInterfaceName": "FunctionBlock",
+        "DefaultIncludeName": "function_block",
+        "LibraryName": "copendaq/functionblock",
+        "Modifiers": "*",
+        "GenericArguments": null,
+        "IsGenericArgument": false,
+        "HasGenericArguments": false,
+        "PropertyClass": null,
+        "ControlTagName": null
+      },
+      "BaseType": {
+        "UnmappedName": "IFolder",
+        "Namespace": {
+          "Raw": "daq",
+          "Components": [
+            "daq"
+          ]
+        },
+        "UnmappedNamespace": {
+          "Raw": "daq",
+          "Components": [
+            "daq"
+          ]
+        },
+        "Guid": "00000000-0000-0000-0000-000000000000",
+        "NonInterfaceName": "Folder",
+        "DefaultIncludeName": "folder",
+        "LibraryName": "copendaq/functionblock",
+        "Modifiers": "",
+        "GenericArguments": null,
+        "IsGenericArgument": false,
+        "HasGenericArguments": false,
+        "PropertyClass": null,
+        "ControlTagName": null
+      },
+      "Methods": [
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "IFunctionBlockType",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "FunctionBlockType",
+                "DefaultIncludeName": "function_block_type",
+                "LibraryName": "copendaq/functionblock",
+                "Modifiers": "**",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "type",
+              "DefaultValue": null,
+              "IsOutParam": true,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/functionblock",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "getFunctionBlockType",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "IFunctionBlockType",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "FunctionBlockType",
+                    "DefaultIncludeName": "function_block_type",
+                    "LibraryName": "copendaq/functionblock",
+                    "Modifiers": "**",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "type",
+                  "DefaultValue": null,
+                  "IsOutParam": true,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/functionblock",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Gets an information structure contain metadata of the function block type.",
+                  "Elements": [
+                    {
+                      "RawText": "Gets an information structure contain metadata of the function block type.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Gets an information structure contain metadata of the function block type.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "type",
+                "IsOut": true,
+                "Lines": [
+                  {
+                    "FullText": "The Function block type object.",
+                    "Elements": [
+                      {
+                        "RawText": "The Function block type object.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param[out] type The Function block type object.",
+                "ElementType": 2
+              }
+            ],
+            "Description": null
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "IList",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "List",
+                "DefaultIncludeName": "list",
+                "LibraryName": "coretypes",
+                "Modifiers": "**",
+                "GenericArguments": [
+                  {
+                    "UnmappedName": "IInputPort",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "InputPort",
+                    "DefaultIncludeName": "input_port",
+                    "LibraryName": "copendaq/functionblock",
+                    "Modifiers": null,
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  }
+                ],
+                "IsGenericArgument": false,
+                "HasGenericArguments": true,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "ports",
+              "DefaultValue": null,
+              "IsOutParam": true,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            },
+            {
+              "Type": {
+                "UnmappedName": "ISearchFilter",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "SearchFilter",
+                "DefaultIncludeName": "search_filter",
+                "LibraryName": "coretypes",
+                "Modifiers": "*",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "searchFilter",
+              "DefaultValue": "nullptr",
+              "IsOutParam": false,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/functionblock",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "getInputPorts",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "IList",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "List",
+                    "DefaultIncludeName": "list",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "**",
+                    "GenericArguments": [
+                      {
+                        "UnmappedName": "IInputPort",
+                        "Namespace": {
+                          "Raw": "daq",
+                          "Components": [
+                            "daq"
+                          ]
+                        },
+                        "UnmappedNamespace": {
+                          "Raw": "daq",
+                          "Components": [
+                            "daq"
+                          ]
+                        },
+                        "Guid": "00000000-0000-0000-0000-000000000000",
+                        "NonInterfaceName": "InputPort",
+                        "DefaultIncludeName": "input_port",
+                        "LibraryName": "copendaq/functionblock",
+                        "Modifiers": null,
+                        "GenericArguments": null,
+                        "IsGenericArgument": false,
+                        "HasGenericArguments": false,
+                        "PropertyClass": null,
+                        "ControlTagName": null
+                      }
+                    ],
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": true,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "ports",
+                  "DefaultValue": null,
+                  "IsOutParam": true,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                },
+                {
+                  "Type": {
+                    "UnmappedName": "ISearchFilter",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "SearchFilter",
+                    "DefaultIncludeName": "search_filter",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "*",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "searchFilter",
+                  "DefaultValue": "nullptr",
+                  "IsOutParam": false,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/functionblock",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Gets a list of the function block's input ports.",
+                  "Elements": [
+                    {
+                      "RawText": "Gets a list of the function block's input ports.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Gets a list of the function block's input ports.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "searchFilter",
+                "IsOut": false,
+                "Lines": [
+                  {
+                    "FullText": "Provides an optional filter that filters out unwanted components and allows for recursion.",
+                    "Elements": [
+                      {
+                        "RawText": "Provides an optional filter that filters out unwanted components and allows for recursion.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param searchFilter Provides an optional filter that filters out unwanted components and allows for recursion.",
+                "ElementType": 2
+              },
+              {
+                "ParamName": "ports",
+                "IsOut": true,
+                "Lines": [
+                  {
+                    "FullText": "The list of input ports.",
+                    "Elements": [
+                      {
+                        "RawText": "The list of input ports.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param[out] ports The list of input ports.",
+                "ElementType": 2
+              }
+            ],
+            "Description": {
+              "TagIndex": 3,
+              "Lines": [
+                {
+                  "FullText": "",
+                  "Elements": [
+                    {
+                      "RawText": "",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "If searchFilter is not provided, the returned list contains only visible input ports and does not include those of",
+                  "Elements": [
+                    {
+                      "RawText": "If searchFilter is not provided, the returned list contains only visible input ports and does not include those of",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "child function blocks.",
+                  "Elements": [
+                    {
+                      "RawText": "child function blocks.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 7,
+              "TagName": "",
+              "RawText": "*\n     * If searchFilter is not provided, the returned list contains only visible input ports and does not include those of\n     * child function blocks.\n",
+              "ElementType": 2
+            }
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "IList",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "List",
+                "DefaultIncludeName": "list",
+                "LibraryName": "coretypes",
+                "Modifiers": "**",
+                "GenericArguments": [
+                  {
+                    "UnmappedName": "ISignal",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "Signal",
+                    "DefaultIncludeName": "signal",
+                    "LibraryName": "copendaq/functionblock",
+                    "Modifiers": null,
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  }
+                ],
+                "IsGenericArgument": false,
+                "HasGenericArguments": true,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "signals",
+              "DefaultValue": null,
+              "IsOutParam": true,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            },
+            {
+              "Type": {
+                "UnmappedName": "ISearchFilter",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "SearchFilter",
+                "DefaultIncludeName": "search_filter",
+                "LibraryName": "coretypes",
+                "Modifiers": "*",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "searchFilter",
+              "DefaultValue": "nullptr",
+              "IsOutParam": false,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/functionblock",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "getSignals",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "IList",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "List",
+                    "DefaultIncludeName": "list",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "**",
+                    "GenericArguments": [
+                      {
+                        "UnmappedName": "ISignal",
+                        "Namespace": {
+                          "Raw": "daq",
+                          "Components": [
+                            "daq"
+                          ]
+                        },
+                        "UnmappedNamespace": {
+                          "Raw": "daq",
+                          "Components": [
+                            "daq"
+                          ]
+                        },
+                        "Guid": "00000000-0000-0000-0000-000000000000",
+                        "NonInterfaceName": "Signal",
+                        "DefaultIncludeName": "signal",
+                        "LibraryName": "copendaq/functionblock",
+                        "Modifiers": null,
+                        "GenericArguments": null,
+                        "IsGenericArgument": false,
+                        "HasGenericArguments": false,
+                        "PropertyClass": null,
+                        "ControlTagName": null
+                      }
+                    ],
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": true,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "signals",
+                  "DefaultValue": null,
+                  "IsOutParam": true,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                },
+                {
+                  "Type": {
+                    "UnmappedName": "ISearchFilter",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "SearchFilter",
+                    "DefaultIncludeName": "search_filter",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "*",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "searchFilter",
+                  "DefaultValue": "nullptr",
+                  "IsOutParam": false,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/functionblock",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Gets the list of the function block's output signals.",
+                  "Elements": [
+                    {
+                      "RawText": "Gets the list of the function block's output signals.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Gets the list of the function block's output signals.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "searchFilter",
+                "IsOut": false,
+                "Lines": [
+                  {
+                    "FullText": "Provides an optional filter that filters out unwanted components and allows for recursion.",
+                    "Elements": [
+                      {
+                        "RawText": "Provides an optional filter that filters out unwanted components and allows for recursion.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param searchFilter Provides an optional filter that filters out unwanted components and allows for recursion.",
+                "ElementType": 2
+              },
+              {
+                "ParamName": "signals",
+                "IsOut": true,
+                "Lines": [
+                  {
+                    "FullText": "The list of output signals.",
+                    "Elements": [
+                      {
+                        "RawText": "The list of output signals.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param[out] signals The list of output signals.",
+                "ElementType": 2
+              }
+            ],
+            "Description": {
+              "TagIndex": 3,
+              "Lines": [
+                {
+                  "FullText": "",
+                  "Elements": [
+                    {
+                      "RawText": "",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "If searchFilter is not provided, the returned list contains only visible signals and does not include those of",
+                  "Elements": [
+                    {
+                      "RawText": "If searchFilter is not provided, the returned list contains only visible signals and does not include those of",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "child function blocks.",
+                  "Elements": [
+                    {
+                      "RawText": "child function blocks.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 7,
+              "TagName": "",
+              "RawText": "*\n     * If searchFilter is not provided, the returned list contains only visible signals and does not include those of\n     * child function blocks.\n",
+              "ElementType": 2
+            }
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "IList",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "List",
+                "DefaultIncludeName": "list",
+                "LibraryName": "coretypes",
+                "Modifiers": "**",
+                "GenericArguments": [
+                  {
+                    "UnmappedName": "ISignal",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "Signal",
+                    "DefaultIncludeName": "signal",
+                    "LibraryName": "copendaq/functionblock",
+                    "Modifiers": null,
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  }
+                ],
+                "IsGenericArgument": false,
+                "HasGenericArguments": true,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "signals",
+              "DefaultValue": null,
+              "IsOutParam": true,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            },
+            {
+              "Type": {
+                "UnmappedName": "ISearchFilter",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "SearchFilter",
+                "DefaultIncludeName": "search_filter",
+                "LibraryName": "coretypes",
+                "Modifiers": "*",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "searchFilter",
+              "DefaultValue": "nullptr",
+              "IsOutParam": false,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/functionblock",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "getSignalsRecursive",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "IList",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "List",
+                    "DefaultIncludeName": "list",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "**",
+                    "GenericArguments": [
+                      {
+                        "UnmappedName": "ISignal",
+                        "Namespace": {
+                          "Raw": "daq",
+                          "Components": [
+                            "daq"
+                          ]
+                        },
+                        "UnmappedNamespace": {
+                          "Raw": "daq",
+                          "Components": [
+                            "daq"
+                          ]
+                        },
+                        "Guid": "00000000-0000-0000-0000-000000000000",
+                        "NonInterfaceName": "Signal",
+                        "DefaultIncludeName": "signal",
+                        "LibraryName": "copendaq/functionblock",
+                        "Modifiers": null,
+                        "GenericArguments": null,
+                        "IsGenericArgument": false,
+                        "HasGenericArguments": false,
+                        "PropertyClass": null,
+                        "ControlTagName": null
+                      }
+                    ],
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": true,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "signals",
+                  "DefaultValue": null,
+                  "IsOutParam": true,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                },
+                {
+                  "Type": {
+                    "UnmappedName": "ISearchFilter",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "SearchFilter",
+                    "DefaultIncludeName": "search_filter",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "*",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "searchFilter",
+                  "DefaultValue": "nullptr",
+                  "IsOutParam": false,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/functionblock",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Gets the list of the function block's visible output signals including signals from visible child function blocks.",
+                  "Elements": [
+                    {
+                      "RawText": "Gets the list of the function block's visible output signals including signals from visible child function blocks.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Gets the list of the function block's visible output signals including signals from visible child function blocks.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "searchFilter",
+                "IsOut": false,
+                "Lines": [
+                  {
+                    "FullText": "Provides an optional filter that filters out unwanted components and allows for recursion.",
+                    "Elements": [
+                      {
+                        "RawText": "Provides an optional filter that filters out unwanted components and allows for recursion.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param searchFilter Provides an optional filter that filters out unwanted components and allows for recursion.",
+                "ElementType": 2
+              },
+              {
+                "ParamName": "signals",
+                "IsOut": true,
+                "Lines": [
+                  {
+                    "FullText": "The list of output signals.",
+                    "Elements": [
+                      {
+                        "RawText": "The list of output signals.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param[out] signals The list of output signals.",
+                "ElementType": 2
+              }
+            ],
+            "Description": null
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "ISignal",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "Signal",
+                "DefaultIncludeName": "signal",
+                "LibraryName": "copendaq/functionblock",
+                "Modifiers": "**",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "statusSignal",
+              "DefaultValue": null,
+              "IsOutParam": true,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/functionblock",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "getStatusSignal",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "ISignal",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "Signal",
+                    "DefaultIncludeName": "signal",
+                    "LibraryName": "copendaq/functionblock",
+                    "Modifiers": "**",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "statusSignal",
+                  "DefaultValue": null,
+                  "IsOutParam": true,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/functionblock",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Gets the function block's status signal.",
+                  "Elements": [
+                    {
+                      "RawText": "Gets the function block's status signal.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Gets the function block's status signal.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "statusSignal",
+                "IsOut": true,
+                "Lines": [
+                  {
+                    "FullText": "The status signal.",
+                    "Elements": [
+                      {
+                        "RawText": "The status signal.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param[out] statusSignal The status signal.",
+                "ElementType": 2
+              }
+            ],
+            "Description": {
+              "TagIndex": 2,
+              "Lines": [
+                {
+                  "FullText": "",
+                  "Elements": [
+                    {
+                      "RawText": "",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "The status signal sends out a status event packet every time it is connected to an input port.",
+                  "Elements": [
+                    {
+                      "RawText": "The status signal sends out a status event packet every time it is connected to an input port.",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "Additionally, a status event packet is sent whenever the status of the function block changes.",
+                  "Elements": [
+                    {
+                      "RawText": "Additionally, a status event packet is sent whenever the status of the function block changes.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 7,
+              "TagName": "",
+              "RawText": "*\n     * The status signal sends out a status event packet every time it is connected to an input port.\n     * Additionally, a status event packet is sent whenever the status of the function block changes.\n",
+              "ElementType": 2
+            }
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "IList",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "List",
+                "DefaultIncludeName": "list",
+                "LibraryName": "coretypes",
+                "Modifiers": "**",
+                "GenericArguments": [
+                  {
+                    "UnmappedName": "IFunctionBlock",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "FunctionBlock",
+                    "DefaultIncludeName": "function_block",
+                    "LibraryName": "copendaq/functionblock",
+                    "Modifiers": null,
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  }
+                ],
+                "IsGenericArgument": false,
+                "HasGenericArguments": true,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "functionBlocks",
+              "DefaultValue": null,
+              "IsOutParam": true,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            },
+            {
+              "Type": {
+                "UnmappedName": "ISearchFilter",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "SearchFilter",
+                "DefaultIncludeName": "search_filter",
+                "LibraryName": "coretypes",
+                "Modifiers": "*",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "searchFilter",
+              "DefaultValue": "nullptr",
+              "IsOutParam": false,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/functionblock",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "getFunctionBlocks",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "IList",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "List",
+                    "DefaultIncludeName": "list",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "**",
+                    "GenericArguments": [
+                      {
+                        "UnmappedName": "IFunctionBlock",
+                        "Namespace": {
+                          "Raw": "daq",
+                          "Components": [
+                            "daq"
+                          ]
+                        },
+                        "UnmappedNamespace": {
+                          "Raw": "daq",
+                          "Components": [
+                            "daq"
+                          ]
+                        },
+                        "Guid": "00000000-0000-0000-0000-000000000000",
+                        "NonInterfaceName": "FunctionBlock",
+                        "DefaultIncludeName": "function_block",
+                        "LibraryName": "copendaq/functionblock",
+                        "Modifiers": null,
+                        "GenericArguments": null,
+                        "IsGenericArgument": false,
+                        "HasGenericArguments": false,
+                        "PropertyClass": null,
+                        "ControlTagName": null
+                      }
+                    ],
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": true,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "functionBlocks",
+                  "DefaultValue": null,
+                  "IsOutParam": true,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                },
+                {
+                  "Type": {
+                    "UnmappedName": "ISearchFilter",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "SearchFilter",
+                    "DefaultIncludeName": "search_filter",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "*",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "searchFilter",
+                  "DefaultValue": "nullptr",
+                  "IsOutParam": false,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/functionblock",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Gets a list of sub-function blocks.",
+                  "Elements": [
+                    {
+                      "RawText": "Gets a list of sub-function blocks.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Gets a list of sub-function blocks.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "searchFilter",
+                "IsOut": false,
+                "Lines": [
+                  {
+                    "FullText": "Provides optional parameters such as \"recursive\" and \"visibleOnly\" to modify the search pattern.",
+                    "Elements": [
+                      {
+                        "RawText": "Provides optional parameters such as \"recursive\" and \"visibleOnly\" to modify the search pattern.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param searchFilter Provides optional parameters such as \"recursive\" and \"visibleOnly\" to modify the search pattern.",
+                "ElementType": 2
+              },
+              {
+                "ParamName": "functionBlocks",
+                "IsOut": true,
+                "Lines": [
+                  {
+                    "FullText": "The list of sub-function blocks.",
+                    "Elements": [
+                      {
+                        "RawText": "The list of sub-function blocks.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param[out] functionBlocks The list of sub-function blocks.",
+                "ElementType": 2
+              }
+            ],
+            "Description": {
+              "TagIndex": 3,
+              "Lines": [
+                {
+                  "FullText": "",
+                  "Elements": [
+                    {
+                      "RawText": "",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "If searchFilter is not provided, the returned list contains only visible function blocks and does not include those of",
+                  "Elements": [
+                    {
+                      "RawText": "If searchFilter is not provided, the returned list contains only visible function blocks and does not include those of",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "child function blocks.",
+                  "Elements": [
+                    {
+                      "RawText": "child function blocks.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 7,
+              "TagName": "",
+              "RawText": "*\n     * If searchFilter is not provided, the returned list contains only visible function blocks and does not include those of\n     * child function blocks.\n",
+              "ElementType": 2
+            }
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "IDict",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "Dict",
+                "DefaultIncludeName": "dict",
+                "LibraryName": "coretypes",
+                "Modifiers": "**",
+                "GenericArguments": [
+                  {
+                    "UnmappedName": "IString",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "String",
+                    "DefaultIncludeName": "string",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  {
+                    "UnmappedName": "IFunctionBlockType",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "FunctionBlockType",
+                    "DefaultIncludeName": "function_block_type",
+                    "LibraryName": "copendaq/functionblock",
+                    "Modifiers": "",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  }
+                ],
+                "IsGenericArgument": false,
+                "HasGenericArguments": true,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "functionBlockTypes",
+              "DefaultValue": null,
+              "IsOutParam": true,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/functionblock",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "getAvailableFunctionBlockTypes",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "IDict",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "Dict",
+                    "DefaultIncludeName": "dict",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "**",
+                    "GenericArguments": [
+                      {
+                        "UnmappedName": "IString",
+                        "Namespace": {
+                          "Raw": "daq",
+                          "Components": [
+                            "daq"
+                          ]
+                        },
+                        "UnmappedNamespace": {
+                          "Raw": "daq",
+                          "Components": [
+                            "daq"
+                          ]
+                        },
+                        "Guid": "00000000-0000-0000-0000-000000000000",
+                        "NonInterfaceName": "String",
+                        "DefaultIncludeName": "string",
+                        "LibraryName": "coretypes",
+                        "Modifiers": "",
+                        "GenericArguments": null,
+                        "IsGenericArgument": false,
+                        "HasGenericArguments": false,
+                        "PropertyClass": null,
+                        "ControlTagName": null
+                      },
+                      {
+                        "UnmappedName": "IFunctionBlockType",
+                        "Namespace": {
+                          "Raw": "daq",
+                          "Components": [
+                            "daq"
+                          ]
+                        },
+                        "UnmappedNamespace": {
+                          "Raw": "daq",
+                          "Components": [
+                            "daq"
+                          ]
+                        },
+                        "Guid": "00000000-0000-0000-0000-000000000000",
+                        "NonInterfaceName": "FunctionBlockType",
+                        "DefaultIncludeName": "function_block_type",
+                        "LibraryName": "copendaq/functionblock",
+                        "Modifiers": "",
+                        "GenericArguments": null,
+                        "IsGenericArgument": false,
+                        "HasGenericArguments": false,
+                        "PropertyClass": null,
+                        "ControlTagName": null
+                      }
+                    ],
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": true,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "functionBlockTypes",
+                  "DefaultValue": null,
+                  "IsOutParam": true,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/functionblock",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Gets all nested function block types that are supported, containing their description.",
+                  "Elements": [
+                    {
+                      "RawText": "Gets all nested function block types that are supported, containing their description.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Gets all nested function block types that are supported, containing their description.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "functionBlockTypes",
+                "IsOut": true,
+                "Lines": [
+                  {
+                    "FullText": "A dictionary of available function block types.",
+                    "Elements": [
+                      {
+                        "RawText": "A dictionary of available function block types.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param[out] functionBlockTypes A dictionary of available function block types.",
+                "ElementType": 2
+              }
+            ],
+            "Description": null
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "IFunctionBlock",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "FunctionBlock",
+                "DefaultIncludeName": "function_block",
+                "LibraryName": "copendaq/functionblock",
+                "Modifiers": "**",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "functionBlock",
+              "DefaultValue": null,
+              "IsOutParam": true,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            },
+            {
+              "Type": {
+                "UnmappedName": "IString",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "String",
+                "DefaultIncludeName": "string",
+                "LibraryName": "coretypes",
+                "Modifiers": "*",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "typeId",
+              "DefaultValue": null,
+              "IsOutParam": false,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            },
+            {
+              "Type": {
+                "UnmappedName": "IPropertyObject",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "PropertyObject",
+                "DefaultIncludeName": "property_object",
+                "LibraryName": "coreobjects",
+                "Modifiers": "*",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "config",
+              "DefaultValue": "nullptr",
+              "IsOutParam": false,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/functionblock",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "addFunctionBlock",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "IFunctionBlock",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "FunctionBlock",
+                    "DefaultIncludeName": "function_block",
+                    "LibraryName": "copendaq/functionblock",
+                    "Modifiers": "**",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "functionBlock",
+                  "DefaultValue": null,
+                  "IsOutParam": true,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                },
+                {
+                  "Type": {
+                    "UnmappedName": "IString",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "String",
+                    "DefaultIncludeName": "string",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "*",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "typeId",
+                  "DefaultValue": null,
+                  "IsOutParam": false,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                },
+                {
+                  "Type": {
+                    "UnmappedName": "IPropertyObject",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "PropertyObject",
+                    "DefaultIncludeName": "property_object",
+                    "LibraryName": "coreobjects",
+                    "Modifiers": "*",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "config",
+                  "DefaultValue": "nullptr",
+                  "IsOutParam": false,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/functionblock",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Creates and adds a function block as the nested of current function block with the provided unique ID and returns it.",
+                  "Elements": [
+                    {
+                      "RawText": "Creates and adds a function block as the nested of current function block with the provided unique ID and returns it.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Creates and adds a function block as the nested of current function block with the provided unique ID and returns it.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "functionBlock",
+                "IsOut": true,
+                "Lines": [
+                  {
+                    "FullText": "The added function block.",
+                    "Elements": [
+                      {
+                        "RawText": "The added function block.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param[out] functionBlock The added function block.",
+                "ElementType": 2
+              },
+              {
+                "ParamName": "typeId",
+                "IsOut": false,
+                "Lines": [
+                  {
+                    "FullText": "The unique ID of the function block. Can be obtained from its corresponding Function Block Info",
+                    "Elements": [
+                      {
+                        "RawText": "The unique ID of the function block. Can be obtained from its corresponding Function Block Info",
+                        "ElementType": 1
+                      }
+                    ]
+                  },
+                  {
+                    "FullText": "object.",
+                    "Elements": [
+                      {
+                        "RawText": "object.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param typeId The unique ID of the function block. Can be obtained from its corresponding Function Block Info\n     * object.",
+                "ElementType": 2
+              },
+              {
+                "ParamName": "config",
+                "IsOut": false,
+                "Lines": [
+                  {
+                    "FullText": "A config object to configure a function block with custom settings specific to that function block type.",
+                    "Elements": [
+                      {
+                        "RawText": "A config object to configure a function block with custom settings specific to that function block type.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param config A config object to configure a function block with custom settings specific to that function block type.",
+                "ElementType": 2
+              }
+            ],
+            "Description": null
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "IFunctionBlock",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "FunctionBlock",
+                "DefaultIncludeName": "function_block",
+                "LibraryName": "copendaq/functionblock",
+                "Modifiers": "*",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "functionBlock",
+              "DefaultValue": null,
+              "IsOutParam": false,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/functionblock",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "removeFunctionBlock",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "IFunctionBlock",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "FunctionBlock",
+                    "DefaultIncludeName": "function_block",
+                    "LibraryName": "copendaq/functionblock",
+                    "Modifiers": "*",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "functionBlock",
+                  "DefaultValue": null,
+                  "IsOutParam": false,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/functionblock",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Removes the function block provided as argument, disconnecting its signals and input ports.",
+                  "Elements": [
+                    {
+                      "RawText": "Removes the function block provided as argument, disconnecting its signals and input ports.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Removes the function block provided as argument, disconnecting its signals and input ports.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "functionBlock",
+                "IsOut": false,
+                "Lines": [
+                  {
+                    "FullText": "The function block to be removed.",
+                    "Elements": [
+                      {
+                        "RawText": "The function block to be removed.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param functionBlock The function block to be removed.",
+                "ElementType": 2
+              }
+            ],
+            "Description": null
+          }
+        }
+      ],
+      "GetSet": [
+        {
+          "Name": "FunctionBlockType",
+          "Getter": {
+            "Modifiers": [
+              "virtual"
+            ],
+            "Arguments": [
+              {
+                "Type": {
+                  "UnmappedName": "IFunctionBlockType",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "FunctionBlockType",
+                  "DefaultIncludeName": "function_block_type",
+                  "LibraryName": "copendaq/functionblock",
+                  "Modifiers": "**",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Name": "type",
+                "DefaultValue": null,
+                "IsOutParam": true,
+                "IsOutPointer": false,
+                "IsConst": false,
+                "ArrayInfo": null,
+                "IsPolymorphic": false,
+                "IsStealRef": false,
+                "AllowNull": false,
+                "RawBuffer": null,
+                "IsInOutParam": false
+              }
+            ],
+            "ReturnType": {
+              "UnmappedName": "ErrCode",
+              "Namespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "UnmappedNamespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "Guid": "00000000-0000-0000-0000-000000000000",
+              "NonInterfaceName": "ErrCode",
+              "DefaultIncludeName": "err_code",
+              "LibraryName": "copendaq/functionblock",
+              "Modifiers": "",
+              "GenericArguments": null,
+              "IsGenericArgument": false,
+              "HasGenericArguments": false,
+              "PropertyClass": null,
+              "ControlTagName": null
+            },
+            "Property": null,
+            "Name": "getFunctionBlockType",
+            "IsPure": true,
+            "IsIgnored": 0,
+            "ReturnSelf": false,
+            "OverloadFor": null,
+            "CallingConvention": "stdcall",
+            "Overloads": [
+              {
+                "Arguments": [
+                  {
+                    "Type": {
+                      "UnmappedName": "IFunctionBlockType",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "FunctionBlockType",
+                      "DefaultIncludeName": "function_block_type",
+                      "LibraryName": "copendaq/functionblock",
+                      "Modifiers": "**",
+                      "GenericArguments": null,
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": false,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    },
+                    "Name": "type",
+                    "DefaultValue": null,
+                    "IsOutParam": true,
+                    "IsOutPointer": false,
+                    "IsConst": false,
+                    "ArrayInfo": null,
+                    "IsPolymorphic": false,
+                    "IsStealRef": false,
+                    "AllowNull": false,
+                    "RawBuffer": null,
+                    "IsInOutParam": false
+                  }
+                ],
+                "ReturnType": {
+                  "UnmappedName": "ErrCode",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ErrCode",
+                  "DefaultIncludeName": "err_code",
+                  "LibraryName": "copendaq/functionblock",
+                  "Modifiers": "",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Type": 1,
+                "Tag": null
+              }
+            ],
+            "Documentation": {
+              "Brief": {
+                "TagIndex": 0,
+                "Lines": [
+                  {
+                    "FullText": "Gets an information structure contain metadata of the function block type.",
+                    "Elements": [
+                      {
+                        "RawText": "Gets an information structure contain metadata of the function block type.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 1,
+                "TagName": "brief",
+                "RawText": "* @brief Gets an information structure contain metadata of the function block type.\n",
+                "ElementType": 2
+              },
+              "Tags": [
+                {
+                  "ParamName": "type",
+                  "IsOut": true,
+                  "Lines": [
+                    {
+                      "FullText": "The Function block type object.",
+                      "Elements": [
+                        {
+                          "RawText": "The Function block type object.",
+                          "ElementType": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "TagType": 3,
+                  "TagName": "param",
+                  "RawText": "@param[out] type The Function block type object.",
+                  "ElementType": 2
+                }
+              ],
+              "Description": null
+            }
+          },
+          "Setter": null
+        },
+        {
+          "Name": "StatusSignal",
+          "Getter": {
+            "Modifiers": [
+              "virtual"
+            ],
+            "Arguments": [
+              {
+                "Type": {
+                  "UnmappedName": "ISignal",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "Signal",
+                  "DefaultIncludeName": "signal",
+                  "LibraryName": "copendaq/functionblock",
+                  "Modifiers": "**",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Name": "statusSignal",
+                "DefaultValue": null,
+                "IsOutParam": true,
+                "IsOutPointer": false,
+                "IsConst": false,
+                "ArrayInfo": null,
+                "IsPolymorphic": false,
+                "IsStealRef": false,
+                "AllowNull": false,
+                "RawBuffer": null,
+                "IsInOutParam": false
+              }
+            ],
+            "ReturnType": {
+              "UnmappedName": "ErrCode",
+              "Namespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "UnmappedNamespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "Guid": "00000000-0000-0000-0000-000000000000",
+              "NonInterfaceName": "ErrCode",
+              "DefaultIncludeName": "err_code",
+              "LibraryName": "copendaq/functionblock",
+              "Modifiers": "",
+              "GenericArguments": null,
+              "IsGenericArgument": false,
+              "HasGenericArguments": false,
+              "PropertyClass": null,
+              "ControlTagName": null
+            },
+            "Property": null,
+            "Name": "getStatusSignal",
+            "IsPure": true,
+            "IsIgnored": 0,
+            "ReturnSelf": false,
+            "OverloadFor": null,
+            "CallingConvention": "stdcall",
+            "Overloads": [
+              {
+                "Arguments": [
+                  {
+                    "Type": {
+                      "UnmappedName": "ISignal",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "Signal",
+                      "DefaultIncludeName": "signal",
+                      "LibraryName": "copendaq/functionblock",
+                      "Modifiers": "**",
+                      "GenericArguments": null,
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": false,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    },
+                    "Name": "statusSignal",
+                    "DefaultValue": null,
+                    "IsOutParam": true,
+                    "IsOutPointer": false,
+                    "IsConst": false,
+                    "ArrayInfo": null,
+                    "IsPolymorphic": false,
+                    "IsStealRef": false,
+                    "AllowNull": false,
+                    "RawBuffer": null,
+                    "IsInOutParam": false
+                  }
+                ],
+                "ReturnType": {
+                  "UnmappedName": "ErrCode",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ErrCode",
+                  "DefaultIncludeName": "err_code",
+                  "LibraryName": "copendaq/functionblock",
+                  "Modifiers": "",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Type": 1,
+                "Tag": null
+              }
+            ],
+            "Documentation": {
+              "Brief": {
+                "TagIndex": 0,
+                "Lines": [
+                  {
+                    "FullText": "Gets the function block's status signal.",
+                    "Elements": [
+                      {
+                        "RawText": "Gets the function block's status signal.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 1,
+                "TagName": "brief",
+                "RawText": "* @brief Gets the function block's status signal.\n",
+                "ElementType": 2
+              },
+              "Tags": [
+                {
+                  "ParamName": "statusSignal",
+                  "IsOut": true,
+                  "Lines": [
+                    {
+                      "FullText": "The status signal.",
+                      "Elements": [
+                        {
+                          "RawText": "The status signal.",
+                          "ElementType": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "TagType": 3,
+                  "TagName": "param",
+                  "RawText": "@param[out] statusSignal The status signal.",
+                  "ElementType": 2
+                }
+              ],
+              "Description": {
+                "TagIndex": 2,
+                "Lines": [
+                  {
+                    "FullText": "",
+                    "Elements": [
+                      {
+                        "RawText": "",
+                        "ElementType": 1
+                      }
+                    ]
+                  },
+                  {
+                    "FullText": "The status signal sends out a status event packet every time it is connected to an input port.",
+                    "Elements": [
+                      {
+                        "RawText": "The status signal sends out a status event packet every time it is connected to an input port.",
+                        "ElementType": 1
+                      }
+                    ]
+                  },
+                  {
+                    "FullText": "Additionally, a status event packet is sent whenever the status of the function block changes.",
+                    "Elements": [
+                      {
+                        "RawText": "Additionally, a status event packet is sent whenever the status of the function block changes.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 7,
+                "TagName": "",
+                "RawText": "*\n     * The status signal sends out a status event packet every time it is connected to an input port.\n     * Additionally, a status event packet is sent whenever the status of the function block changes.\n",
+                "ElementType": 2
+              }
+            }
+          },
+          "Setter": null
+        },
+        {
+          "Name": "AvailableFunctionBlockTypes",
+          "Getter": {
+            "Modifiers": [
+              "virtual"
+            ],
+            "Arguments": [
+              {
+                "Type": {
+                  "UnmappedName": "IDict",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "Dict",
+                  "DefaultIncludeName": "dict",
+                  "LibraryName": "coretypes",
+                  "Modifiers": "**",
+                  "GenericArguments": [
+                    {
+                      "UnmappedName": "IString",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "String",
+                      "DefaultIncludeName": "string",
+                      "LibraryName": "coretypes",
+                      "Modifiers": "",
+                      "GenericArguments": null,
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": false,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    },
+                    {
+                      "UnmappedName": "IFunctionBlockType",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "FunctionBlockType",
+                      "DefaultIncludeName": "function_block_type",
+                      "LibraryName": "copendaq/functionblock",
+                      "Modifiers": "",
+                      "GenericArguments": null,
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": false,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    }
+                  ],
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": true,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Name": "functionBlockTypes",
+                "DefaultValue": null,
+                "IsOutParam": true,
+                "IsOutPointer": false,
+                "IsConst": false,
+                "ArrayInfo": null,
+                "IsPolymorphic": false,
+                "IsStealRef": false,
+                "AllowNull": false,
+                "RawBuffer": null,
+                "IsInOutParam": false
+              }
+            ],
+            "ReturnType": {
+              "UnmappedName": "ErrCode",
+              "Namespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "UnmappedNamespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "Guid": "00000000-0000-0000-0000-000000000000",
+              "NonInterfaceName": "ErrCode",
+              "DefaultIncludeName": "err_code",
+              "LibraryName": "copendaq/functionblock",
+              "Modifiers": "",
+              "GenericArguments": null,
+              "IsGenericArgument": false,
+              "HasGenericArguments": false,
+              "PropertyClass": null,
+              "ControlTagName": null
+            },
+            "Property": null,
+            "Name": "getAvailableFunctionBlockTypes",
+            "IsPure": true,
+            "IsIgnored": 0,
+            "ReturnSelf": false,
+            "OverloadFor": null,
+            "CallingConvention": "stdcall",
+            "Overloads": [
+              {
+                "Arguments": [
+                  {
+                    "Type": {
+                      "UnmappedName": "IDict",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "Dict",
+                      "DefaultIncludeName": "dict",
+                      "LibraryName": "coretypes",
+                      "Modifiers": "**",
+                      "GenericArguments": [
+                        {
+                          "UnmappedName": "IString",
+                          "Namespace": {
+                            "Raw": "daq",
+                            "Components": [
+                              "daq"
+                            ]
+                          },
+                          "UnmappedNamespace": {
+                            "Raw": "daq",
+                            "Components": [
+                              "daq"
+                            ]
+                          },
+                          "Guid": "00000000-0000-0000-0000-000000000000",
+                          "NonInterfaceName": "String",
+                          "DefaultIncludeName": "string",
+                          "LibraryName": "coretypes",
+                          "Modifiers": "",
+                          "GenericArguments": null,
+                          "IsGenericArgument": false,
+                          "HasGenericArguments": false,
+                          "PropertyClass": null,
+                          "ControlTagName": null
+                        },
+                        {
+                          "UnmappedName": "IFunctionBlockType",
+                          "Namespace": {
+                            "Raw": "daq",
+                            "Components": [
+                              "daq"
+                            ]
+                          },
+                          "UnmappedNamespace": {
+                            "Raw": "daq",
+                            "Components": [
+                              "daq"
+                            ]
+                          },
+                          "Guid": "00000000-0000-0000-0000-000000000000",
+                          "NonInterfaceName": "FunctionBlockType",
+                          "DefaultIncludeName": "function_block_type",
+                          "LibraryName": "copendaq/functionblock",
+                          "Modifiers": "",
+                          "GenericArguments": null,
+                          "IsGenericArgument": false,
+                          "HasGenericArguments": false,
+                          "PropertyClass": null,
+                          "ControlTagName": null
+                        }
+                      ],
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": true,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    },
+                    "Name": "functionBlockTypes",
+                    "DefaultValue": null,
+                    "IsOutParam": true,
+                    "IsOutPointer": false,
+                    "IsConst": false,
+                    "ArrayInfo": null,
+                    "IsPolymorphic": false,
+                    "IsStealRef": false,
+                    "AllowNull": false,
+                    "RawBuffer": null,
+                    "IsInOutParam": false
+                  }
+                ],
+                "ReturnType": {
+                  "UnmappedName": "ErrCode",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ErrCode",
+                  "DefaultIncludeName": "err_code",
+                  "LibraryName": "copendaq/functionblock",
+                  "Modifiers": "",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Type": 1,
+                "Tag": null
+              }
+            ],
+            "Documentation": {
+              "Brief": {
+                "TagIndex": 0,
+                "Lines": [
+                  {
+                    "FullText": "Gets all nested function block types that are supported, containing their description.",
+                    "Elements": [
+                      {
+                        "RawText": "Gets all nested function block types that are supported, containing their description.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 1,
+                "TagName": "brief",
+                "RawText": "* @brief Gets all nested function block types that are supported, containing their description.\n",
+                "ElementType": 2
+              },
+              "Tags": [
+                {
+                  "ParamName": "functionBlockTypes",
+                  "IsOut": true,
+                  "Lines": [
+                    {
+                      "FullText": "A dictionary of available function block types.",
+                      "Elements": [
+                        {
+                          "RawText": "A dictionary of available function block types.",
+                          "ElementType": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "TagType": 3,
+                  "TagName": "param",
+                  "RawText": "@param[out] functionBlockTypes A dictionary of available function block types.",
+                  "ElementType": 2
+                }
+              ],
+              "Description": null
+            }
+          },
+          "Setter": null
+        }
+      ],
+      "Events": {},
+      "Documentation": {
+        "Brief": {
+          "TagIndex": 0,
+          "Lines": [
+            {
+              "FullText": "Function blocks perform calculations on inputs/generate data, outputting new data in its",
+              "Elements": [
+                {
+                  "RawText": "Function blocks perform calculations on inputs/generate data, outputting new data in its",
+                  "ElementType": 1
+                }
+              ]
+            },
+            {
+              "FullText": "output signals as packets.",
+              "Elements": [
+                {
+                  "RawText": "output signals as packets.",
+                  "ElementType": 1
+                }
+              ]
+            }
+          ],
+          "TagType": 1,
+          "TagName": "brief",
+          "RawText": "* @brief Function blocks perform calculations on inputs/generate data, outputting new data in its\n * output signals as packets.\n",
+          "ElementType": 2
+        },
+        "Tags": [
+          {
+            "TagIndex": 2,
+            "Lines": [
+              {
+                "FullText": "",
+                "Elements": [
+                  {
+                    "RawText": "",
+                    "ElementType": 1
+                  }
+                ]
+              },
+              {
+                "FullText": "Additionally, as each function block is a property object, it can define its own set of properties, providing",
+                "Elements": [
+                  {
+                    "RawText": "Additionally, as each function block is a property object, it can define its own set of properties, providing",
+                    "ElementType": 1
+                  }
+                ]
+              },
+              {
+                "FullText": "user-configurable settings. In example, a FFT function block would expose a `blockSize` property, defining the",
+                "Elements": [
+                  {
+                    "RawText": "user-configurable settings. In example, a FFT function block would expose a `blockSize` property, defining the",
+                    "ElementType": 1
+                  }
+                ]
+              },
+              {
+                "FullText": "amount of samples to be used for calculation in each block.",
+                "Elements": [
+                  {
+                    "RawText": "amount of samples to be used for calculation in each block.",
+                    "ElementType": 1
+                  }
+                ]
+              }
+            ],
+            "TagType": 7,
+            "TagName": "",
+            "RawText": "*\n * Additionally, as each function block is a property object, it can define its own set of properties, providing\n * user-configurable settings. In example, a FFT function block would expose a `blockSize` property, defining the\n * amount of samples to be used for calculation in each block.\n",
+            "ElementType": 2
+          },
+          {
+            "TagIndex": 3,
+            "Lines": [
+              {
+                "FullText": "",
+                "Elements": [
+                  {
+                    "RawText": "",
+                    "ElementType": 1
+                  }
+                ]
+              },
+              {
+                "FullText": "Function blocks also provide a status signal, through which a status packet is sent whenever a connection to a",
+                "Elements": [
+                  {
+                    "RawText": "Function blocks also provide a status signal, through which a status packet is sent whenever a connection to a",
+                    "ElementType": 1
+                  }
+                ]
+              },
+              {
+                "FullText": "new input port is formed, or when the status changes.",
+                "Elements": [
+                  {
+                    "RawText": "new input port is formed, or when the status changes.",
+                    "ElementType": 1
+                  }
+                ]
+              }
+            ],
+            "TagType": 7,
+            "TagName": "",
+            "RawText": "*\n * Function blocks also provide a status signal, through which a status packet is sent whenever a connection to a\n * new input port is formed, or when the status changes.\n",
+            "ElementType": 2
+          }
+        ],
+        "Description": {
+          "TagIndex": 1,
+          "Lines": [
+            {
+              "FullText": "",
+              "Elements": [
+                {
+                  "RawText": "",
+                  "ElementType": 1
+                }
+              ]
+            },
+            {
+              "FullText": "Each function block describes its behaviour and identifiers in its FunctionBlockType structure. It",
+              "Elements": [
+                {
+                  "RawText": "Each function block describes its behaviour and identifiers in its FunctionBlockType structure. It",
+                  "ElementType": 1
+                }
+              ]
+            },
+            {
+              "FullText": "provides a list of input ports that can be connected to signals that the input port accepts, as well as a",
+              "Elements": [
+                {
+                  "RawText": "provides a list of input ports that can be connected to signals that the input port accepts, as well as a",
+                  "ElementType": 1
+                }
+              ]
+            },
+            {
+              "FullText": "list of output signals that carry the function block's output data.",
+              "Elements": [
+                {
+                  "RawText": "list of output signals that carry the function block's output data.",
+                  "ElementType": 1
+                }
+              ]
+            }
+          ],
+          "TagType": 7,
+          "TagName": "",
+          "RawText": "*\n * Each function block describes its behaviour and identifiers in its FunctionBlockType structure. It\n * provides a list of input ports that can be connected to signals that the input port accepts, as well as a\n * list of output signals that carry the function block's output data.\n",
+          "ElementType": 2
+        }
+      }
+    }
+  ],
+  "GlobalMethods": [],
+  "TypeAliases": {},
+  "Includes": [],
+  "Factories": [
+    {
+      "Name": "createCustomFunctionBlock",
+      "PrettyName": "CustomFunctionBlock",
+      "Tag": "Custom",
+      "IsConstructorWithMultipleFactories": false,
+      "InterfaceName": "IFunctionBlock",
+      "Arguments": [
+        {
+          "Type": {
+            "UnmappedName": "IFunctionBlock",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "FunctionBlock",
+            "DefaultIncludeName": "function_block",
+            "LibraryName": "copendaq/functionblock",
+            "Modifiers": "**",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Name": "obj",
+          "DefaultValue": null,
+          "IsOutParam": true,
+          "IsOutPointer": false,
+          "IsConst": false,
+          "ArrayInfo": null,
+          "IsPolymorphic": false,
+          "IsStealRef": false,
+          "AllowNull": false,
+          "RawBuffer": null,
+          "IsInOutParam": false
+        },
+        {
+          "Type": {
+            "UnmappedName": "IFunctionBlockType",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "4c3f1bb9-32f8-5175-8cdb-2137f72463d5",
+            "NonInterfaceName": "FunctionBlockType",
+            "DefaultIncludeName": "function_block_type",
+            "LibraryName": "copendaq/functionblock",
+            "Modifiers": "*",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Name": "type",
+          "DefaultValue": null,
+          "IsOutParam": false,
+          "IsOutPointer": false,
+          "IsConst": false,
+          "ArrayInfo": null,
+          "IsPolymorphic": false,
+          "IsStealRef": false,
+          "AllowNull": false,
+          "RawBuffer": null,
+          "IsInOutParam": false
+        },
+        {
+          "Type": {
+            "UnmappedName": "IContext",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "f9604efe-fcff-5177-a0d6-8aae5e8d05d3",
+            "NonInterfaceName": "Context",
+            "DefaultIncludeName": "context",
+            "LibraryName": "copendaq/functionblock",
+            "Modifiers": "*",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Name": "context",
+          "DefaultValue": null,
+          "IsOutParam": false,
+          "IsOutPointer": false,
+          "IsConst": false,
+          "ArrayInfo": null,
+          "IsPolymorphic": false,
+          "IsStealRef": false,
+          "AllowNull": false,
+          "RawBuffer": null,
+          "IsInOutParam": false
+        },
+        {
+          "Type": {
+            "UnmappedName": "IComponent",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "2c1196ec-6a8c-5c48-9d9a-c5fc06a51d50",
+            "NonInterfaceName": "Component",
+            "DefaultIncludeName": "component",
+            "LibraryName": "copendaq/functionblock",
+            "Modifiers": "*",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Name": "parent",
+          "DefaultValue": null,
+          "IsOutParam": false,
+          "IsOutPointer": false,
+          "IsConst": false,
+          "ArrayInfo": null,
+          "IsPolymorphic": false,
+          "IsStealRef": false,
+          "AllowNull": false,
+          "RawBuffer": null,
+          "IsInOutParam": false
+        },
+        {
+          "Type": {
+            "UnmappedName": "IString",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "d2ed1120-f7ff-556f-a98d-3f3edf1a3874",
+            "NonInterfaceName": "String",
+            "DefaultIncludeName": "string",
+            "LibraryName": "coretypes",
+            "Modifiers": "*",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Name": "localId",
+          "DefaultValue": null,
+          "IsOutParam": false,
+          "IsOutPointer": false,
+          "IsConst": false,
+          "ArrayInfo": null,
+          "IsPolymorphic": false,
+          "IsStealRef": false,
+          "AllowNull": false,
+          "RawBuffer": null,
+          "IsInOutParam": false
+        },
+        {
+          "Type": {
+            "UnmappedName": "IString",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "d2ed1120-f7ff-556f-a98d-3f3edf1a3874",
+            "NonInterfaceName": "String",
+            "DefaultIncludeName": "string",
+            "LibraryName": "coretypes",
+            "Modifiers": "*",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Name": "className",
+          "DefaultValue": null,
+          "IsOutParam": false,
+          "IsOutPointer": false,
+          "IsConst": false,
+          "ArrayInfo": null,
+          "IsPolymorphic": false,
+          "IsStealRef": false,
+          "AllowNull": false,
+          "RawBuffer": null,
+          "IsInOutParam": false
+        }
+      ],
+      "Options": 0,
+      "SpecificOptions": [],
+      "IsGeneric": false,
+      "Documentation": {
+        "Brief": {
+          "TagIndex": 0,
+          "Lines": [
+            {
+              "FullText": "Creates a Function block object, with the specified Type, parent, localId and optional custom class name.",
+              "Elements": [
+                {
+                  "RawText": "Creates a Function block object, with the specified Type, parent, localId and optional custom class name.",
+                  "ElementType": 1
+                }
+              ]
+            }
+          ],
+          "TagType": 1,
+          "TagName": "brief",
+          "RawText": "* @brief Creates a Function block object, with the specified Type, parent, localId and optional custom class name.\n",
+          "ElementType": 2
+        },
+        "Tags": [
+          {
+            "ParamName": "type",
+            "IsOut": false,
+            "Lines": [
+              {
+                "FullText": "Provides information about the function block.",
+                "Elements": [
+                  {
+                    "RawText": "Provides information about the function block.",
+                    "ElementType": 1
+                  }
+                ]
+              }
+            ],
+            "TagType": 3,
+            "TagName": "param",
+            "RawText": "@param type Provides information about the function block.",
+            "ElementType": 2
+          },
+          {
+            "ParamName": "context",
+            "IsOut": false,
+            "Lines": [
+              {
+                "FullText": "The Context. Most often the creating function-block/device passes its own Context to the Folder.",
+                "Elements": [
+                  {
+                    "RawText": "The Context. Most often the creating function-block/device passes its own Context to the Folder.",
+                    "ElementType": 1
+                  }
+                ]
+              }
+            ],
+            "TagType": 3,
+            "TagName": "param",
+            "RawText": "@param context The Context. Most often the creating function-block/device passes its own Context to the Folder.",
+            "ElementType": 2
+          },
+          {
+            "ParamName": "parent",
+            "IsOut": false,
+            "Lines": [
+              {
+                "FullText": "The parent component.",
+                "Elements": [
+                  {
+                    "RawText": "The parent component.",
+                    "ElementType": 1
+                  }
+                ]
+              }
+            ],
+            "TagType": 3,
+            "TagName": "param",
+            "RawText": "@param parent The parent component.",
+            "ElementType": 2
+          },
+          {
+            "ParamName": "localId",
+            "IsOut": false,
+            "Lines": [
+              {
+                "FullText": "The local ID of the component.",
+                "Elements": [
+                  {
+                    "RawText": "The local ID of the component.",
+                    "ElementType": 1
+                  }
+                ]
+              }
+            ],
+            "TagType": 3,
+            "TagName": "param",
+            "RawText": "@param localId The local ID of the component.",
+            "ElementType": 2
+          }
+        ],
+        "Description": null
+      }
+    }
+  ],
+  "StartNamespaceMacro": "BEGIN_NAMESPACE_OPENDAQ",
+  "EndNamespaceMacro": "END_NAMESPACE_OPENDAQ",
+  "SourceFileName": "function_block.h",
+  "AttributeInfo": [
+    {
+      "Key": "interfaceSmartPtr",
+      "Value": [
+        {
+          "Name": "interfaceSmartPtr",
+          "Arguments": [
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "IFolder",
+              "Type": null,
+              "TypeInfo": null
+            },
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "GenericFolderPtr",
+              "Type": null,
+              "TypeInfo": null
+            },
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "\"<opendaq/folder_ptr.h>\"",
+              "Type": null,
+              "TypeInfo": null
+            }
+          ]
+        },
+        {
+          "Name": "interfaceSmartPtr",
+          "Arguments": [
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "IFunctionBlock",
+              "Type": null,
+              "TypeInfo": null
+            },
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "GenericFunctionBlockPtr",
+              "Type": null,
+              "TypeInfo": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Key": "templated",
+      "Value": [
+        {
+          "Name": "templated",
+          "Arguments": [
+            {
+              "IsNamedParameter": true,
+              "Name": "defaultAliasName",
+              "Value": "FunctionBlockPtr",
+              "Type": null,
+              "TypeInfo": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Key": "interfaceLibrary",
+      "Value": [
+        {
+          "Name": "interfaceLibrary",
+          "Arguments": [
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "IPropertyObject",
+              "Type": null,
+              "TypeInfo": null
+            },
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "\"coreobjects\"",
+              "Type": null,
+              "TypeInfo": null
+            }
+          ]
+        },
+        {
+          "Name": "interfaceLibrary",
+          "Arguments": [
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "ISearchFilter",
+              "Type": null,
+              "TypeInfo": null
+            },
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "\"coretypes\"",
+              "Type": null,
+              "TypeInfo": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Key": "elementType",
+      "Value": [
+        {
+          "Name": "elementType",
+          "Arguments": [
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "ports",
+              "Type": null,
+              "TypeInfo": null
+            },
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "IInputPort",
+              "Type": null,
+              "TypeInfo": {
+                "UnmappedName": "IInputPort",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "InputPort",
+                "DefaultIncludeName": "input_port",
+                "LibraryName": "copendaq/functionblock",
+                "Modifiers": null,
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              }
+            }
+          ]
+        },
+        {
+          "Name": "elementType",
+          "Arguments": [
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "signals",
+              "Type": null,
+              "TypeInfo": null
+            },
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "ISignal",
+              "Type": null,
+              "TypeInfo": {
+                "UnmappedName": "ISignal",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "Signal",
+                "DefaultIncludeName": "signal",
+                "LibraryName": "copendaq/functionblock",
+                "Modifiers": null,
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              }
+            }
+          ]
+        },
+        {
+          "Name": "elementType",
+          "Arguments": [
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "signals",
+              "Type": null,
+              "TypeInfo": null
+            },
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "ISignal",
+              "Type": null,
+              "TypeInfo": {
+                "UnmappedName": "ISignal",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "Signal",
+                "DefaultIncludeName": "signal",
+                "LibraryName": "copendaq/functionblock",
+                "Modifiers": null,
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              }
+            }
+          ]
+        },
+        {
+          "Name": "elementType",
+          "Arguments": [
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "functionBlocks",
+              "Type": null,
+              "TypeInfo": null
+            },
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "IFunctionBlock",
+              "Type": null,
+              "TypeInfo": {
+                "UnmappedName": "IFunctionBlock",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "FunctionBlock",
+                "DefaultIncludeName": "function_block",
+                "LibraryName": "copendaq/functionblock",
+                "Modifiers": null,
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Key": "templateType",
+      "Value": [
+        {
+          "Name": "templateType",
+          "Arguments": [
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "functionBlockTypes",
+              "Type": null,
+              "TypeInfo": null
+            },
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "IString",
+              "Type": null,
+              "TypeInfo": null
+            },
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "IFunctionBlockType",
+              "Type": null,
+              "TypeInfo": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "AdditionalFeatures": 0,
+  "Tag": null,
+  "LeadingDocumentation": [
+    {
+      "Brief": null,
+      "Tags": [
+        {
+          "Lines": [
+            {
+              "FullText": "opendaq_function_blocks",
+              "Elements": [
+                {
+                  "RawText": "opendaq_function_blocks",
+                  "ElementType": 1
+                }
+              ]
+            }
+          ],
+          "TagType": 0,
+          "TagName": "ingroup",
+          "RawText": "@ingroup opendaq_function_blocks",
+          "ElementType": 2
+        },
+        {
+          "Lines": [
+            {
+              "FullText": "opendaq_function_block Function block",
+              "Elements": [
+                {
+                  "RawText": "opendaq_function_block Function block",
+                  "ElementType": 1
+                }
+              ]
+            }
+          ],
+          "TagType": 0,
+          "TagName": "addtogroup",
+          "RawText": "@addtogroup opendaq_function_block Function block",
+          "ElementType": 2
+        },
+        {
+          "TagType": 8,
+          "TagName": "@{",
+          "RawText": "* @{\n",
+          "ElementType": 2
+        }
+      ],
+      "Description": null
+    }
+  ],
+  "TrailingDocumentation": [
+    {
+      "Brief": null,
+      "Tags": [
+        {
+          "TagType": 8,
+          "TagName": "@}",
+          "RawText": "@}",
+          "ElementType": 2
+        }
+      ],
+      "Description": null
+    }
+  ]
+}

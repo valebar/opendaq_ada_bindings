@@ -1,0 +1,4935 @@
+{
+  "Variables": [],
+  "Enums": [],
+  "Classes": [
+    {
+      "Type": {
+        "UnmappedName": "IScalingBuilder",
+        "Namespace": {
+          "Raw": "daq",
+          "Components": [
+            "daq"
+          ]
+        },
+        "UnmappedNamespace": {
+          "Raw": "daq",
+          "Components": [
+            "daq"
+          ]
+        },
+        "Guid": "aca01838-bd8e-50b8-8e36-2c4ff90e24e4",
+        "NonInterfaceName": "ScalingBuilder",
+        "DefaultIncludeName": "scaling_builder",
+        "LibraryName": "copendaq/signal",
+        "Modifiers": "*",
+        "GenericArguments": null,
+        "IsGenericArgument": false,
+        "HasGenericArguments": false,
+        "PropertyClass": null,
+        "ControlTagName": null
+      },
+      "BaseType": {
+        "UnmappedName": "IBaseObject",
+        "Namespace": {
+          "Raw": "daq",
+          "Components": [
+            "daq"
+          ]
+        },
+        "UnmappedNamespace": {
+          "Raw": "daq",
+          "Components": [
+            "daq"
+          ]
+        },
+        "Guid": "00000000-0000-0000-0000-000000000000",
+        "NonInterfaceName": "BaseObject",
+        "DefaultIncludeName": "base_object",
+        "LibraryName": "coretypes",
+        "Modifiers": "",
+        "GenericArguments": null,
+        "IsGenericArgument": false,
+        "HasGenericArguments": false,
+        "PropertyClass": null,
+        "ControlTagName": null
+      },
+      "Methods": [
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "IScaling",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "Scaling",
+                "DefaultIncludeName": "scaling",
+                "LibraryName": "copendaq/signal",
+                "Modifiers": "**",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "scaling",
+              "DefaultValue": null,
+              "IsOutParam": true,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/signal",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "build",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "IScaling",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "Scaling",
+                    "DefaultIncludeName": "scaling",
+                    "LibraryName": "copendaq/signal",
+                    "Modifiers": "**",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "scaling",
+                  "DefaultValue": null,
+                  "IsOutParam": true,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/signal",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Builds and returns a Scaling object using the currently set values of the Builder.",
+                  "Elements": [
+                    {
+                      "RawText": "Builds and returns a Scaling object using the currently set values of the Builder.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Builds and returns a Scaling object using the currently set values of the Builder.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "scaling",
+                "IsOut": true,
+                "Lines": [
+                  {
+                    "FullText": "The built Scaling object.",
+                    "Elements": [
+                      {
+                        "RawText": "The built Scaling object.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param[out] scaling The built Scaling object.",
+                "ElementType": 2
+              }
+            ],
+            "Description": null
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "SampleType",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "SampleType",
+                "DefaultIncludeName": "sample_type",
+                "LibraryName": "copendaq/signal",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "type",
+              "DefaultValue": null,
+              "IsOutParam": false,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/signal",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "setInputDataType",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": true,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "SampleType",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "SampleType",
+                    "DefaultIncludeName": "sample_type",
+                    "LibraryName": "copendaq/signal",
+                    "Modifiers": "",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "type",
+                  "DefaultValue": null,
+                  "IsOutParam": false,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/signal",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Sets the scaling's input data type.",
+                  "Elements": [
+                    {
+                      "RawText": "Sets the scaling's input data type.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Sets the scaling's input data type.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "type",
+                "IsOut": false,
+                "Lines": [
+                  {
+                    "FullText": "The input data type.",
+                    "Elements": [
+                      {
+                        "RawText": "The input data type.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param type The input data type.",
+                "ElementType": 2
+              }
+            ],
+            "Description": {
+              "TagIndex": 2,
+              "Lines": [
+                {
+                  "FullText": "",
+                  "Elements": [
+                    {
+                      "RawText": "",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "The input data type corresponds to the raw data passed through the signal path in",
+                  "Elements": [
+                    {
+                      "RawText": "The input data type corresponds to the raw data passed through the signal path in",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "data packets.",
+                  "Elements": [
+                    {
+                      "RawText": "data packets.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 7,
+              "TagName": "",
+              "RawText": "*\n     * The input data type corresponds to the raw data passed through the signal path in\n     * data packets.\n",
+              "ElementType": 2
+            }
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "SampleType",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "SampleType",
+                "DefaultIncludeName": "sample_type",
+                "LibraryName": "copendaq/signal",
+                "Modifiers": "*",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "type",
+              "DefaultValue": null,
+              "IsOutParam": true,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/signal",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "getInputDataType",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "SampleType",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "SampleType",
+                    "DefaultIncludeName": "sample_type",
+                    "LibraryName": "copendaq/signal",
+                    "Modifiers": "*",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "type",
+                  "DefaultValue": null,
+                  "IsOutParam": true,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/signal",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Gets the scaling's input data type.",
+                  "Elements": [
+                    {
+                      "RawText": "Gets the scaling's input data type.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Gets the scaling's input data type.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "type",
+                "IsOut": true,
+                "Lines": [
+                  {
+                    "FullText": "The input data type.",
+                    "Elements": [
+                      {
+                        "RawText": "The input data type.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param[out] type The input data type.",
+                "ElementType": 2
+              }
+            ],
+            "Description": null
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "ScaledSampleType",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ScaledSampleType",
+                "DefaultIncludeName": "scaled_sample_type",
+                "LibraryName": "copendaq/signal",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "type",
+              "DefaultValue": null,
+              "IsOutParam": false,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/signal",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "setOutputDataType",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": true,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "ScaledSampleType",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "ScaledSampleType",
+                    "DefaultIncludeName": "scaled_sample_type",
+                    "LibraryName": "copendaq/signal",
+                    "Modifiers": "",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "type",
+                  "DefaultValue": null,
+                  "IsOutParam": false,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/signal",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Sets the scaling's output data type.",
+                  "Elements": [
+                    {
+                      "RawText": "Sets the scaling's output data type.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Sets the scaling's output data type.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "type",
+                "IsOut": false,
+                "Lines": [
+                  {
+                    "FullText": "The output data type",
+                    "Elements": [
+                      {
+                        "RawText": "The output data type",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param type The output data type",
+                "ElementType": 2
+              }
+            ],
+            "Description": {
+              "TagIndex": 2,
+              "Lines": [
+                {
+                  "FullText": "",
+                  "Elements": [
+                    {
+                      "RawText": "",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "The output data type corresponds to the type specified in the value descriptor of",
+                  "Elements": [
+                    {
+                      "RawText": "The output data type corresponds to the type specified in the value descriptor of",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "a signal, and is the type in which said signal's data should be read in after having",
+                  "Elements": [
+                    {
+                      "RawText": "a signal, and is the type in which said signal's data should be read in after having",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "the scaling applied to it.",
+                  "Elements": [
+                    {
+                      "RawText": "the scaling applied to it.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 7,
+              "TagName": "",
+              "RawText": "*\n     * The output data type corresponds to the type specified in the value descriptor of\n     * a signal, and is the type in which said signal's data should be read in after having\n     * the scaling applied to it.\n",
+              "ElementType": 2
+            }
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "ScaledSampleType",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ScaledSampleType",
+                "DefaultIncludeName": "scaled_sample_type",
+                "LibraryName": "copendaq/signal",
+                "Modifiers": "*",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "type",
+              "DefaultValue": null,
+              "IsOutParam": true,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/signal",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "getOutputDataType",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "ScaledSampleType",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "ScaledSampleType",
+                    "DefaultIncludeName": "scaled_sample_type",
+                    "LibraryName": "copendaq/signal",
+                    "Modifiers": "*",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "type",
+                  "DefaultValue": null,
+                  "IsOutParam": true,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/signal",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Gets the scaling's output data type.",
+                  "Elements": [
+                    {
+                      "RawText": "Gets the scaling's output data type.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Gets the scaling's output data type.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "type",
+                "IsOut": true,
+                "Lines": [
+                  {
+                    "FullText": "The output data type",
+                    "Elements": [
+                      {
+                        "RawText": "The output data type",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param[out] type The output data type",
+                "ElementType": 2
+              }
+            ],
+            "Description": null
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "ScalingType",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ScalingType",
+                "DefaultIncludeName": "scaling_type",
+                "LibraryName": "copendaq/signal",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "type",
+              "DefaultValue": null,
+              "IsOutParam": false,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/signal",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "setScalingType",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": true,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "ScalingType",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "ScalingType",
+                    "DefaultIncludeName": "scaling_type",
+                    "LibraryName": "copendaq/signal",
+                    "Modifiers": "",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "type",
+                  "DefaultValue": null,
+                  "IsOutParam": false,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/signal",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Sets the type of the scaling that determines how the scaling parameters should be interpreted",
+                  "Elements": [
+                    {
+                      "RawText": "Sets the type of the scaling that determines how the scaling parameters should be interpreted",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "and how the scaling should be calculated.",
+                  "Elements": [
+                    {
+                      "RawText": "and how the scaling should be calculated.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Sets the type of the scaling that determines how the scaling parameters should be interpreted\n     * and how the scaling should be calculated.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "type",
+                "IsOut": false,
+                "Lines": [
+                  {
+                    "FullText": "The type of the scaling.",
+                    "Elements": [
+                      {
+                        "RawText": "The type of the scaling.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param type The type of the scaling.",
+                "ElementType": 2
+              }
+            ],
+            "Description": null
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "ScalingType",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ScalingType",
+                "DefaultIncludeName": "scaling_type",
+                "LibraryName": "copendaq/signal",
+                "Modifiers": "*",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "type",
+              "DefaultValue": null,
+              "IsOutParam": true,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/signal",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "getScalingType",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "ScalingType",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "ScalingType",
+                    "DefaultIncludeName": "scaling_type",
+                    "LibraryName": "copendaq/signal",
+                    "Modifiers": "*",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "type",
+                  "DefaultValue": null,
+                  "IsOutParam": true,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/signal",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Gets the type of the scaling that determines how the scaling parameters should be interpreted",
+                  "Elements": [
+                    {
+                      "RawText": "Gets the type of the scaling that determines how the scaling parameters should be interpreted",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "and how the scaling should be calculated.",
+                  "Elements": [
+                    {
+                      "RawText": "and how the scaling should be calculated.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Gets the type of the scaling that determines how the scaling parameters should be interpreted\n     * and how the scaling should be calculated.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "type",
+                "IsOut": true,
+                "Lines": [
+                  {
+                    "FullText": "The type of the scaling.",
+                    "Elements": [
+                      {
+                        "RawText": "The type of the scaling.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param[out] type The type of the scaling.",
+                "ElementType": 2
+              }
+            ],
+            "Description": null
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "IDict",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "Dict",
+                "DefaultIncludeName": "dict",
+                "LibraryName": "coretypes",
+                "Modifiers": "*",
+                "GenericArguments": [
+                  {
+                    "UnmappedName": "IString",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "String",
+                    "DefaultIncludeName": "string",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  {
+                    "UnmappedName": "IBaseObject",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "BaseObject",
+                    "DefaultIncludeName": "base_object",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  }
+                ],
+                "IsGenericArgument": false,
+                "HasGenericArguments": true,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "parameters",
+              "DefaultValue": null,
+              "IsOutParam": false,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/signal",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "setParameters",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": true,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "IDict",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "Dict",
+                    "DefaultIncludeName": "dict",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "*",
+                    "GenericArguments": [
+                      {
+                        "UnmappedName": "IString",
+                        "Namespace": {
+                          "Raw": "daq",
+                          "Components": [
+                            "daq"
+                          ]
+                        },
+                        "UnmappedNamespace": {
+                          "Raw": "daq",
+                          "Components": [
+                            "daq"
+                          ]
+                        },
+                        "Guid": "00000000-0000-0000-0000-000000000000",
+                        "NonInterfaceName": "String",
+                        "DefaultIncludeName": "string",
+                        "LibraryName": "coretypes",
+                        "Modifiers": "",
+                        "GenericArguments": null,
+                        "IsGenericArgument": false,
+                        "HasGenericArguments": false,
+                        "PropertyClass": null,
+                        "ControlTagName": null
+                      },
+                      {
+                        "UnmappedName": "IBaseObject",
+                        "Namespace": {
+                          "Raw": "daq",
+                          "Components": [
+                            "daq"
+                          ]
+                        },
+                        "UnmappedNamespace": {
+                          "Raw": "daq",
+                          "Components": [
+                            "daq"
+                          ]
+                        },
+                        "Guid": "00000000-0000-0000-0000-000000000000",
+                        "NonInterfaceName": "BaseObject",
+                        "DefaultIncludeName": "base_object",
+                        "LibraryName": "coretypes",
+                        "Modifiers": "",
+                        "GenericArguments": null,
+                        "IsGenericArgument": false,
+                        "HasGenericArguments": false,
+                        "PropertyClass": null,
+                        "ControlTagName": null
+                      }
+                    ],
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": true,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "parameters",
+                  "DefaultValue": null,
+                  "IsOutParam": false,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/signal",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Gets the list of parameters that are used to calculate the scaling in conjunction with the",
+                  "Elements": [
+                    {
+                      "RawText": "Gets the list of parameters that are used to calculate the scaling in conjunction with the",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "input data.",
+                  "Elements": [
+                    {
+                      "RawText": "input data.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Gets the list of parameters that are used to calculate the scaling in conjunction with the\n     * input data.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "parameters",
+                "IsOut": false,
+                "Lines": [
+                  {
+                    "FullText": "The list of parameters. All elements are Number types.",
+                    "Elements": [
+                      {
+                        "RawText": "The list of parameters. All elements are Number types.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param parameters The list of parameters. All elements are Number types.",
+                "ElementType": 2
+              },
+              {
+                "ReturnValue": "OPENDAQ_ERR_FROZEN",
+                "Lines": [
+                  {
+                    "FullText": "if the object is frozen.",
+                    "Elements": [
+                      {
+                        "RawText": "if the object is frozen.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 5,
+                "TagName": "retval",
+                "RawText": "@retval OPENDAQ_ERR_FROZEN if the object is frozen.",
+                "ElementType": 2
+              }
+            ],
+            "Description": null
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "IDict",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "Dict",
+                "DefaultIncludeName": "dict",
+                "LibraryName": "coretypes",
+                "Modifiers": "**",
+                "GenericArguments": [
+                  {
+                    "UnmappedName": "IString",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "String",
+                    "DefaultIncludeName": "string",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  {
+                    "UnmappedName": "IBaseObject",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "BaseObject",
+                    "DefaultIncludeName": "base_object",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  }
+                ],
+                "IsGenericArgument": false,
+                "HasGenericArguments": true,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "parameters",
+              "DefaultValue": null,
+              "IsOutParam": true,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/signal",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "getParameters",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "IDict",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "Dict",
+                    "DefaultIncludeName": "dict",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "**",
+                    "GenericArguments": [
+                      {
+                        "UnmappedName": "IString",
+                        "Namespace": {
+                          "Raw": "daq",
+                          "Components": [
+                            "daq"
+                          ]
+                        },
+                        "UnmappedNamespace": {
+                          "Raw": "daq",
+                          "Components": [
+                            "daq"
+                          ]
+                        },
+                        "Guid": "00000000-0000-0000-0000-000000000000",
+                        "NonInterfaceName": "String",
+                        "DefaultIncludeName": "string",
+                        "LibraryName": "coretypes",
+                        "Modifiers": "",
+                        "GenericArguments": null,
+                        "IsGenericArgument": false,
+                        "HasGenericArguments": false,
+                        "PropertyClass": null,
+                        "ControlTagName": null
+                      },
+                      {
+                        "UnmappedName": "IBaseObject",
+                        "Namespace": {
+                          "Raw": "daq",
+                          "Components": [
+                            "daq"
+                          ]
+                        },
+                        "UnmappedNamespace": {
+                          "Raw": "daq",
+                          "Components": [
+                            "daq"
+                          ]
+                        },
+                        "Guid": "00000000-0000-0000-0000-000000000000",
+                        "NonInterfaceName": "BaseObject",
+                        "DefaultIncludeName": "base_object",
+                        "LibraryName": "coretypes",
+                        "Modifiers": "",
+                        "GenericArguments": null,
+                        "IsGenericArgument": false,
+                        "HasGenericArguments": false,
+                        "PropertyClass": null,
+                        "ControlTagName": null
+                      }
+                    ],
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": true,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "parameters",
+                  "DefaultValue": null,
+                  "IsOutParam": true,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/signal",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Gets the list of parameters that are used to calculate the scaling in conjunction with the",
+                  "Elements": [
+                    {
+                      "RawText": "Gets the list of parameters that are used to calculate the scaling in conjunction with the",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "input data.",
+                  "Elements": [
+                    {
+                      "RawText": "input data.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Gets the list of parameters that are used to calculate the scaling in conjunction with the\n     * input data.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "parameters",
+                "IsOut": true,
+                "Lines": [
+                  {
+                    "FullText": "The list of parameters. All elements are Number types.",
+                    "Elements": [
+                      {
+                        "RawText": "The list of parameters. All elements are Number types.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param[out] parameters The list of parameters. All elements are Number types.",
+                "ElementType": 2
+              }
+            ],
+            "Description": null
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "IString",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "String",
+                "DefaultIncludeName": "string",
+                "LibraryName": "coretypes",
+                "Modifiers": "*",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "name",
+              "DefaultValue": null,
+              "IsOutParam": false,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            },
+            {
+              "Type": {
+                "UnmappedName": "IBaseObject",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "BaseObject",
+                "DefaultIncludeName": "base_object",
+                "LibraryName": "coretypes",
+                "Modifiers": "*",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "parameter",
+              "DefaultValue": null,
+              "IsOutParam": false,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/signal",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "addParameter",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": true,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "IString",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "String",
+                    "DefaultIncludeName": "string",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "*",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "name",
+                  "DefaultValue": null,
+                  "IsOutParam": false,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                },
+                {
+                  "Type": {
+                    "UnmappedName": "IBaseObject",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "BaseObject",
+                    "DefaultIncludeName": "base_object",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "*",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "parameter",
+                  "DefaultValue": null,
+                  "IsOutParam": false,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/signal",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Adds a string-object pair parameter to the Dictionary of Scaling parameters.",
+                  "Elements": [
+                    {
+                      "RawText": "Adds a string-object pair parameter to the Dictionary of Scaling parameters.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Adds a string-object pair parameter to the Dictionary of Scaling parameters.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "name",
+                "IsOut": false,
+                "Lines": [
+                  {
+                    "FullText": "The string-type name of the parameter.",
+                    "Elements": [
+                      {
+                        "RawText": "The string-type name of the parameter.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param name The string-type name of the parameter.",
+                "ElementType": 2
+              },
+              {
+                "ParamName": "parameter",
+                "IsOut": false,
+                "Lines": [
+                  {
+                    "FullText": "The object-type parameter.",
+                    "Elements": [
+                      {
+                        "RawText": "The object-type parameter.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param parameter The object-type parameter.",
+                "ElementType": 2
+              }
+            ],
+            "Description": null
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "IString",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "String",
+                "DefaultIncludeName": "string",
+                "LibraryName": "coretypes",
+                "Modifiers": "*",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "name",
+              "DefaultValue": null,
+              "IsOutParam": false,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/signal",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "removeParameter",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": true,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "IString",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "String",
+                    "DefaultIncludeName": "string",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "*",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "name",
+                  "DefaultValue": null,
+                  "IsOutParam": false,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/signal",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Removes the parameter with the given name from the Dictionary of Scaling parameters.",
+                  "Elements": [
+                    {
+                      "RawText": "Removes the parameter with the given name from the Dictionary of Scaling parameters.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Removes the parameter with the given name from the Dictionary of Scaling parameters.\n",
+              "ElementType": 2
+            },
+            "Tags": [],
+            "Description": null
+          }
+        }
+      ],
+      "GetSet": [
+        {
+          "Name": "InputDataType",
+          "Getter": {
+            "Modifiers": [
+              "virtual"
+            ],
+            "Arguments": [
+              {
+                "Type": {
+                  "UnmappedName": "SampleType",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "SampleType",
+                  "DefaultIncludeName": "sample_type",
+                  "LibraryName": "copendaq/signal",
+                  "Modifiers": "*",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Name": "type",
+                "DefaultValue": null,
+                "IsOutParam": true,
+                "IsOutPointer": false,
+                "IsConst": false,
+                "ArrayInfo": null,
+                "IsPolymorphic": false,
+                "IsStealRef": false,
+                "AllowNull": false,
+                "RawBuffer": null,
+                "IsInOutParam": false
+              }
+            ],
+            "ReturnType": {
+              "UnmappedName": "ErrCode",
+              "Namespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "UnmappedNamespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "Guid": "00000000-0000-0000-0000-000000000000",
+              "NonInterfaceName": "ErrCode",
+              "DefaultIncludeName": "err_code",
+              "LibraryName": "copendaq/signal",
+              "Modifiers": "",
+              "GenericArguments": null,
+              "IsGenericArgument": false,
+              "HasGenericArguments": false,
+              "PropertyClass": null,
+              "ControlTagName": null
+            },
+            "Property": null,
+            "Name": "getInputDataType",
+            "IsPure": true,
+            "IsIgnored": 0,
+            "ReturnSelf": false,
+            "OverloadFor": null,
+            "CallingConvention": "stdcall",
+            "Overloads": [
+              {
+                "Arguments": [
+                  {
+                    "Type": {
+                      "UnmappedName": "SampleType",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "SampleType",
+                      "DefaultIncludeName": "sample_type",
+                      "LibraryName": "copendaq/signal",
+                      "Modifiers": "*",
+                      "GenericArguments": null,
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": false,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    },
+                    "Name": "type",
+                    "DefaultValue": null,
+                    "IsOutParam": true,
+                    "IsOutPointer": false,
+                    "IsConst": false,
+                    "ArrayInfo": null,
+                    "IsPolymorphic": false,
+                    "IsStealRef": false,
+                    "AllowNull": false,
+                    "RawBuffer": null,
+                    "IsInOutParam": false
+                  }
+                ],
+                "ReturnType": {
+                  "UnmappedName": "ErrCode",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ErrCode",
+                  "DefaultIncludeName": "err_code",
+                  "LibraryName": "copendaq/signal",
+                  "Modifiers": "",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Type": 1,
+                "Tag": null
+              }
+            ],
+            "Documentation": {
+              "Brief": {
+                "TagIndex": 0,
+                "Lines": [
+                  {
+                    "FullText": "Gets the scaling's input data type.",
+                    "Elements": [
+                      {
+                        "RawText": "Gets the scaling's input data type.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 1,
+                "TagName": "brief",
+                "RawText": "* @brief Gets the scaling's input data type.\n",
+                "ElementType": 2
+              },
+              "Tags": [
+                {
+                  "ParamName": "type",
+                  "IsOut": true,
+                  "Lines": [
+                    {
+                      "FullText": "The input data type.",
+                      "Elements": [
+                        {
+                          "RawText": "The input data type.",
+                          "ElementType": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "TagType": 3,
+                  "TagName": "param",
+                  "RawText": "@param[out] type The input data type.",
+                  "ElementType": 2
+                }
+              ],
+              "Description": null
+            }
+          },
+          "Setter": {
+            "Modifiers": [
+              "virtual"
+            ],
+            "Arguments": [
+              {
+                "Type": {
+                  "UnmappedName": "SampleType",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "SampleType",
+                  "DefaultIncludeName": "sample_type",
+                  "LibraryName": "copendaq/signal",
+                  "Modifiers": "",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Name": "type",
+                "DefaultValue": null,
+                "IsOutParam": false,
+                "IsOutPointer": false,
+                "IsConst": false,
+                "ArrayInfo": null,
+                "IsPolymorphic": false,
+                "IsStealRef": false,
+                "AllowNull": false,
+                "RawBuffer": null,
+                "IsInOutParam": false
+              }
+            ],
+            "ReturnType": {
+              "UnmappedName": "ErrCode",
+              "Namespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "UnmappedNamespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "Guid": "00000000-0000-0000-0000-000000000000",
+              "NonInterfaceName": "ErrCode",
+              "DefaultIncludeName": "err_code",
+              "LibraryName": "copendaq/signal",
+              "Modifiers": "",
+              "GenericArguments": null,
+              "IsGenericArgument": false,
+              "HasGenericArguments": false,
+              "PropertyClass": null,
+              "ControlTagName": null
+            },
+            "Property": null,
+            "Name": "setInputDataType",
+            "IsPure": true,
+            "IsIgnored": 0,
+            "ReturnSelf": true,
+            "OverloadFor": null,
+            "CallingConvention": "stdcall",
+            "Overloads": [
+              {
+                "Arguments": [
+                  {
+                    "Type": {
+                      "UnmappedName": "SampleType",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "SampleType",
+                      "DefaultIncludeName": "sample_type",
+                      "LibraryName": "copendaq/signal",
+                      "Modifiers": "",
+                      "GenericArguments": null,
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": false,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    },
+                    "Name": "type",
+                    "DefaultValue": null,
+                    "IsOutParam": false,
+                    "IsOutPointer": false,
+                    "IsConst": false,
+                    "ArrayInfo": null,
+                    "IsPolymorphic": false,
+                    "IsStealRef": false,
+                    "AllowNull": false,
+                    "RawBuffer": null,
+                    "IsInOutParam": false
+                  }
+                ],
+                "ReturnType": {
+                  "UnmappedName": "ErrCode",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ErrCode",
+                  "DefaultIncludeName": "err_code",
+                  "LibraryName": "copendaq/signal",
+                  "Modifiers": "",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Type": 1,
+                "Tag": null
+              }
+            ],
+            "Documentation": {
+              "Brief": {
+                "TagIndex": 0,
+                "Lines": [
+                  {
+                    "FullText": "Sets the scaling's input data type.",
+                    "Elements": [
+                      {
+                        "RawText": "Sets the scaling's input data type.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 1,
+                "TagName": "brief",
+                "RawText": "* @brief Sets the scaling's input data type.\n",
+                "ElementType": 2
+              },
+              "Tags": [
+                {
+                  "ParamName": "type",
+                  "IsOut": false,
+                  "Lines": [
+                    {
+                      "FullText": "The input data type.",
+                      "Elements": [
+                        {
+                          "RawText": "The input data type.",
+                          "ElementType": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "TagType": 3,
+                  "TagName": "param",
+                  "RawText": "@param type The input data type.",
+                  "ElementType": 2
+                }
+              ],
+              "Description": {
+                "TagIndex": 2,
+                "Lines": [
+                  {
+                    "FullText": "",
+                    "Elements": [
+                      {
+                        "RawText": "",
+                        "ElementType": 1
+                      }
+                    ]
+                  },
+                  {
+                    "FullText": "The input data type corresponds to the raw data passed through the signal path in",
+                    "Elements": [
+                      {
+                        "RawText": "The input data type corresponds to the raw data passed through the signal path in",
+                        "ElementType": 1
+                      }
+                    ]
+                  },
+                  {
+                    "FullText": "data packets.",
+                    "Elements": [
+                      {
+                        "RawText": "data packets.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 7,
+                "TagName": "",
+                "RawText": "*\n     * The input data type corresponds to the raw data passed through the signal path in\n     * data packets.\n",
+                "ElementType": 2
+              }
+            }
+          }
+        },
+        {
+          "Name": "OutputDataType",
+          "Getter": {
+            "Modifiers": [
+              "virtual"
+            ],
+            "Arguments": [
+              {
+                "Type": {
+                  "UnmappedName": "ScaledSampleType",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ScaledSampleType",
+                  "DefaultIncludeName": "scaled_sample_type",
+                  "LibraryName": "copendaq/signal",
+                  "Modifiers": "*",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Name": "type",
+                "DefaultValue": null,
+                "IsOutParam": true,
+                "IsOutPointer": false,
+                "IsConst": false,
+                "ArrayInfo": null,
+                "IsPolymorphic": false,
+                "IsStealRef": false,
+                "AllowNull": false,
+                "RawBuffer": null,
+                "IsInOutParam": false
+              }
+            ],
+            "ReturnType": {
+              "UnmappedName": "ErrCode",
+              "Namespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "UnmappedNamespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "Guid": "00000000-0000-0000-0000-000000000000",
+              "NonInterfaceName": "ErrCode",
+              "DefaultIncludeName": "err_code",
+              "LibraryName": "copendaq/signal",
+              "Modifiers": "",
+              "GenericArguments": null,
+              "IsGenericArgument": false,
+              "HasGenericArguments": false,
+              "PropertyClass": null,
+              "ControlTagName": null
+            },
+            "Property": null,
+            "Name": "getOutputDataType",
+            "IsPure": true,
+            "IsIgnored": 0,
+            "ReturnSelf": false,
+            "OverloadFor": null,
+            "CallingConvention": "stdcall",
+            "Overloads": [
+              {
+                "Arguments": [
+                  {
+                    "Type": {
+                      "UnmappedName": "ScaledSampleType",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "ScaledSampleType",
+                      "DefaultIncludeName": "scaled_sample_type",
+                      "LibraryName": "copendaq/signal",
+                      "Modifiers": "*",
+                      "GenericArguments": null,
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": false,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    },
+                    "Name": "type",
+                    "DefaultValue": null,
+                    "IsOutParam": true,
+                    "IsOutPointer": false,
+                    "IsConst": false,
+                    "ArrayInfo": null,
+                    "IsPolymorphic": false,
+                    "IsStealRef": false,
+                    "AllowNull": false,
+                    "RawBuffer": null,
+                    "IsInOutParam": false
+                  }
+                ],
+                "ReturnType": {
+                  "UnmappedName": "ErrCode",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ErrCode",
+                  "DefaultIncludeName": "err_code",
+                  "LibraryName": "copendaq/signal",
+                  "Modifiers": "",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Type": 1,
+                "Tag": null
+              }
+            ],
+            "Documentation": {
+              "Brief": {
+                "TagIndex": 0,
+                "Lines": [
+                  {
+                    "FullText": "Gets the scaling's output data type.",
+                    "Elements": [
+                      {
+                        "RawText": "Gets the scaling's output data type.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 1,
+                "TagName": "brief",
+                "RawText": "* @brief Gets the scaling's output data type.\n",
+                "ElementType": 2
+              },
+              "Tags": [
+                {
+                  "ParamName": "type",
+                  "IsOut": true,
+                  "Lines": [
+                    {
+                      "FullText": "The output data type",
+                      "Elements": [
+                        {
+                          "RawText": "The output data type",
+                          "ElementType": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "TagType": 3,
+                  "TagName": "param",
+                  "RawText": "@param[out] type The output data type",
+                  "ElementType": 2
+                }
+              ],
+              "Description": null
+            }
+          },
+          "Setter": {
+            "Modifiers": [
+              "virtual"
+            ],
+            "Arguments": [
+              {
+                "Type": {
+                  "UnmappedName": "ScaledSampleType",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ScaledSampleType",
+                  "DefaultIncludeName": "scaled_sample_type",
+                  "LibraryName": "copendaq/signal",
+                  "Modifiers": "",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Name": "type",
+                "DefaultValue": null,
+                "IsOutParam": false,
+                "IsOutPointer": false,
+                "IsConst": false,
+                "ArrayInfo": null,
+                "IsPolymorphic": false,
+                "IsStealRef": false,
+                "AllowNull": false,
+                "RawBuffer": null,
+                "IsInOutParam": false
+              }
+            ],
+            "ReturnType": {
+              "UnmappedName": "ErrCode",
+              "Namespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "UnmappedNamespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "Guid": "00000000-0000-0000-0000-000000000000",
+              "NonInterfaceName": "ErrCode",
+              "DefaultIncludeName": "err_code",
+              "LibraryName": "copendaq/signal",
+              "Modifiers": "",
+              "GenericArguments": null,
+              "IsGenericArgument": false,
+              "HasGenericArguments": false,
+              "PropertyClass": null,
+              "ControlTagName": null
+            },
+            "Property": null,
+            "Name": "setOutputDataType",
+            "IsPure": true,
+            "IsIgnored": 0,
+            "ReturnSelf": true,
+            "OverloadFor": null,
+            "CallingConvention": "stdcall",
+            "Overloads": [
+              {
+                "Arguments": [
+                  {
+                    "Type": {
+                      "UnmappedName": "ScaledSampleType",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "ScaledSampleType",
+                      "DefaultIncludeName": "scaled_sample_type",
+                      "LibraryName": "copendaq/signal",
+                      "Modifiers": "",
+                      "GenericArguments": null,
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": false,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    },
+                    "Name": "type",
+                    "DefaultValue": null,
+                    "IsOutParam": false,
+                    "IsOutPointer": false,
+                    "IsConst": false,
+                    "ArrayInfo": null,
+                    "IsPolymorphic": false,
+                    "IsStealRef": false,
+                    "AllowNull": false,
+                    "RawBuffer": null,
+                    "IsInOutParam": false
+                  }
+                ],
+                "ReturnType": {
+                  "UnmappedName": "ErrCode",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ErrCode",
+                  "DefaultIncludeName": "err_code",
+                  "LibraryName": "copendaq/signal",
+                  "Modifiers": "",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Type": 1,
+                "Tag": null
+              }
+            ],
+            "Documentation": {
+              "Brief": {
+                "TagIndex": 0,
+                "Lines": [
+                  {
+                    "FullText": "Sets the scaling's output data type.",
+                    "Elements": [
+                      {
+                        "RawText": "Sets the scaling's output data type.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 1,
+                "TagName": "brief",
+                "RawText": "* @brief Sets the scaling's output data type.\n",
+                "ElementType": 2
+              },
+              "Tags": [
+                {
+                  "ParamName": "type",
+                  "IsOut": false,
+                  "Lines": [
+                    {
+                      "FullText": "The output data type",
+                      "Elements": [
+                        {
+                          "RawText": "The output data type",
+                          "ElementType": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "TagType": 3,
+                  "TagName": "param",
+                  "RawText": "@param type The output data type",
+                  "ElementType": 2
+                }
+              ],
+              "Description": {
+                "TagIndex": 2,
+                "Lines": [
+                  {
+                    "FullText": "",
+                    "Elements": [
+                      {
+                        "RawText": "",
+                        "ElementType": 1
+                      }
+                    ]
+                  },
+                  {
+                    "FullText": "The output data type corresponds to the type specified in the value descriptor of",
+                    "Elements": [
+                      {
+                        "RawText": "The output data type corresponds to the type specified in the value descriptor of",
+                        "ElementType": 1
+                      }
+                    ]
+                  },
+                  {
+                    "FullText": "a signal, and is the type in which said signal's data should be read in after having",
+                    "Elements": [
+                      {
+                        "RawText": "a signal, and is the type in which said signal's data should be read in after having",
+                        "ElementType": 1
+                      }
+                    ]
+                  },
+                  {
+                    "FullText": "the scaling applied to it.",
+                    "Elements": [
+                      {
+                        "RawText": "the scaling applied to it.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 7,
+                "TagName": "",
+                "RawText": "*\n     * The output data type corresponds to the type specified in the value descriptor of\n     * a signal, and is the type in which said signal's data should be read in after having\n     * the scaling applied to it.\n",
+                "ElementType": 2
+              }
+            }
+          }
+        },
+        {
+          "Name": "ScalingType",
+          "Getter": {
+            "Modifiers": [
+              "virtual"
+            ],
+            "Arguments": [
+              {
+                "Type": {
+                  "UnmappedName": "ScalingType",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ScalingType",
+                  "DefaultIncludeName": "scaling_type",
+                  "LibraryName": "copendaq/signal",
+                  "Modifiers": "*",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Name": "type",
+                "DefaultValue": null,
+                "IsOutParam": true,
+                "IsOutPointer": false,
+                "IsConst": false,
+                "ArrayInfo": null,
+                "IsPolymorphic": false,
+                "IsStealRef": false,
+                "AllowNull": false,
+                "RawBuffer": null,
+                "IsInOutParam": false
+              }
+            ],
+            "ReturnType": {
+              "UnmappedName": "ErrCode",
+              "Namespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "UnmappedNamespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "Guid": "00000000-0000-0000-0000-000000000000",
+              "NonInterfaceName": "ErrCode",
+              "DefaultIncludeName": "err_code",
+              "LibraryName": "copendaq/signal",
+              "Modifiers": "",
+              "GenericArguments": null,
+              "IsGenericArgument": false,
+              "HasGenericArguments": false,
+              "PropertyClass": null,
+              "ControlTagName": null
+            },
+            "Property": null,
+            "Name": "getScalingType",
+            "IsPure": true,
+            "IsIgnored": 0,
+            "ReturnSelf": false,
+            "OverloadFor": null,
+            "CallingConvention": "stdcall",
+            "Overloads": [
+              {
+                "Arguments": [
+                  {
+                    "Type": {
+                      "UnmappedName": "ScalingType",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "ScalingType",
+                      "DefaultIncludeName": "scaling_type",
+                      "LibraryName": "copendaq/signal",
+                      "Modifiers": "*",
+                      "GenericArguments": null,
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": false,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    },
+                    "Name": "type",
+                    "DefaultValue": null,
+                    "IsOutParam": true,
+                    "IsOutPointer": false,
+                    "IsConst": false,
+                    "ArrayInfo": null,
+                    "IsPolymorphic": false,
+                    "IsStealRef": false,
+                    "AllowNull": false,
+                    "RawBuffer": null,
+                    "IsInOutParam": false
+                  }
+                ],
+                "ReturnType": {
+                  "UnmappedName": "ErrCode",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ErrCode",
+                  "DefaultIncludeName": "err_code",
+                  "LibraryName": "copendaq/signal",
+                  "Modifiers": "",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Type": 1,
+                "Tag": null
+              }
+            ],
+            "Documentation": {
+              "Brief": {
+                "TagIndex": 0,
+                "Lines": [
+                  {
+                    "FullText": "Gets the type of the scaling that determines how the scaling parameters should be interpreted",
+                    "Elements": [
+                      {
+                        "RawText": "Gets the type of the scaling that determines how the scaling parameters should be interpreted",
+                        "ElementType": 1
+                      }
+                    ]
+                  },
+                  {
+                    "FullText": "and how the scaling should be calculated.",
+                    "Elements": [
+                      {
+                        "RawText": "and how the scaling should be calculated.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 1,
+                "TagName": "brief",
+                "RawText": "* @brief Gets the type of the scaling that determines how the scaling parameters should be interpreted\n     * and how the scaling should be calculated.\n",
+                "ElementType": 2
+              },
+              "Tags": [
+                {
+                  "ParamName": "type",
+                  "IsOut": true,
+                  "Lines": [
+                    {
+                      "FullText": "The type of the scaling.",
+                      "Elements": [
+                        {
+                          "RawText": "The type of the scaling.",
+                          "ElementType": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "TagType": 3,
+                  "TagName": "param",
+                  "RawText": "@param[out] type The type of the scaling.",
+                  "ElementType": 2
+                }
+              ],
+              "Description": null
+            }
+          },
+          "Setter": {
+            "Modifiers": [
+              "virtual"
+            ],
+            "Arguments": [
+              {
+                "Type": {
+                  "UnmappedName": "ScalingType",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ScalingType",
+                  "DefaultIncludeName": "scaling_type",
+                  "LibraryName": "copendaq/signal",
+                  "Modifiers": "",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Name": "type",
+                "DefaultValue": null,
+                "IsOutParam": false,
+                "IsOutPointer": false,
+                "IsConst": false,
+                "ArrayInfo": null,
+                "IsPolymorphic": false,
+                "IsStealRef": false,
+                "AllowNull": false,
+                "RawBuffer": null,
+                "IsInOutParam": false
+              }
+            ],
+            "ReturnType": {
+              "UnmappedName": "ErrCode",
+              "Namespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "UnmappedNamespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "Guid": "00000000-0000-0000-0000-000000000000",
+              "NonInterfaceName": "ErrCode",
+              "DefaultIncludeName": "err_code",
+              "LibraryName": "copendaq/signal",
+              "Modifiers": "",
+              "GenericArguments": null,
+              "IsGenericArgument": false,
+              "HasGenericArguments": false,
+              "PropertyClass": null,
+              "ControlTagName": null
+            },
+            "Property": null,
+            "Name": "setScalingType",
+            "IsPure": true,
+            "IsIgnored": 0,
+            "ReturnSelf": true,
+            "OverloadFor": null,
+            "CallingConvention": "stdcall",
+            "Overloads": [
+              {
+                "Arguments": [
+                  {
+                    "Type": {
+                      "UnmappedName": "ScalingType",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "ScalingType",
+                      "DefaultIncludeName": "scaling_type",
+                      "LibraryName": "copendaq/signal",
+                      "Modifiers": "",
+                      "GenericArguments": null,
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": false,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    },
+                    "Name": "type",
+                    "DefaultValue": null,
+                    "IsOutParam": false,
+                    "IsOutPointer": false,
+                    "IsConst": false,
+                    "ArrayInfo": null,
+                    "IsPolymorphic": false,
+                    "IsStealRef": false,
+                    "AllowNull": false,
+                    "RawBuffer": null,
+                    "IsInOutParam": false
+                  }
+                ],
+                "ReturnType": {
+                  "UnmappedName": "ErrCode",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ErrCode",
+                  "DefaultIncludeName": "err_code",
+                  "LibraryName": "copendaq/signal",
+                  "Modifiers": "",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Type": 1,
+                "Tag": null
+              }
+            ],
+            "Documentation": {
+              "Brief": {
+                "TagIndex": 0,
+                "Lines": [
+                  {
+                    "FullText": "Sets the type of the scaling that determines how the scaling parameters should be interpreted",
+                    "Elements": [
+                      {
+                        "RawText": "Sets the type of the scaling that determines how the scaling parameters should be interpreted",
+                        "ElementType": 1
+                      }
+                    ]
+                  },
+                  {
+                    "FullText": "and how the scaling should be calculated.",
+                    "Elements": [
+                      {
+                        "RawText": "and how the scaling should be calculated.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 1,
+                "TagName": "brief",
+                "RawText": "* @brief Sets the type of the scaling that determines how the scaling parameters should be interpreted\n     * and how the scaling should be calculated.\n",
+                "ElementType": 2
+              },
+              "Tags": [
+                {
+                  "ParamName": "type",
+                  "IsOut": false,
+                  "Lines": [
+                    {
+                      "FullText": "The type of the scaling.",
+                      "Elements": [
+                        {
+                          "RawText": "The type of the scaling.",
+                          "ElementType": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "TagType": 3,
+                  "TagName": "param",
+                  "RawText": "@param type The type of the scaling.",
+                  "ElementType": 2
+                }
+              ],
+              "Description": null
+            }
+          }
+        },
+        {
+          "Name": "Parameters",
+          "Getter": {
+            "Modifiers": [
+              "virtual"
+            ],
+            "Arguments": [
+              {
+                "Type": {
+                  "UnmappedName": "IDict",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "Dict",
+                  "DefaultIncludeName": "dict",
+                  "LibraryName": "coretypes",
+                  "Modifiers": "**",
+                  "GenericArguments": [
+                    {
+                      "UnmappedName": "IString",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "String",
+                      "DefaultIncludeName": "string",
+                      "LibraryName": "coretypes",
+                      "Modifiers": "",
+                      "GenericArguments": null,
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": false,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    },
+                    {
+                      "UnmappedName": "IBaseObject",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "BaseObject",
+                      "DefaultIncludeName": "base_object",
+                      "LibraryName": "coretypes",
+                      "Modifiers": "",
+                      "GenericArguments": null,
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": false,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    }
+                  ],
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": true,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Name": "parameters",
+                "DefaultValue": null,
+                "IsOutParam": true,
+                "IsOutPointer": false,
+                "IsConst": false,
+                "ArrayInfo": null,
+                "IsPolymorphic": false,
+                "IsStealRef": false,
+                "AllowNull": false,
+                "RawBuffer": null,
+                "IsInOutParam": false
+              }
+            ],
+            "ReturnType": {
+              "UnmappedName": "ErrCode",
+              "Namespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "UnmappedNamespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "Guid": "00000000-0000-0000-0000-000000000000",
+              "NonInterfaceName": "ErrCode",
+              "DefaultIncludeName": "err_code",
+              "LibraryName": "copendaq/signal",
+              "Modifiers": "",
+              "GenericArguments": null,
+              "IsGenericArgument": false,
+              "HasGenericArguments": false,
+              "PropertyClass": null,
+              "ControlTagName": null
+            },
+            "Property": null,
+            "Name": "getParameters",
+            "IsPure": true,
+            "IsIgnored": 0,
+            "ReturnSelf": false,
+            "OverloadFor": null,
+            "CallingConvention": "stdcall",
+            "Overloads": [
+              {
+                "Arguments": [
+                  {
+                    "Type": {
+                      "UnmappedName": "IDict",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "Dict",
+                      "DefaultIncludeName": "dict",
+                      "LibraryName": "coretypes",
+                      "Modifiers": "**",
+                      "GenericArguments": [
+                        {
+                          "UnmappedName": "IString",
+                          "Namespace": {
+                            "Raw": "daq",
+                            "Components": [
+                              "daq"
+                            ]
+                          },
+                          "UnmappedNamespace": {
+                            "Raw": "daq",
+                            "Components": [
+                              "daq"
+                            ]
+                          },
+                          "Guid": "00000000-0000-0000-0000-000000000000",
+                          "NonInterfaceName": "String",
+                          "DefaultIncludeName": "string",
+                          "LibraryName": "coretypes",
+                          "Modifiers": "",
+                          "GenericArguments": null,
+                          "IsGenericArgument": false,
+                          "HasGenericArguments": false,
+                          "PropertyClass": null,
+                          "ControlTagName": null
+                        },
+                        {
+                          "UnmappedName": "IBaseObject",
+                          "Namespace": {
+                            "Raw": "daq",
+                            "Components": [
+                              "daq"
+                            ]
+                          },
+                          "UnmappedNamespace": {
+                            "Raw": "daq",
+                            "Components": [
+                              "daq"
+                            ]
+                          },
+                          "Guid": "00000000-0000-0000-0000-000000000000",
+                          "NonInterfaceName": "BaseObject",
+                          "DefaultIncludeName": "base_object",
+                          "LibraryName": "coretypes",
+                          "Modifiers": "",
+                          "GenericArguments": null,
+                          "IsGenericArgument": false,
+                          "HasGenericArguments": false,
+                          "PropertyClass": null,
+                          "ControlTagName": null
+                        }
+                      ],
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": true,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    },
+                    "Name": "parameters",
+                    "DefaultValue": null,
+                    "IsOutParam": true,
+                    "IsOutPointer": false,
+                    "IsConst": false,
+                    "ArrayInfo": null,
+                    "IsPolymorphic": false,
+                    "IsStealRef": false,
+                    "AllowNull": false,
+                    "RawBuffer": null,
+                    "IsInOutParam": false
+                  }
+                ],
+                "ReturnType": {
+                  "UnmappedName": "ErrCode",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ErrCode",
+                  "DefaultIncludeName": "err_code",
+                  "LibraryName": "copendaq/signal",
+                  "Modifiers": "",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Type": 1,
+                "Tag": null
+              }
+            ],
+            "Documentation": {
+              "Brief": {
+                "TagIndex": 0,
+                "Lines": [
+                  {
+                    "FullText": "Gets the list of parameters that are used to calculate the scaling in conjunction with the",
+                    "Elements": [
+                      {
+                        "RawText": "Gets the list of parameters that are used to calculate the scaling in conjunction with the",
+                        "ElementType": 1
+                      }
+                    ]
+                  },
+                  {
+                    "FullText": "input data.",
+                    "Elements": [
+                      {
+                        "RawText": "input data.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 1,
+                "TagName": "brief",
+                "RawText": "* @brief Gets the list of parameters that are used to calculate the scaling in conjunction with the\n     * input data.\n",
+                "ElementType": 2
+              },
+              "Tags": [
+                {
+                  "ParamName": "parameters",
+                  "IsOut": true,
+                  "Lines": [
+                    {
+                      "FullText": "The list of parameters. All elements are Number types.",
+                      "Elements": [
+                        {
+                          "RawText": "The list of parameters. All elements are Number types.",
+                          "ElementType": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "TagType": 3,
+                  "TagName": "param",
+                  "RawText": "@param[out] parameters The list of parameters. All elements are Number types.",
+                  "ElementType": 2
+                }
+              ],
+              "Description": null
+            }
+          },
+          "Setter": {
+            "Modifiers": [
+              "virtual"
+            ],
+            "Arguments": [
+              {
+                "Type": {
+                  "UnmappedName": "IDict",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "Dict",
+                  "DefaultIncludeName": "dict",
+                  "LibraryName": "coretypes",
+                  "Modifiers": "*",
+                  "GenericArguments": [
+                    {
+                      "UnmappedName": "IString",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "String",
+                      "DefaultIncludeName": "string",
+                      "LibraryName": "coretypes",
+                      "Modifiers": "",
+                      "GenericArguments": null,
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": false,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    },
+                    {
+                      "UnmappedName": "IBaseObject",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "BaseObject",
+                      "DefaultIncludeName": "base_object",
+                      "LibraryName": "coretypes",
+                      "Modifiers": "",
+                      "GenericArguments": null,
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": false,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    }
+                  ],
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": true,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Name": "parameters",
+                "DefaultValue": null,
+                "IsOutParam": false,
+                "IsOutPointer": false,
+                "IsConst": false,
+                "ArrayInfo": null,
+                "IsPolymorphic": false,
+                "IsStealRef": false,
+                "AllowNull": false,
+                "RawBuffer": null,
+                "IsInOutParam": false
+              }
+            ],
+            "ReturnType": {
+              "UnmappedName": "ErrCode",
+              "Namespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "UnmappedNamespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "Guid": "00000000-0000-0000-0000-000000000000",
+              "NonInterfaceName": "ErrCode",
+              "DefaultIncludeName": "err_code",
+              "LibraryName": "copendaq/signal",
+              "Modifiers": "",
+              "GenericArguments": null,
+              "IsGenericArgument": false,
+              "HasGenericArguments": false,
+              "PropertyClass": null,
+              "ControlTagName": null
+            },
+            "Property": null,
+            "Name": "setParameters",
+            "IsPure": true,
+            "IsIgnored": 0,
+            "ReturnSelf": true,
+            "OverloadFor": null,
+            "CallingConvention": "stdcall",
+            "Overloads": [
+              {
+                "Arguments": [
+                  {
+                    "Type": {
+                      "UnmappedName": "IDict",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "Dict",
+                      "DefaultIncludeName": "dict",
+                      "LibraryName": "coretypes",
+                      "Modifiers": "*",
+                      "GenericArguments": [
+                        {
+                          "UnmappedName": "IString",
+                          "Namespace": {
+                            "Raw": "daq",
+                            "Components": [
+                              "daq"
+                            ]
+                          },
+                          "UnmappedNamespace": {
+                            "Raw": "daq",
+                            "Components": [
+                              "daq"
+                            ]
+                          },
+                          "Guid": "00000000-0000-0000-0000-000000000000",
+                          "NonInterfaceName": "String",
+                          "DefaultIncludeName": "string",
+                          "LibraryName": "coretypes",
+                          "Modifiers": "",
+                          "GenericArguments": null,
+                          "IsGenericArgument": false,
+                          "HasGenericArguments": false,
+                          "PropertyClass": null,
+                          "ControlTagName": null
+                        },
+                        {
+                          "UnmappedName": "IBaseObject",
+                          "Namespace": {
+                            "Raw": "daq",
+                            "Components": [
+                              "daq"
+                            ]
+                          },
+                          "UnmappedNamespace": {
+                            "Raw": "daq",
+                            "Components": [
+                              "daq"
+                            ]
+                          },
+                          "Guid": "00000000-0000-0000-0000-000000000000",
+                          "NonInterfaceName": "BaseObject",
+                          "DefaultIncludeName": "base_object",
+                          "LibraryName": "coretypes",
+                          "Modifiers": "",
+                          "GenericArguments": null,
+                          "IsGenericArgument": false,
+                          "HasGenericArguments": false,
+                          "PropertyClass": null,
+                          "ControlTagName": null
+                        }
+                      ],
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": true,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    },
+                    "Name": "parameters",
+                    "DefaultValue": null,
+                    "IsOutParam": false,
+                    "IsOutPointer": false,
+                    "IsConst": false,
+                    "ArrayInfo": null,
+                    "IsPolymorphic": false,
+                    "IsStealRef": false,
+                    "AllowNull": false,
+                    "RawBuffer": null,
+                    "IsInOutParam": false
+                  }
+                ],
+                "ReturnType": {
+                  "UnmappedName": "ErrCode",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ErrCode",
+                  "DefaultIncludeName": "err_code",
+                  "LibraryName": "copendaq/signal",
+                  "Modifiers": "",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Type": 1,
+                "Tag": null
+              }
+            ],
+            "Documentation": {
+              "Brief": {
+                "TagIndex": 0,
+                "Lines": [
+                  {
+                    "FullText": "Gets the list of parameters that are used to calculate the scaling in conjunction with the",
+                    "Elements": [
+                      {
+                        "RawText": "Gets the list of parameters that are used to calculate the scaling in conjunction with the",
+                        "ElementType": 1
+                      }
+                    ]
+                  },
+                  {
+                    "FullText": "input data.",
+                    "Elements": [
+                      {
+                        "RawText": "input data.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 1,
+                "TagName": "brief",
+                "RawText": "* @brief Gets the list of parameters that are used to calculate the scaling in conjunction with the\n     * input data.\n",
+                "ElementType": 2
+              },
+              "Tags": [
+                {
+                  "ParamName": "parameters",
+                  "IsOut": false,
+                  "Lines": [
+                    {
+                      "FullText": "The list of parameters. All elements are Number types.",
+                      "Elements": [
+                        {
+                          "RawText": "The list of parameters. All elements are Number types.",
+                          "ElementType": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "TagType": 3,
+                  "TagName": "param",
+                  "RawText": "@param parameters The list of parameters. All elements are Number types.",
+                  "ElementType": 2
+                },
+                {
+                  "ReturnValue": "OPENDAQ_ERR_FROZEN",
+                  "Lines": [
+                    {
+                      "FullText": "if the object is frozen.",
+                      "Elements": [
+                        {
+                          "RawText": "if the object is frozen.",
+                          "ElementType": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "TagType": 5,
+                  "TagName": "retval",
+                  "RawText": "@retval OPENDAQ_ERR_FROZEN if the object is frozen.",
+                  "ElementType": 2
+                }
+              ],
+              "Description": null
+            }
+          }
+        }
+      ],
+      "Events": {},
+      "Documentation": {
+        "Brief": {
+          "TagIndex": 0,
+          "Lines": [
+            {
+              "FullText": "Configuration component of Scaling objects. Contains setter methods that allow for Scaling",
+              "Elements": [
+                {
+                  "RawText": "Configuration component of Scaling objects. Contains setter methods that allow for Scaling",
+                  "ElementType": 1
+                }
+              ]
+            },
+            {
+              "FullText": "parameter configuration, and a `build` method that builds the Scaling object.",
+              "Elements": [
+                {
+                  "RawText": "parameter configuration, and a `build` method that builds the Scaling object.",
+                  "ElementType": 1
+                }
+              ]
+            }
+          ],
+          "TagType": 1,
+          "TagName": "brief",
+          "RawText": "* @brief Configuration component of Scaling objects. Contains setter methods that allow for Scaling\n * parameter configuration, and a `build` method that builds the Scaling object.\n",
+          "ElementType": 2
+        },
+        "Tags": [],
+        "Description": null
+      }
+    }
+  ],
+  "GlobalMethods": [],
+  "TypeAliases": {},
+  "Includes": [],
+  "Factories": [
+    {
+      "Name": "createScalingBuilder",
+      "PrettyName": "ScalingBuilder",
+      "Tag": "",
+      "IsConstructorWithMultipleFactories": false,
+      "InterfaceName": "IScalingBuilder",
+      "Arguments": [
+        {
+          "Type": {
+            "UnmappedName": "IScalingBuilder",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ScalingBuilder",
+            "DefaultIncludeName": "scaling_builder",
+            "LibraryName": "copendaq/signal",
+            "Modifiers": "**",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Name": "obj",
+          "DefaultValue": null,
+          "IsOutParam": true,
+          "IsOutPointer": false,
+          "IsConst": false,
+          "ArrayInfo": null,
+          "IsPolymorphic": false,
+          "IsStealRef": false,
+          "AllowNull": false,
+          "RawBuffer": null,
+          "IsInOutParam": false
+        }
+      ],
+      "Options": 0,
+      "SpecificOptions": [],
+      "IsGeneric": false,
+      "Documentation": {
+        "Brief": {
+          "TagIndex": 0,
+          "Lines": [
+            {
+              "FullText": "Creates a Scaling builder object with no parameters configured.",
+              "Elements": [
+                {
+                  "RawText": "Creates a Scaling builder object with no parameters configured.",
+                  "ElementType": 1
+                }
+              ]
+            }
+          ],
+          "TagType": 1,
+          "TagName": "brief",
+          "RawText": "* @brief Creates a Scaling builder object with no parameters configured.\n",
+          "ElementType": 2
+        },
+        "Tags": [],
+        "Description": null
+      }
+    },
+    {
+      "Name": "createScalingBuilderFromExisting",
+      "PrettyName": "ScalingBuilderFromExisting",
+      "Tag": "FromExisting",
+      "IsConstructorWithMultipleFactories": false,
+      "InterfaceName": "IScalingBuilder",
+      "Arguments": [
+        {
+          "Type": {
+            "UnmappedName": "IScalingBuilder",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ScalingBuilder",
+            "DefaultIncludeName": "scaling_builder",
+            "LibraryName": "copendaq/signal",
+            "Modifiers": "**",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Name": "obj",
+          "DefaultValue": null,
+          "IsOutParam": true,
+          "IsOutPointer": false,
+          "IsConst": false,
+          "ArrayInfo": null,
+          "IsPolymorphic": false,
+          "IsStealRef": false,
+          "AllowNull": false,
+          "RawBuffer": null,
+          "IsInOutParam": false
+        },
+        {
+          "Type": {
+            "UnmappedName": "IScaling",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "b28b8e58-aaa3-5cfb-a2ee-d727dcc4eaa4",
+            "NonInterfaceName": "Scaling",
+            "DefaultIncludeName": "scaling",
+            "LibraryName": "copendaq/signal",
+            "Modifiers": "*",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Name": "scalingToCopy",
+          "DefaultValue": null,
+          "IsOutParam": false,
+          "IsOutPointer": false,
+          "IsConst": false,
+          "ArrayInfo": null,
+          "IsPolymorphic": false,
+          "IsStealRef": false,
+          "AllowNull": false,
+          "RawBuffer": null,
+          "IsInOutParam": false
+        }
+      ],
+      "Options": 0,
+      "SpecificOptions": [],
+      "IsGeneric": false,
+      "Documentation": {
+        "Brief": {
+          "TagIndex": 0,
+          "Lines": [
+            {
+              "FullText": "Scaling builder copy factory that creates a configurable Scaling object from a",
+              "Elements": [
+                {
+                  "RawText": "Scaling builder copy factory that creates a configurable Scaling object from a",
+                  "ElementType": 1
+                }
+              ]
+            },
+            {
+              "FullText": "non-configurable one.",
+              "Elements": [
+                {
+                  "RawText": "non-configurable one.",
+                  "ElementType": 1
+                }
+              ]
+            }
+          ],
+          "TagType": 1,
+          "TagName": "brief",
+          "RawText": "* @brief Scaling builder copy factory that creates a configurable Scaling object from a\n * non-configurable one.\n",
+          "ElementType": 2
+        },
+        "Tags": [
+          {
+            "ParamName": "scalingToCopy",
+            "IsOut": false,
+            "Lines": [
+              {
+                "FullText": "The scaling of which configuration should be copied.",
+                "Elements": [
+                  {
+                    "RawText": "The scaling of which configuration should be copied.",
+                    "ElementType": 1
+                  }
+                ]
+              }
+            ],
+            "TagType": 3,
+            "TagName": "param",
+            "RawText": "@param scalingToCopy The scaling of which configuration should be copied.",
+            "ElementType": 2
+          }
+        ],
+        "Description": null
+      }
+    }
+  ],
+  "StartNamespaceMacro": "BEGIN_NAMESPACE_OPENDAQ",
+  "EndNamespaceMacro": "END_NAMESPACE_OPENDAQ",
+  "SourceFileName": "scaling_builder.h",
+  "AttributeInfo": [
+    {
+      "Key": "include",
+      "Value": [
+        {
+          "Name": "include",
+          "Arguments": [
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "ISampleType",
+              "Type": null,
+              "TypeInfo": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Key": "interfaceLibrary",
+      "Value": [
+        {
+          "Name": "interfaceLibrary",
+          "Arguments": [
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "INumber",
+              "Type": null,
+              "TypeInfo": null
+            },
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "CoreTypes",
+              "Type": null,
+              "TypeInfo": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Key": "returnSelf",
+      "Value": [
+        {
+          "Name": "returnSelf",
+          "Arguments": []
+        },
+        {
+          "Name": "returnSelf",
+          "Arguments": []
+        },
+        {
+          "Name": "returnSelf",
+          "Arguments": []
+        },
+        {
+          "Name": "returnSelf",
+          "Arguments": []
+        },
+        {
+          "Name": "returnSelf",
+          "Arguments": []
+        },
+        {
+          "Name": "returnSelf",
+          "Arguments": []
+        }
+      ]
+    },
+    {
+      "Key": "templateType",
+      "Value": [
+        {
+          "Name": "templateType",
+          "Arguments": [
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "parameters",
+              "Type": null,
+              "TypeInfo": null
+            },
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "IString",
+              "Type": null,
+              "TypeInfo": null
+            },
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "IBaseObject",
+              "Type": null,
+              "TypeInfo": null
+            }
+          ]
+        },
+        {
+          "Name": "templateType",
+          "Arguments": [
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "parameters",
+              "Type": null,
+              "TypeInfo": null
+            },
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "IString",
+              "Type": null,
+              "TypeInfo": null
+            },
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "IBaseObject",
+              "Type": null,
+              "TypeInfo": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "AdditionalFeatures": 0,
+  "Tag": null,
+  "LeadingDocumentation": [
+    {
+      "Brief": null,
+      "Tags": [
+        {
+          "Lines": [
+            {
+              "FullText": "opendaq_data_descriptor",
+              "Elements": [
+                {
+                  "RawText": "opendaq_data_descriptor",
+                  "ElementType": 1
+                }
+              ]
+            }
+          ],
+          "TagType": 0,
+          "TagName": "ingroup",
+          "RawText": "@ingroup opendaq_data_descriptor",
+          "ElementType": 2
+        },
+        {
+          "Lines": [
+            {
+              "FullText": "opendaq_scaling Scaling",
+              "Elements": [
+                {
+                  "RawText": "opendaq_scaling Scaling",
+                  "ElementType": 1
+                }
+              ]
+            }
+          ],
+          "TagType": 0,
+          "TagName": "addtogroup",
+          "RawText": "@addtogroup opendaq_scaling Scaling",
+          "ElementType": 2
+        },
+        {
+          "TagType": 8,
+          "TagName": "@{",
+          "RawText": "* @{\n",
+          "ElementType": 2
+        }
+      ],
+      "Description": null
+    }
+  ],
+  "TrailingDocumentation": [
+    {
+      "Brief": null,
+      "Tags": [
+        {
+          "TagType": 8,
+          "TagName": "@}",
+          "RawText": "@}",
+          "ElementType": 2
+        }
+      ],
+      "Description": null
+    },
+    {
+      "Brief": null,
+      "Tags": [
+        {
+          "Lines": [
+            {
+              "FullText": "opendaq_scaling",
+              "Elements": [
+                {
+                  "RawText": "opendaq_scaling",
+                  "ElementType": 1
+                }
+              ]
+            }
+          ],
+          "TagType": 0,
+          "TagName": "ingroup",
+          "RawText": "@ingroup opendaq_scaling",
+          "ElementType": 2
+        },
+        {
+          "Lines": [
+            {
+              "FullText": "opendaq_scaling_factories Factories",
+              "Elements": [
+                {
+                  "RawText": "opendaq_scaling_factories Factories",
+                  "ElementType": 1
+                }
+              ]
+            }
+          ],
+          "TagType": 0,
+          "TagName": "addtogroup",
+          "RawText": "@addtogroup opendaq_scaling_factories Factories",
+          "ElementType": 2
+        },
+        {
+          "TagType": 8,
+          "TagName": "@{",
+          "RawText": "* @{\n",
+          "ElementType": 2
+        }
+      ],
+      "Description": null
+    },
+    {
+      "Brief": null,
+      "Tags": [
+        {
+          "TagType": 8,
+          "TagName": "@}",
+          "RawText": "@}",
+          "ElementType": 2
+        }
+      ],
+      "Description": null
+    }
+  ]
+}

@@ -1,0 +1,1351 @@
+{
+  "Variables": [],
+  "Enums": [],
+  "Classes": [
+    {
+      "Type": {
+        "UnmappedName": "ITask",
+        "Namespace": {
+          "Raw": "daq",
+          "Components": [
+            "daq"
+          ]
+        },
+        "UnmappedNamespace": {
+          "Raw": "daq",
+          "Components": [
+            "daq"
+          ]
+        },
+        "Guid": "a493dcec-e457-5022-8f9d-8c233e5a63dc",
+        "NonInterfaceName": "Task",
+        "DefaultIncludeName": "task",
+        "LibraryName": "copendaq/scheduler",
+        "Modifiers": "*",
+        "GenericArguments": null,
+        "IsGenericArgument": false,
+        "HasGenericArguments": false,
+        "PropertyClass": null,
+        "ControlTagName": null
+      },
+      "BaseType": {
+        "UnmappedName": "IBaseObject",
+        "Namespace": {
+          "Raw": "daq",
+          "Components": [
+            "daq"
+          ]
+        },
+        "UnmappedNamespace": {
+          "Raw": "daq",
+          "Components": [
+            "daq"
+          ]
+        },
+        "Guid": "00000000-0000-0000-0000-000000000000",
+        "NonInterfaceName": "BaseObject",
+        "DefaultIncludeName": "base_object",
+        "LibraryName": "coretypes",
+        "Modifiers": "",
+        "GenericArguments": null,
+        "IsGenericArgument": false,
+        "HasGenericArguments": false,
+        "PropertyClass": null,
+        "ControlTagName": null
+      },
+      "Methods": [
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "IString",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "String",
+                "DefaultIncludeName": "string",
+                "LibraryName": "coretypes",
+                "Modifiers": "**",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "name",
+              "DefaultValue": null,
+              "IsOutParam": true,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/scheduler",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "getName",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "IString",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "String",
+                    "DefaultIncludeName": "string",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "**",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "name",
+                  "DefaultValue": null,
+                  "IsOutParam": true,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/scheduler",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Gets the task name.",
+                  "Elements": [
+                    {
+                      "RawText": "Gets the task name.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Gets the task name.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "name",
+                "IsOut": true,
+                "Lines": [
+                  {
+                    "FullText": "The task name.",
+                    "Elements": [
+                      {
+                        "RawText": "The task name.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param[out] name The task name.",
+                "ElementType": 2
+              }
+            ],
+            "Description": null
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "IString",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "String",
+                "DefaultIncludeName": "string",
+                "LibraryName": "coretypes",
+                "Modifiers": "*",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "name",
+              "DefaultValue": null,
+              "IsOutParam": false,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/scheduler",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "setName",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "IString",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "String",
+                    "DefaultIncludeName": "string",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "*",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "name",
+                  "DefaultValue": null,
+                  "IsOutParam": false,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/scheduler",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Sets the task name that is used in diagnostics.",
+                  "Elements": [
+                    {
+                      "RawText": "Sets the task name that is used in diagnostics.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Sets the task name that is used in diagnostics.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "name",
+                "IsOut": false,
+                "Lines": [
+                  {
+                    "FullText": "The new task name.",
+                    "Elements": [
+                      {
+                        "RawText": "The new task name.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param name The new task name.",
+                "ElementType": 2
+              }
+            ],
+            "Description": null
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "ITask",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "Task",
+                "DefaultIncludeName": "task",
+                "LibraryName": "copendaq/scheduler",
+                "Modifiers": "*",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "continuation",
+              "DefaultValue": null,
+              "IsOutParam": false,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/scheduler",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "then",
+          "IsPure": true,
+          "IsIgnored": 2,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "ITask",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "Task",
+                    "DefaultIncludeName": "task",
+                    "LibraryName": "copendaq/scheduler",
+                    "Modifiers": "*",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "continuation",
+                  "DefaultValue": null,
+                  "IsOutParam": false,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/scheduler",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Sets the continuation to only execute after this task completes.",
+                  "Elements": [
+                    {
+                      "RawText": "Sets the continuation to only execute after this task completes.",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "Be careful of forming cycles as tasks whose dependencies cannot be satisfied will never execute.",
+                  "Elements": [
+                    {
+                      "RawText": "Be careful of forming cycles as tasks whose dependencies cannot be satisfied will never execute.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Sets the continuation to only execute after this task completes.\n     * Be careful of forming cycles as tasks whose dependencies cannot be satisfied will never execute.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "continuation",
+                "IsOut": false,
+                "Lines": [
+                  {
+                    "FullText": "The task that should wait for this one to complete.",
+                    "Elements": [
+                      {
+                        "RawText": "The task that should wait for this one to complete.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param continuation The task that should wait for this one to complete.",
+                "ElementType": 2
+              },
+              {
+                "ReturnValue": "OPENDAQ_ERR_NOT_SUPPORTED",
+                "Lines": [
+                  {
+                    "FullText": "If the @p continuation implementation was not crated by the scheduler library.",
+                    "Elements": [
+                      {
+                        "RawText": "If the",
+                        "ElementType": 1
+                      },
+                      {
+                        "ParamName": "continuation",
+                        "TagType": 4,
+                        "TagName": "p",
+                        "RawText": "@p continuation",
+                        "ElementType": 2
+                      },
+                      {
+                        "RawText": "implementation was not crated by the scheduler library.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 5,
+                "TagName": "retval",
+                "RawText": "@retval OPENDAQ_ERR_NOT_SUPPORTED If the @p continuation implementation was not crated by the scheduler library.",
+                "ElementType": 2
+              }
+            ],
+            "Description": null
+          }
+        }
+      ],
+      "GetSet": [
+        {
+          "Name": "Name",
+          "Getter": {
+            "Modifiers": [
+              "virtual"
+            ],
+            "Arguments": [
+              {
+                "Type": {
+                  "UnmappedName": "IString",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "String",
+                  "DefaultIncludeName": "string",
+                  "LibraryName": "coretypes",
+                  "Modifiers": "**",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Name": "name",
+                "DefaultValue": null,
+                "IsOutParam": true,
+                "IsOutPointer": false,
+                "IsConst": false,
+                "ArrayInfo": null,
+                "IsPolymorphic": false,
+                "IsStealRef": false,
+                "AllowNull": false,
+                "RawBuffer": null,
+                "IsInOutParam": false
+              }
+            ],
+            "ReturnType": {
+              "UnmappedName": "ErrCode",
+              "Namespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "UnmappedNamespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "Guid": "00000000-0000-0000-0000-000000000000",
+              "NonInterfaceName": "ErrCode",
+              "DefaultIncludeName": "err_code",
+              "LibraryName": "copendaq/scheduler",
+              "Modifiers": "",
+              "GenericArguments": null,
+              "IsGenericArgument": false,
+              "HasGenericArguments": false,
+              "PropertyClass": null,
+              "ControlTagName": null
+            },
+            "Property": null,
+            "Name": "getName",
+            "IsPure": true,
+            "IsIgnored": 0,
+            "ReturnSelf": false,
+            "OverloadFor": null,
+            "CallingConvention": "stdcall",
+            "Overloads": [
+              {
+                "Arguments": [
+                  {
+                    "Type": {
+                      "UnmappedName": "IString",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "String",
+                      "DefaultIncludeName": "string",
+                      "LibraryName": "coretypes",
+                      "Modifiers": "**",
+                      "GenericArguments": null,
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": false,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    },
+                    "Name": "name",
+                    "DefaultValue": null,
+                    "IsOutParam": true,
+                    "IsOutPointer": false,
+                    "IsConst": false,
+                    "ArrayInfo": null,
+                    "IsPolymorphic": false,
+                    "IsStealRef": false,
+                    "AllowNull": false,
+                    "RawBuffer": null,
+                    "IsInOutParam": false
+                  }
+                ],
+                "ReturnType": {
+                  "UnmappedName": "ErrCode",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ErrCode",
+                  "DefaultIncludeName": "err_code",
+                  "LibraryName": "copendaq/scheduler",
+                  "Modifiers": "",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Type": 1,
+                "Tag": null
+              }
+            ],
+            "Documentation": {
+              "Brief": {
+                "TagIndex": 0,
+                "Lines": [
+                  {
+                    "FullText": "Gets the task name.",
+                    "Elements": [
+                      {
+                        "RawText": "Gets the task name.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 1,
+                "TagName": "brief",
+                "RawText": "* @brief Gets the task name.\n",
+                "ElementType": 2
+              },
+              "Tags": [
+                {
+                  "ParamName": "name",
+                  "IsOut": true,
+                  "Lines": [
+                    {
+                      "FullText": "The task name.",
+                      "Elements": [
+                        {
+                          "RawText": "The task name.",
+                          "ElementType": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "TagType": 3,
+                  "TagName": "param",
+                  "RawText": "@param[out] name The task name.",
+                  "ElementType": 2
+                }
+              ],
+              "Description": null
+            }
+          },
+          "Setter": {
+            "Modifiers": [
+              "virtual"
+            ],
+            "Arguments": [
+              {
+                "Type": {
+                  "UnmappedName": "IString",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "String",
+                  "DefaultIncludeName": "string",
+                  "LibraryName": "coretypes",
+                  "Modifiers": "*",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Name": "name",
+                "DefaultValue": null,
+                "IsOutParam": false,
+                "IsOutPointer": false,
+                "IsConst": false,
+                "ArrayInfo": null,
+                "IsPolymorphic": false,
+                "IsStealRef": false,
+                "AllowNull": false,
+                "RawBuffer": null,
+                "IsInOutParam": false
+              }
+            ],
+            "ReturnType": {
+              "UnmappedName": "ErrCode",
+              "Namespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "UnmappedNamespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "Guid": "00000000-0000-0000-0000-000000000000",
+              "NonInterfaceName": "ErrCode",
+              "DefaultIncludeName": "err_code",
+              "LibraryName": "copendaq/scheduler",
+              "Modifiers": "",
+              "GenericArguments": null,
+              "IsGenericArgument": false,
+              "HasGenericArguments": false,
+              "PropertyClass": null,
+              "ControlTagName": null
+            },
+            "Property": null,
+            "Name": "setName",
+            "IsPure": true,
+            "IsIgnored": 0,
+            "ReturnSelf": false,
+            "OverloadFor": null,
+            "CallingConvention": "stdcall",
+            "Overloads": [
+              {
+                "Arguments": [
+                  {
+                    "Type": {
+                      "UnmappedName": "IString",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "String",
+                      "DefaultIncludeName": "string",
+                      "LibraryName": "coretypes",
+                      "Modifiers": "*",
+                      "GenericArguments": null,
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": false,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    },
+                    "Name": "name",
+                    "DefaultValue": null,
+                    "IsOutParam": false,
+                    "IsOutPointer": false,
+                    "IsConst": false,
+                    "ArrayInfo": null,
+                    "IsPolymorphic": false,
+                    "IsStealRef": false,
+                    "AllowNull": false,
+                    "RawBuffer": null,
+                    "IsInOutParam": false
+                  }
+                ],
+                "ReturnType": {
+                  "UnmappedName": "ErrCode",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ErrCode",
+                  "DefaultIncludeName": "err_code",
+                  "LibraryName": "copendaq/scheduler",
+                  "Modifiers": "",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Type": 1,
+                "Tag": null
+              }
+            ],
+            "Documentation": {
+              "Brief": {
+                "TagIndex": 0,
+                "Lines": [
+                  {
+                    "FullText": "Sets the task name that is used in diagnostics.",
+                    "Elements": [
+                      {
+                        "RawText": "Sets the task name that is used in diagnostics.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 1,
+                "TagName": "brief",
+                "RawText": "* @brief Sets the task name that is used in diagnostics.\n",
+                "ElementType": 2
+              },
+              "Tags": [
+                {
+                  "ParamName": "name",
+                  "IsOut": false,
+                  "Lines": [
+                    {
+                      "FullText": "The new task name.",
+                      "Elements": [
+                        {
+                          "RawText": "The new task name.",
+                          "ElementType": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "TagType": 3,
+                  "TagName": "param",
+                  "RawText": "@param name The new task name.",
+                  "ElementType": 2
+                }
+              ],
+              "Description": null
+            }
+          }
+        }
+      ],
+      "Events": {},
+      "Documentation": {
+        "Brief": {
+          "TagIndex": 0,
+          "Lines": [
+            {
+              "FullText": "A packaged callback with possible continuations and dependencies that can",
+              "Elements": [
+                {
+                  "RawText": "A packaged callback with possible continuations and dependencies that can",
+                  "ElementType": 1
+                }
+              ]
+            },
+            {
+              "FullText": "be arranged in a dependency graph (directed acyclic graph). The task is not executed directly but only",
+              "Elements": [
+                {
+                  "RawText": "be arranged in a dependency graph (directed acyclic graph). The task is not executed directly but only",
+                  "ElementType": 1
+                }
+              ]
+            },
+            {
+              "FullText": "when the graph is scheduled for execution and all dependencies have been satisfied.",
+              "Elements": [
+                {
+                  "RawText": "when the graph is scheduled for execution and all dependencies have been satisfied.",
+                  "ElementType": 1
+                }
+              ]
+            }
+          ],
+          "TagType": 1,
+          "TagName": "brief",
+          "RawText": "*  @brief A packaged callback with possible continuations and dependencies that can\n *  be arranged in a dependency graph (directed acyclic graph). The task is not executed directly but only\n *  when the graph is scheduled for execution and all dependencies have been satisfied.\n",
+          "ElementType": 2
+        },
+        "Tags": [],
+        "Description": null
+      }
+    }
+  ],
+  "GlobalMethods": [],
+  "TypeAliases": {},
+  "Includes": [],
+  "Factories": [
+    {
+      "Name": "createTask",
+      "PrettyName": "Task",
+      "Tag": "",
+      "IsConstructorWithMultipleFactories": false,
+      "InterfaceName": "ITask",
+      "Arguments": [
+        {
+          "Type": {
+            "UnmappedName": "ITask",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "Task",
+            "DefaultIncludeName": "task",
+            "LibraryName": "copendaq/scheduler",
+            "Modifiers": "**",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Name": "obj",
+          "DefaultValue": null,
+          "IsOutParam": true,
+          "IsOutPointer": false,
+          "IsConst": false,
+          "ArrayInfo": null,
+          "IsPolymorphic": false,
+          "IsStealRef": false,
+          "AllowNull": false,
+          "RawBuffer": null,
+          "IsInOutParam": false
+        },
+        {
+          "Type": {
+            "UnmappedName": "IProcedure",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "36247e6d-6bdd-5964-857d-0fd296eeb5c3",
+            "NonInterfaceName": "Procedure",
+            "DefaultIncludeName": "procedure",
+            "LibraryName": "coretypes",
+            "Modifiers": "*",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Name": "work",
+          "DefaultValue": null,
+          "IsOutParam": false,
+          "IsOutPointer": false,
+          "IsConst": false,
+          "ArrayInfo": null,
+          "IsPolymorphic": false,
+          "IsStealRef": false,
+          "AllowNull": false,
+          "RawBuffer": null,
+          "IsInOutParam": false
+        },
+        {
+          "Type": {
+            "UnmappedName": "IString",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "d2ed1120-f7ff-556f-a98d-3f3edf1a3874",
+            "NonInterfaceName": "String",
+            "DefaultIncludeName": "string",
+            "LibraryName": "coretypes",
+            "Modifiers": "*",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Name": "name",
+          "DefaultValue": null,
+          "IsOutParam": false,
+          "IsOutPointer": false,
+          "IsConst": false,
+          "ArrayInfo": null,
+          "IsPolymorphic": false,
+          "IsStealRef": false,
+          "AllowNull": false,
+          "RawBuffer": null,
+          "IsInOutParam": false
+        }
+      ],
+      "Options": 0,
+      "SpecificOptions": [],
+      "IsGeneric": false,
+      "Documentation": {
+        "Brief": null,
+        "Tags": [
+          {
+            "TagType": 8,
+            "TagName": "@}",
+            "RawText": "@}",
+            "ElementType": 2
+          }
+        ],
+        "Description": null
+      }
+    }
+  ],
+  "StartNamespaceMacro": "BEGIN_NAMESPACE_OPENDAQ",
+  "EndNamespaceMacro": "END_NAMESPACE_OPENDAQ",
+  "SourceFileName": "task.h",
+  "AttributeInfo": [
+    {
+      "Key": "templated",
+      "Value": [
+        {
+          "Name": "templated",
+          "Arguments": [
+            {
+              "IsNamedParameter": true,
+              "Name": "defaultAliasName",
+              "Value": "TaskPtr",
+              "Type": null,
+              "TypeInfo": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Key": "interfaceSmartPtr",
+      "Value": [
+        {
+          "Name": "interfaceSmartPtr",
+          "Arguments": [
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "ITask",
+              "Type": null,
+              "TypeInfo": null
+            },
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "GenericTaskPtr",
+              "Type": null,
+              "TypeInfo": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Key": "ignore",
+      "Value": [
+        {
+          "Name": "ignore",
+          "Arguments": [
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "Wrapper",
+              "Type": null,
+              "TypeInfo": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "AdditionalFeatures": 0,
+  "Tag": null,
+  "LeadingDocumentation": [
+    {
+      "Brief": null,
+      "Tags": [
+        {
+          "Lines": [
+            {
+              "FullText": "opendaq_scheduler_components",
+              "Elements": [
+                {
+                  "RawText": "opendaq_scheduler_components",
+                  "ElementType": 1
+                }
+              ]
+            }
+          ],
+          "TagType": 0,
+          "TagName": "ingroup",
+          "RawText": "@ingroup opendaq_scheduler_components",
+          "ElementType": 2
+        },
+        {
+          "Lines": [
+            {
+              "FullText": "opendaq_task Task",
+              "Elements": [
+                {
+                  "RawText": "opendaq_task Task",
+                  "ElementType": 1
+                }
+              ]
+            }
+          ],
+          "TagType": 0,
+          "TagName": "addtogroup",
+          "RawText": "@addtogroup opendaq_task Task",
+          "ElementType": 2
+        },
+        {
+          "TagType": 8,
+          "TagName": "@{",
+          "RawText": "* @{\n",
+          "ElementType": 2
+        }
+      ],
+      "Description": null
+    }
+  ],
+  "TrailingDocumentation": []
+}

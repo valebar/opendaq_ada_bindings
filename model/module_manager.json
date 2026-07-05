@@ -1,0 +1,3068 @@
+{
+  "Variables": [],
+  "Enums": [],
+  "Classes": [
+    {
+      "Type": {
+        "UnmappedName": "IModuleManager",
+        "Namespace": {
+          "Raw": "daq",
+          "Components": [
+            "daq"
+          ]
+        },
+        "UnmappedNamespace": {
+          "Raw": "daq",
+          "Components": [
+            "daq"
+          ]
+        },
+        "Guid": "481bd26b-5962-5776-bb79-f85976723dab",
+        "NonInterfaceName": "ModuleManager",
+        "DefaultIncludeName": "module_manager",
+        "LibraryName": "copendaq/modulemanager",
+        "Modifiers": "*",
+        "GenericArguments": null,
+        "IsGenericArgument": false,
+        "HasGenericArguments": false,
+        "PropertyClass": null,
+        "ControlTagName": null
+      },
+      "BaseType": {
+        "UnmappedName": "IBaseObject",
+        "Namespace": {
+          "Raw": "daq",
+          "Components": [
+            "daq"
+          ]
+        },
+        "UnmappedNamespace": {
+          "Raw": "daq",
+          "Components": [
+            "daq"
+          ]
+        },
+        "Guid": "00000000-0000-0000-0000-000000000000",
+        "NonInterfaceName": "BaseObject",
+        "DefaultIncludeName": "base_object",
+        "LibraryName": "coretypes",
+        "Modifiers": "",
+        "GenericArguments": null,
+        "IsGenericArgument": false,
+        "HasGenericArguments": false,
+        "PropertyClass": null,
+        "ControlTagName": null
+      },
+      "Methods": [
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "IList",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "List",
+                "DefaultIncludeName": "list",
+                "LibraryName": "coretypes",
+                "Modifiers": "**",
+                "GenericArguments": [
+                  {
+                    "UnmappedName": "IModule",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "Module",
+                    "DefaultIncludeName": "module",
+                    "LibraryName": "copendaq/modulemanager",
+                    "Modifiers": null,
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  }
+                ],
+                "IsGenericArgument": false,
+                "HasGenericArguments": true,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "modules",
+              "DefaultValue": null,
+              "IsOutParam": true,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/modulemanager",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "getModules",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "IList",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "List",
+                    "DefaultIncludeName": "list",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "**",
+                    "GenericArguments": [
+                      {
+                        "UnmappedName": "IModule",
+                        "Namespace": {
+                          "Raw": "daq",
+                          "Components": [
+                            "daq"
+                          ]
+                        },
+                        "UnmappedNamespace": {
+                          "Raw": "daq",
+                          "Components": [
+                            "daq"
+                          ]
+                        },
+                        "Guid": "00000000-0000-0000-0000-000000000000",
+                        "NonInterfaceName": "Module",
+                        "DefaultIncludeName": "module",
+                        "LibraryName": "copendaq/modulemanager",
+                        "Modifiers": null,
+                        "GenericArguments": null,
+                        "IsGenericArgument": false,
+                        "HasGenericArguments": false,
+                        "PropertyClass": null,
+                        "ControlTagName": null
+                      }
+                    ],
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": true,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "modules",
+                  "DefaultValue": null,
+                  "IsOutParam": true,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/modulemanager",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Retrieves all modules known to the manager. Whether they were found or side-loaded.",
+                  "Elements": [
+                    {
+                      "RawText": "Retrieves all modules known to the manager. Whether they were found or side-loaded.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Retrieves all modules known to the manager. Whether they were found or side-loaded.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "modules",
+                "IsOut": true,
+                "Lines": [
+                  {
+                    "FullText": "A list of known modules.",
+                    "Elements": [
+                      {
+                        "RawText": "A list of known modules.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param[out] modules A list of known modules.",
+                "ElementType": 2
+              }
+            ],
+            "Description": null
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "IModule",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "Module",
+                "DefaultIncludeName": "module",
+                "LibraryName": "copendaq/modulemanager",
+                "Modifiers": "*",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "module",
+              "DefaultValue": null,
+              "IsOutParam": false,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/modulemanager",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "addModule",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "IModule",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "Module",
+                    "DefaultIncludeName": "module",
+                    "LibraryName": "copendaq/modulemanager",
+                    "Modifiers": "*",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "module",
+                  "DefaultValue": null,
+                  "IsOutParam": false,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/modulemanager",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Side-load a custom module in run-time from memory that was not found by default.",
+                  "Elements": [
+                    {
+                      "RawText": "Side-load a custom module in run-time from memory that was not found by default.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Side-load a custom module in run-time from memory that was not found by default.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "module",
+                "IsOut": false,
+                "Lines": [
+                  {
+                    "FullText": "The module to add.",
+                    "Elements": [
+                      {
+                        "RawText": "The module to add.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param module The module to add.",
+                "ElementType": 2
+              },
+              {
+                "ReturnValue": "OPENDAQ_ERR_DUPLICATEITEM",
+                "Lines": [
+                  {
+                    "FullText": "When an identical @p module was already added.",
+                    "Elements": [
+                      {
+                        "RawText": "When an identical",
+                        "ElementType": 1
+                      },
+                      {
+                        "ParamName": "module",
+                        "TagType": 4,
+                        "TagName": "p",
+                        "RawText": "@p module",
+                        "ElementType": 2
+                      },
+                      {
+                        "RawText": "was already added.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 5,
+                "TagName": "retval",
+                "RawText": "@retval OPENDAQ_ERR_DUPLICATEITEM When an identical @p module was already added.",
+                "ElementType": 2
+              }
+            ],
+            "Description": null
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "IContext",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "Context",
+                "DefaultIncludeName": "context",
+                "LibraryName": "copendaq/modulemanager",
+                "Modifiers": "*",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "context",
+              "DefaultValue": null,
+              "IsOutParam": false,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/modulemanager",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "loadModules",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "IContext",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "Context",
+                    "DefaultIncludeName": "context",
+                    "LibraryName": "copendaq/modulemanager",
+                    "Modifiers": "*",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "context",
+                  "DefaultValue": null,
+                  "IsOutParam": false,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/modulemanager",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Loads all modules from the directory path specified during manager construction. The",
+                  "Elements": [
+                    {
+                      "RawText": "Loads all modules from the directory path specified during manager construction. The",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "Context is passed to all loaded modules for internal use.",
+                  "Elements": [
+                    {
+                      "RawText": "Context is passed to all loaded modules for internal use.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Loads all modules from the directory path specified during manager construction. The\n     * Context is passed to all loaded modules for internal use.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "context",
+                "IsOut": false,
+                "Lines": [
+                  {
+                    "FullText": "The Context containing the Logger, Scheduler, Property Object Class Manager and Module Manager",
+                    "Elements": [
+                      {
+                        "RawText": "The Context containing the Logger, Scheduler, Property Object Class Manager and Module Manager",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param context The Context containing the Logger, Scheduler, Property Object Class Manager and Module Manager",
+                "ElementType": 2
+              }
+            ],
+            "Description": null
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "IString",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "String",
+                "DefaultIncludeName": "string",
+                "LibraryName": "coretypes",
+                "Modifiers": "*",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "path",
+              "DefaultValue": null,
+              "IsOutParam": false,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            },
+            {
+              "Type": {
+                "UnmappedName": "IModule",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "Module",
+                "DefaultIncludeName": "module",
+                "LibraryName": "copendaq/modulemanager",
+                "Modifiers": "**",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "module",
+              "DefaultValue": null,
+              "IsOutParam": true,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/modulemanager",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "loadModule",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "IString",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "String",
+                    "DefaultIncludeName": "string",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "*",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "path",
+                  "DefaultValue": null,
+                  "IsOutParam": false,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                },
+                {
+                  "Type": {
+                    "UnmappedName": "IModule",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "Module",
+                    "DefaultIncludeName": "module",
+                    "LibraryName": "copendaq/modulemanager",
+                    "Modifiers": "**",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "module",
+                  "DefaultValue": null,
+                  "IsOutParam": true,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/modulemanager",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Loads and adds a single module from the given absolute file system path.",
+                  "Elements": [
+                    {
+                      "RawText": "Loads and adds a single module from the given absolute file system path.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Loads and adds a single module from the given absolute file system path.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "path",
+                "IsOut": false,
+                "Lines": [
+                  {
+                    "FullText": "The absolute path to the module file.",
+                    "Elements": [
+                      {
+                        "RawText": "The absolute path to the module file.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param path The absolute path to the module file.",
+                "ElementType": 2
+              },
+              {
+                "ParamName": "module",
+                "IsOut": true,
+                "Lines": [
+                  {
+                    "FullText": "The resulting loaded and added module object.",
+                    "Elements": [
+                      {
+                        "RawText": "The resulting loaded and added module object.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param[out] module The resulting loaded and added module object.",
+                "ElementType": 2
+              }
+            ],
+            "Description": {
+              "TagIndex": 3,
+              "Lines": [
+                {
+                  "FullText": "",
+                  "Elements": [
+                    {
+                      "RawText": "",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "This function should be used only after the default modules have been loaded using `loadModules`.",
+                  "Elements": [
+                    {
+                      "RawText": "This function should be used only after the default modules have been loaded using `loadModules`.",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "The specified path must exist and reference a file with the proper extension.",
+                  "Elements": [
+                    {
+                      "RawText": "The specified path must exist and reference a file with the proper extension.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 7,
+              "TagName": "",
+              "RawText": "*\n     * This function should be used only after the default modules have been loaded using `loadModules`.\n     * The specified path must exist and reference a file with the proper extension.\n",
+              "ElementType": 2
+            }
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "Bool",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "Bool",
+                "DefaultIncludeName": "bool",
+                "LibraryName": "coretypes",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "authenticatedOnly",
+              "DefaultValue": null,
+              "IsOutParam": false,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/modulemanager",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "setAuthenticatedOnly",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "Bool",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "Bool",
+                    "DefaultIncludeName": "bool",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "authenticatedOnly",
+                  "DefaultValue": null,
+                  "IsOutParam": false,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/modulemanager",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Toggle whether this module manager will only load modules that can be authenticated.",
+                  "Elements": [
+                    {
+                      "RawText": "Toggle whether this module manager will only load modules that can be authenticated.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Toggle whether this module manager will only load modules that can be authenticated.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "authenticatedOnly",
+                "IsOut": false,
+                "Lines": [
+                  {
+                    "FullText": "true - only authenticated modules are loaded, false - all modules are loaded",
+                    "Elements": [
+                      {
+                        "RawText": "true - only authenticated modules are loaded, false - all modules are loaded",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param authenticatedOnly true - only authenticated modules are loaded, false - all modules are loaded",
+                "ElementType": 2
+              }
+            ],
+            "Description": null
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "IModuleAuthenticator",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ModuleAuthenticator",
+                "DefaultIncludeName": "module_authenticator",
+                "LibraryName": "copendaq/modulemanager",
+                "Modifiers": "*",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "authenticator",
+              "DefaultValue": null,
+              "IsOutParam": false,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/modulemanager",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "setModuleAuthenticator",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "IModuleAuthenticator",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "ModuleAuthenticator",
+                    "DefaultIncludeName": "module_authenticator",
+                    "LibraryName": "copendaq/modulemanager",
+                    "Modifiers": "*",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "authenticator",
+                  "DefaultValue": null,
+                  "IsOutParam": false,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/modulemanager",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Imports the module authenticator.",
+                  "Elements": [
+                    {
+                      "RawText": "Imports the module authenticator.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Imports the module authenticator.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "authenticator",
+                "IsOut": false,
+                "Lines": [
+                  {
+                    "FullText": "A custom authenticator used to verify the signature/checksum of the modules.",
+                    "Elements": [
+                      {
+                        "RawText": "A custom authenticator used to verify the signature/checksum of the modules.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param authenticator A custom authenticator used to verify the signature/checksum of the modules.",
+                "ElementType": 2
+              }
+            ],
+            "Description": null
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "IDict",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "Dict",
+                "DefaultIncludeName": "dict",
+                "LibraryName": "coretypes",
+                "Modifiers": "**",
+                "GenericArguments": [
+                  {
+                    "UnmappedName": "IString",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "String",
+                    "DefaultIncludeName": "string",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  {
+                    "UnmappedName": "IString",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "String",
+                    "DefaultIncludeName": "string",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  }
+                ],
+                "IsGenericArgument": false,
+                "HasGenericArguments": true,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "vendorKeys",
+              "DefaultValue": null,
+              "IsOutParam": true,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "copendaq/modulemanager",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "getVendorKeys",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "IDict",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "Dict",
+                    "DefaultIncludeName": "dict",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "**",
+                    "GenericArguments": [
+                      {
+                        "UnmappedName": "IString",
+                        "Namespace": {
+                          "Raw": "daq",
+                          "Components": [
+                            "daq"
+                          ]
+                        },
+                        "UnmappedNamespace": {
+                          "Raw": "daq",
+                          "Components": [
+                            "daq"
+                          ]
+                        },
+                        "Guid": "00000000-0000-0000-0000-000000000000",
+                        "NonInterfaceName": "String",
+                        "DefaultIncludeName": "string",
+                        "LibraryName": "coretypes",
+                        "Modifiers": "",
+                        "GenericArguments": null,
+                        "IsGenericArgument": false,
+                        "HasGenericArguments": false,
+                        "PropertyClass": null,
+                        "ControlTagName": null
+                      },
+                      {
+                        "UnmappedName": "IString",
+                        "Namespace": {
+                          "Raw": "daq",
+                          "Components": [
+                            "daq"
+                          ]
+                        },
+                        "UnmappedNamespace": {
+                          "Raw": "daq",
+                          "Components": [
+                            "daq"
+                          ]
+                        },
+                        "Guid": "00000000-0000-0000-0000-000000000000",
+                        "NonInterfaceName": "String",
+                        "DefaultIncludeName": "string",
+                        "LibraryName": "coretypes",
+                        "Modifiers": "",
+                        "GenericArguments": null,
+                        "IsGenericArgument": false,
+                        "HasGenericArguments": false,
+                        "PropertyClass": null,
+                        "ControlTagName": null
+                      }
+                    ],
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": true,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "vendorKeys",
+                  "DefaultValue": null,
+                  "IsOutParam": true,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "copendaq/modulemanager",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Returns a dictionary of module IDs and the respective public keys of their vendors.",
+                  "Elements": [
+                    {
+                      "RawText": "Returns a dictionary of module IDs and the respective public keys of their vendors.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Returns a dictionary of module IDs and the respective public keys of their vendors.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "vendorKeys",
+                "IsOut": true,
+                "Lines": [
+                  {
+                    "FullText": "key (IString) - module ID, value (IString) - public vendor key",
+                    "Elements": [
+                      {
+                        "RawText": "key (IString) - module ID, value (IString) - public vendor key",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param[out] vendorKeys key (IString) - module ID, value (IString) - public vendor key",
+                "ElementType": 2
+              }
+            ],
+            "Description": {
+              "TagIndex": 2,
+              "Lines": [
+                {
+                  "FullText": "",
+                  "Elements": [
+                    {
+                      "RawText": "",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "Used to identify which authenticator/certificate was used to authenticate the module.",
+                  "Elements": [
+                    {
+                      "RawText": "Used to identify which authenticator/certificate was used to authenticate the module.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 7,
+              "TagName": "",
+              "RawText": "*\n     * Used to identify which authenticator/certificate was used to authenticate the module.\n",
+              "ElementType": 2
+            }
+          }
+        }
+      ],
+      "GetSet": [
+        {
+          "Name": "Modules",
+          "Getter": {
+            "Modifiers": [
+              "virtual"
+            ],
+            "Arguments": [
+              {
+                "Type": {
+                  "UnmappedName": "IList",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "List",
+                  "DefaultIncludeName": "list",
+                  "LibraryName": "coretypes",
+                  "Modifiers": "**",
+                  "GenericArguments": [
+                    {
+                      "UnmappedName": "IModule",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "Module",
+                      "DefaultIncludeName": "module",
+                      "LibraryName": "copendaq/modulemanager",
+                      "Modifiers": null,
+                      "GenericArguments": null,
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": false,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    }
+                  ],
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": true,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Name": "modules",
+                "DefaultValue": null,
+                "IsOutParam": true,
+                "IsOutPointer": false,
+                "IsConst": false,
+                "ArrayInfo": null,
+                "IsPolymorphic": false,
+                "IsStealRef": false,
+                "AllowNull": false,
+                "RawBuffer": null,
+                "IsInOutParam": false
+              }
+            ],
+            "ReturnType": {
+              "UnmappedName": "ErrCode",
+              "Namespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "UnmappedNamespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "Guid": "00000000-0000-0000-0000-000000000000",
+              "NonInterfaceName": "ErrCode",
+              "DefaultIncludeName": "err_code",
+              "LibraryName": "copendaq/modulemanager",
+              "Modifiers": "",
+              "GenericArguments": null,
+              "IsGenericArgument": false,
+              "HasGenericArguments": false,
+              "PropertyClass": null,
+              "ControlTagName": null
+            },
+            "Property": null,
+            "Name": "getModules",
+            "IsPure": true,
+            "IsIgnored": 0,
+            "ReturnSelf": false,
+            "OverloadFor": null,
+            "CallingConvention": "stdcall",
+            "Overloads": [
+              {
+                "Arguments": [
+                  {
+                    "Type": {
+                      "UnmappedName": "IList",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "List",
+                      "DefaultIncludeName": "list",
+                      "LibraryName": "coretypes",
+                      "Modifiers": "**",
+                      "GenericArguments": [
+                        {
+                          "UnmappedName": "IModule",
+                          "Namespace": {
+                            "Raw": "daq",
+                            "Components": [
+                              "daq"
+                            ]
+                          },
+                          "UnmappedNamespace": {
+                            "Raw": "daq",
+                            "Components": [
+                              "daq"
+                            ]
+                          },
+                          "Guid": "00000000-0000-0000-0000-000000000000",
+                          "NonInterfaceName": "Module",
+                          "DefaultIncludeName": "module",
+                          "LibraryName": "copendaq/modulemanager",
+                          "Modifiers": null,
+                          "GenericArguments": null,
+                          "IsGenericArgument": false,
+                          "HasGenericArguments": false,
+                          "PropertyClass": null,
+                          "ControlTagName": null
+                        }
+                      ],
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": true,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    },
+                    "Name": "modules",
+                    "DefaultValue": null,
+                    "IsOutParam": true,
+                    "IsOutPointer": false,
+                    "IsConst": false,
+                    "ArrayInfo": null,
+                    "IsPolymorphic": false,
+                    "IsStealRef": false,
+                    "AllowNull": false,
+                    "RawBuffer": null,
+                    "IsInOutParam": false
+                  }
+                ],
+                "ReturnType": {
+                  "UnmappedName": "ErrCode",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ErrCode",
+                  "DefaultIncludeName": "err_code",
+                  "LibraryName": "copendaq/modulemanager",
+                  "Modifiers": "",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Type": 1,
+                "Tag": null
+              }
+            ],
+            "Documentation": {
+              "Brief": {
+                "TagIndex": 0,
+                "Lines": [
+                  {
+                    "FullText": "Retrieves all modules known to the manager. Whether they were found or side-loaded.",
+                    "Elements": [
+                      {
+                        "RawText": "Retrieves all modules known to the manager. Whether they were found or side-loaded.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 1,
+                "TagName": "brief",
+                "RawText": "* @brief Retrieves all modules known to the manager. Whether they were found or side-loaded.\n",
+                "ElementType": 2
+              },
+              "Tags": [
+                {
+                  "ParamName": "modules",
+                  "IsOut": true,
+                  "Lines": [
+                    {
+                      "FullText": "A list of known modules.",
+                      "Elements": [
+                        {
+                          "RawText": "A list of known modules.",
+                          "ElementType": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "TagType": 3,
+                  "TagName": "param",
+                  "RawText": "@param[out] modules A list of known modules.",
+                  "ElementType": 2
+                }
+              ],
+              "Description": null
+            }
+          },
+          "Setter": null
+        },
+        {
+          "Name": "AuthenticatedOnly",
+          "Getter": null,
+          "Setter": {
+            "Modifiers": [
+              "virtual"
+            ],
+            "Arguments": [
+              {
+                "Type": {
+                  "UnmappedName": "Bool",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "Bool",
+                  "DefaultIncludeName": "bool",
+                  "LibraryName": "coretypes",
+                  "Modifiers": "",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Name": "authenticatedOnly",
+                "DefaultValue": null,
+                "IsOutParam": false,
+                "IsOutPointer": false,
+                "IsConst": false,
+                "ArrayInfo": null,
+                "IsPolymorphic": false,
+                "IsStealRef": false,
+                "AllowNull": false,
+                "RawBuffer": null,
+                "IsInOutParam": false
+              }
+            ],
+            "ReturnType": {
+              "UnmappedName": "ErrCode",
+              "Namespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "UnmappedNamespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "Guid": "00000000-0000-0000-0000-000000000000",
+              "NonInterfaceName": "ErrCode",
+              "DefaultIncludeName": "err_code",
+              "LibraryName": "copendaq/modulemanager",
+              "Modifiers": "",
+              "GenericArguments": null,
+              "IsGenericArgument": false,
+              "HasGenericArguments": false,
+              "PropertyClass": null,
+              "ControlTagName": null
+            },
+            "Property": null,
+            "Name": "setAuthenticatedOnly",
+            "IsPure": true,
+            "IsIgnored": 0,
+            "ReturnSelf": false,
+            "OverloadFor": null,
+            "CallingConvention": "stdcall",
+            "Overloads": [
+              {
+                "Arguments": [
+                  {
+                    "Type": {
+                      "UnmappedName": "Bool",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "Bool",
+                      "DefaultIncludeName": "bool",
+                      "LibraryName": "coretypes",
+                      "Modifiers": "",
+                      "GenericArguments": null,
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": false,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    },
+                    "Name": "authenticatedOnly",
+                    "DefaultValue": null,
+                    "IsOutParam": false,
+                    "IsOutPointer": false,
+                    "IsConst": false,
+                    "ArrayInfo": null,
+                    "IsPolymorphic": false,
+                    "IsStealRef": false,
+                    "AllowNull": false,
+                    "RawBuffer": null,
+                    "IsInOutParam": false
+                  }
+                ],
+                "ReturnType": {
+                  "UnmappedName": "ErrCode",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ErrCode",
+                  "DefaultIncludeName": "err_code",
+                  "LibraryName": "copendaq/modulemanager",
+                  "Modifiers": "",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Type": 1,
+                "Tag": null
+              }
+            ],
+            "Documentation": {
+              "Brief": {
+                "TagIndex": 0,
+                "Lines": [
+                  {
+                    "FullText": "Toggle whether this module manager will only load modules that can be authenticated.",
+                    "Elements": [
+                      {
+                        "RawText": "Toggle whether this module manager will only load modules that can be authenticated.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 1,
+                "TagName": "brief",
+                "RawText": "* @brief Toggle whether this module manager will only load modules that can be authenticated.\n",
+                "ElementType": 2
+              },
+              "Tags": [
+                {
+                  "ParamName": "authenticatedOnly",
+                  "IsOut": false,
+                  "Lines": [
+                    {
+                      "FullText": "true - only authenticated modules are loaded, false - all modules are loaded",
+                      "Elements": [
+                        {
+                          "RawText": "true - only authenticated modules are loaded, false - all modules are loaded",
+                          "ElementType": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "TagType": 3,
+                  "TagName": "param",
+                  "RawText": "@param authenticatedOnly true - only authenticated modules are loaded, false - all modules are loaded",
+                  "ElementType": 2
+                }
+              ],
+              "Description": null
+            }
+          }
+        },
+        {
+          "Name": "ModuleAuthenticator",
+          "Getter": null,
+          "Setter": {
+            "Modifiers": [
+              "virtual"
+            ],
+            "Arguments": [
+              {
+                "Type": {
+                  "UnmappedName": "IModuleAuthenticator",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ModuleAuthenticator",
+                  "DefaultIncludeName": "module_authenticator",
+                  "LibraryName": "copendaq/modulemanager",
+                  "Modifiers": "*",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Name": "authenticator",
+                "DefaultValue": null,
+                "IsOutParam": false,
+                "IsOutPointer": false,
+                "IsConst": false,
+                "ArrayInfo": null,
+                "IsPolymorphic": false,
+                "IsStealRef": false,
+                "AllowNull": false,
+                "RawBuffer": null,
+                "IsInOutParam": false
+              }
+            ],
+            "ReturnType": {
+              "UnmappedName": "ErrCode",
+              "Namespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "UnmappedNamespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "Guid": "00000000-0000-0000-0000-000000000000",
+              "NonInterfaceName": "ErrCode",
+              "DefaultIncludeName": "err_code",
+              "LibraryName": "copendaq/modulemanager",
+              "Modifiers": "",
+              "GenericArguments": null,
+              "IsGenericArgument": false,
+              "HasGenericArguments": false,
+              "PropertyClass": null,
+              "ControlTagName": null
+            },
+            "Property": null,
+            "Name": "setModuleAuthenticator",
+            "IsPure": true,
+            "IsIgnored": 0,
+            "ReturnSelf": false,
+            "OverloadFor": null,
+            "CallingConvention": "stdcall",
+            "Overloads": [
+              {
+                "Arguments": [
+                  {
+                    "Type": {
+                      "UnmappedName": "IModuleAuthenticator",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "ModuleAuthenticator",
+                      "DefaultIncludeName": "module_authenticator",
+                      "LibraryName": "copendaq/modulemanager",
+                      "Modifiers": "*",
+                      "GenericArguments": null,
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": false,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    },
+                    "Name": "authenticator",
+                    "DefaultValue": null,
+                    "IsOutParam": false,
+                    "IsOutPointer": false,
+                    "IsConst": false,
+                    "ArrayInfo": null,
+                    "IsPolymorphic": false,
+                    "IsStealRef": false,
+                    "AllowNull": false,
+                    "RawBuffer": null,
+                    "IsInOutParam": false
+                  }
+                ],
+                "ReturnType": {
+                  "UnmappedName": "ErrCode",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ErrCode",
+                  "DefaultIncludeName": "err_code",
+                  "LibraryName": "copendaq/modulemanager",
+                  "Modifiers": "",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Type": 1,
+                "Tag": null
+              }
+            ],
+            "Documentation": {
+              "Brief": {
+                "TagIndex": 0,
+                "Lines": [
+                  {
+                    "FullText": "Imports the module authenticator.",
+                    "Elements": [
+                      {
+                        "RawText": "Imports the module authenticator.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 1,
+                "TagName": "brief",
+                "RawText": "* @brief Imports the module authenticator.\n",
+                "ElementType": 2
+              },
+              "Tags": [
+                {
+                  "ParamName": "authenticator",
+                  "IsOut": false,
+                  "Lines": [
+                    {
+                      "FullText": "A custom authenticator used to verify the signature/checksum of the modules.",
+                      "Elements": [
+                        {
+                          "RawText": "A custom authenticator used to verify the signature/checksum of the modules.",
+                          "ElementType": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "TagType": 3,
+                  "TagName": "param",
+                  "RawText": "@param authenticator A custom authenticator used to verify the signature/checksum of the modules.",
+                  "ElementType": 2
+                }
+              ],
+              "Description": null
+            }
+          }
+        },
+        {
+          "Name": "VendorKeys",
+          "Getter": {
+            "Modifiers": [
+              "virtual"
+            ],
+            "Arguments": [
+              {
+                "Type": {
+                  "UnmappedName": "IDict",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "Dict",
+                  "DefaultIncludeName": "dict",
+                  "LibraryName": "coretypes",
+                  "Modifiers": "**",
+                  "GenericArguments": [
+                    {
+                      "UnmappedName": "IString",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "String",
+                      "DefaultIncludeName": "string",
+                      "LibraryName": "coretypes",
+                      "Modifiers": "",
+                      "GenericArguments": null,
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": false,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    },
+                    {
+                      "UnmappedName": "IString",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "String",
+                      "DefaultIncludeName": "string",
+                      "LibraryName": "coretypes",
+                      "Modifiers": "",
+                      "GenericArguments": null,
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": false,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    }
+                  ],
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": true,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Name": "vendorKeys",
+                "DefaultValue": null,
+                "IsOutParam": true,
+                "IsOutPointer": false,
+                "IsConst": false,
+                "ArrayInfo": null,
+                "IsPolymorphic": false,
+                "IsStealRef": false,
+                "AllowNull": false,
+                "RawBuffer": null,
+                "IsInOutParam": false
+              }
+            ],
+            "ReturnType": {
+              "UnmappedName": "ErrCode",
+              "Namespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "UnmappedNamespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "Guid": "00000000-0000-0000-0000-000000000000",
+              "NonInterfaceName": "ErrCode",
+              "DefaultIncludeName": "err_code",
+              "LibraryName": "copendaq/modulemanager",
+              "Modifiers": "",
+              "GenericArguments": null,
+              "IsGenericArgument": false,
+              "HasGenericArguments": false,
+              "PropertyClass": null,
+              "ControlTagName": null
+            },
+            "Property": null,
+            "Name": "getVendorKeys",
+            "IsPure": true,
+            "IsIgnored": 0,
+            "ReturnSelf": false,
+            "OverloadFor": null,
+            "CallingConvention": "stdcall",
+            "Overloads": [
+              {
+                "Arguments": [
+                  {
+                    "Type": {
+                      "UnmappedName": "IDict",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "Dict",
+                      "DefaultIncludeName": "dict",
+                      "LibraryName": "coretypes",
+                      "Modifiers": "**",
+                      "GenericArguments": [
+                        {
+                          "UnmappedName": "IString",
+                          "Namespace": {
+                            "Raw": "daq",
+                            "Components": [
+                              "daq"
+                            ]
+                          },
+                          "UnmappedNamespace": {
+                            "Raw": "daq",
+                            "Components": [
+                              "daq"
+                            ]
+                          },
+                          "Guid": "00000000-0000-0000-0000-000000000000",
+                          "NonInterfaceName": "String",
+                          "DefaultIncludeName": "string",
+                          "LibraryName": "coretypes",
+                          "Modifiers": "",
+                          "GenericArguments": null,
+                          "IsGenericArgument": false,
+                          "HasGenericArguments": false,
+                          "PropertyClass": null,
+                          "ControlTagName": null
+                        },
+                        {
+                          "UnmappedName": "IString",
+                          "Namespace": {
+                            "Raw": "daq",
+                            "Components": [
+                              "daq"
+                            ]
+                          },
+                          "UnmappedNamespace": {
+                            "Raw": "daq",
+                            "Components": [
+                              "daq"
+                            ]
+                          },
+                          "Guid": "00000000-0000-0000-0000-000000000000",
+                          "NonInterfaceName": "String",
+                          "DefaultIncludeName": "string",
+                          "LibraryName": "coretypes",
+                          "Modifiers": "",
+                          "GenericArguments": null,
+                          "IsGenericArgument": false,
+                          "HasGenericArguments": false,
+                          "PropertyClass": null,
+                          "ControlTagName": null
+                        }
+                      ],
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": true,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    },
+                    "Name": "vendorKeys",
+                    "DefaultValue": null,
+                    "IsOutParam": true,
+                    "IsOutPointer": false,
+                    "IsConst": false,
+                    "ArrayInfo": null,
+                    "IsPolymorphic": false,
+                    "IsStealRef": false,
+                    "AllowNull": false,
+                    "RawBuffer": null,
+                    "IsInOutParam": false
+                  }
+                ],
+                "ReturnType": {
+                  "UnmappedName": "ErrCode",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ErrCode",
+                  "DefaultIncludeName": "err_code",
+                  "LibraryName": "copendaq/modulemanager",
+                  "Modifiers": "",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Type": 1,
+                "Tag": null
+              }
+            ],
+            "Documentation": {
+              "Brief": {
+                "TagIndex": 0,
+                "Lines": [
+                  {
+                    "FullText": "Returns a dictionary of module IDs and the respective public keys of their vendors.",
+                    "Elements": [
+                      {
+                        "RawText": "Returns a dictionary of module IDs and the respective public keys of their vendors.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 1,
+                "TagName": "brief",
+                "RawText": "* @brief Returns a dictionary of module IDs and the respective public keys of their vendors.\n",
+                "ElementType": 2
+              },
+              "Tags": [
+                {
+                  "ParamName": "vendorKeys",
+                  "IsOut": true,
+                  "Lines": [
+                    {
+                      "FullText": "key (IString) - module ID, value (IString) - public vendor key",
+                      "Elements": [
+                        {
+                          "RawText": "key (IString) - module ID, value (IString) - public vendor key",
+                          "ElementType": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "TagType": 3,
+                  "TagName": "param",
+                  "RawText": "@param[out] vendorKeys key (IString) - module ID, value (IString) - public vendor key",
+                  "ElementType": 2
+                }
+              ],
+              "Description": {
+                "TagIndex": 2,
+                "Lines": [
+                  {
+                    "FullText": "",
+                    "Elements": [
+                      {
+                        "RawText": "",
+                        "ElementType": 1
+                      }
+                    ]
+                  },
+                  {
+                    "FullText": "Used to identify which authenticator/certificate was used to authenticate the module.",
+                    "Elements": [
+                      {
+                        "RawText": "Used to identify which authenticator/certificate was used to authenticate the module.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 7,
+                "TagName": "",
+                "RawText": "*\n     * Used to identify which authenticator/certificate was used to authenticate the module.\n",
+                "ElementType": 2
+              }
+            }
+          },
+          "Setter": null
+        }
+      ],
+      "Events": {},
+      "Documentation": {
+        "Brief": {
+          "TagIndex": 0,
+          "Lines": [
+            {
+              "FullText": "Loads all available modules in a implementation-defined manner.",
+              "Elements": [
+                {
+                  "RawText": "Loads all available modules in a implementation-defined manner.",
+                  "ElementType": 1
+                }
+              ]
+            },
+            {
+              "FullText": "User can also side-load custom modules via `addModule` call.",
+              "Elements": [
+                {
+                  "RawText": "User can also side-load custom modules via `addModule` call.",
+                  "ElementType": 1
+                }
+              ]
+            }
+          ],
+          "TagType": 1,
+          "TagName": "brief",
+          "RawText": "* @brief Loads all available modules in a implementation-defined manner.\n * User can also side-load custom modules via `addModule` call.\n",
+          "ElementType": 2
+        },
+        "Tags": [],
+        "Description": null
+      }
+    }
+  ],
+  "GlobalMethods": [],
+  "TypeAliases": {},
+  "Includes": [],
+  "Factories": [
+    {
+      "Name": "createModuleManager",
+      "PrettyName": "ModuleManager",
+      "Tag": "",
+      "IsConstructorWithMultipleFactories": false,
+      "InterfaceName": "IModuleManager",
+      "Arguments": [
+        {
+          "Type": {
+            "UnmappedName": "IModuleManager",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ModuleManager",
+            "DefaultIncludeName": "module_manager",
+            "LibraryName": "copendaq/modulemanager",
+            "Modifiers": "**",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Name": "obj",
+          "DefaultValue": null,
+          "IsOutParam": true,
+          "IsOutPointer": false,
+          "IsConst": false,
+          "ArrayInfo": null,
+          "IsPolymorphic": false,
+          "IsStealRef": false,
+          "AllowNull": false,
+          "RawBuffer": null,
+          "IsInOutParam": false
+        },
+        {
+          "Type": {
+            "UnmappedName": "IString",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "d2ed1120-f7ff-556f-a98d-3f3edf1a3874",
+            "NonInterfaceName": "String",
+            "DefaultIncludeName": "string",
+            "LibraryName": "coretypes",
+            "Modifiers": "*",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Name": "path",
+          "DefaultValue": null,
+          "IsOutParam": false,
+          "IsOutPointer": false,
+          "IsConst": false,
+          "ArrayInfo": null,
+          "IsPolymorphic": false,
+          "IsStealRef": false,
+          "AllowNull": false,
+          "RawBuffer": null,
+          "IsInOutParam": false
+        }
+      ],
+      "Options": 0,
+      "SpecificOptions": [],
+      "IsGeneric": false,
+      "Documentation": {
+        "Brief": null,
+        "Tags": [
+          {
+            "TagType": 8,
+            "TagName": "@}",
+            "RawText": "@}",
+            "ElementType": 2
+          }
+        ],
+        "Description": null
+      }
+    },
+    {
+      "Name": "createModuleManagerMultiplePaths",
+      "PrettyName": "ModuleManagerMultiplePaths",
+      "Tag": "MultiplePaths",
+      "IsConstructorWithMultipleFactories": false,
+      "InterfaceName": "IModuleManager",
+      "Arguments": [
+        {
+          "Type": {
+            "UnmappedName": "IModuleManager",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ModuleManager",
+            "DefaultIncludeName": "module_manager",
+            "LibraryName": "copendaq/modulemanager",
+            "Modifiers": "**",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Name": "obj",
+          "DefaultValue": null,
+          "IsOutParam": true,
+          "IsOutPointer": false,
+          "IsConst": false,
+          "ArrayInfo": null,
+          "IsPolymorphic": false,
+          "IsStealRef": false,
+          "AllowNull": false,
+          "RawBuffer": null,
+          "IsInOutParam": false
+        },
+        {
+          "Type": {
+            "UnmappedName": "IList",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "e7866bcc-0563-5504-b61b-a8116b614d8f",
+            "NonInterfaceName": "List",
+            "DefaultIncludeName": "list",
+            "LibraryName": "coretypes",
+            "Modifiers": "*",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Name": "paths",
+          "DefaultValue": null,
+          "IsOutParam": false,
+          "IsOutPointer": false,
+          "IsConst": false,
+          "ArrayInfo": null,
+          "IsPolymorphic": false,
+          "IsStealRef": false,
+          "AllowNull": false,
+          "RawBuffer": null,
+          "IsInOutParam": false
+        }
+      ],
+      "Options": 0,
+      "SpecificOptions": [],
+      "IsGeneric": false,
+      "Documentation": {
+        "Brief": null,
+        "Tags": [
+          {
+            "TagType": 8,
+            "TagName": "@}",
+            "RawText": "@}",
+            "ElementType": 2
+          }
+        ],
+        "Description": null
+      }
+    }
+  ],
+  "StartNamespaceMacro": "BEGIN_NAMESPACE_OPENDAQ",
+  "EndNamespaceMacro": "END_NAMESPACE_OPENDAQ",
+  "SourceFileName": "module_manager.h",
+  "AttributeInfo": [
+    {
+      "Key": "elementType",
+      "Value": [
+        {
+          "Name": "elementType",
+          "Arguments": [
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "modules",
+              "Type": null,
+              "TypeInfo": null
+            },
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "IModule",
+              "Type": null,
+              "TypeInfo": {
+                "UnmappedName": "IModule",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "Module",
+                "DefaultIncludeName": "module",
+                "LibraryName": "copendaq/modulemanager",
+                "Modifiers": null,
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Key": "templateType",
+      "Value": [
+        {
+          "Name": "templateType",
+          "Arguments": [
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "vendorKeys",
+              "Type": null,
+              "TypeInfo": null
+            },
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "IString",
+              "Type": null,
+              "TypeInfo": null
+            },
+            {
+              "IsNamedParameter": false,
+              "Name": null,
+              "Value": "IString",
+              "Type": null,
+              "TypeInfo": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "AdditionalFeatures": 0,
+  "Tag": null,
+  "LeadingDocumentation": [
+    {
+      "Brief": null,
+      "Tags": [
+        {
+          "Lines": [
+            {
+              "FullText": "opendaq_modules",
+              "Elements": [
+                {
+                  "RawText": "opendaq_modules",
+                  "ElementType": 1
+                }
+              ]
+            }
+          ],
+          "TagType": 0,
+          "TagName": "ingroup",
+          "RawText": "@ingroup opendaq_modules",
+          "ElementType": 2
+        },
+        {
+          "Lines": [
+            {
+              "FullText": "opendaq_module_manager Module manager",
+              "Elements": [
+                {
+                  "RawText": "opendaq_module_manager Module manager",
+                  "ElementType": 1
+                }
+              ]
+            }
+          ],
+          "TagType": 0,
+          "TagName": "addtogroup",
+          "RawText": "@addtogroup opendaq_module_manager Module manager",
+          "ElementType": 2
+        },
+        {
+          "TagType": 8,
+          "TagName": "@{",
+          "RawText": "* @{\n",
+          "ElementType": 2
+        }
+      ],
+      "Description": null
+    }
+  ],
+  "TrailingDocumentation": []
+}

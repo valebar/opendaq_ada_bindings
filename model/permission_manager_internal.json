@@ -1,0 +1,1337 @@
+{
+  "Variables": [],
+  "Enums": [],
+  "Classes": [
+    {
+      "Type": {
+        "UnmappedName": "IPermissionManagerInternal",
+        "Namespace": {
+          "Raw": "daq",
+          "Components": [
+            "daq"
+          ]
+        },
+        "UnmappedNamespace": {
+          "Raw": "daq",
+          "Components": [
+            "daq"
+          ]
+        },
+        "Guid": "e274a743-3c72-52cc-bb48-f5cbc889768d",
+        "NonInterfaceName": "PermissionManagerInternal",
+        "DefaultIncludeName": "permission_manager_internal",
+        "LibraryName": "ccoreobjects",
+        "Modifiers": "*",
+        "GenericArguments": null,
+        "IsGenericArgument": false,
+        "HasGenericArguments": false,
+        "PropertyClass": null,
+        "ControlTagName": null
+      },
+      "BaseType": {
+        "UnmappedName": "IBaseObject",
+        "Namespace": {
+          "Raw": "daq",
+          "Components": [
+            "daq"
+          ]
+        },
+        "UnmappedNamespace": {
+          "Raw": "daq",
+          "Components": [
+            "daq"
+          ]
+        },
+        "Guid": "00000000-0000-0000-0000-000000000000",
+        "NonInterfaceName": "BaseObject",
+        "DefaultIncludeName": "base_object",
+        "LibraryName": "coretypes",
+        "Modifiers": "",
+        "GenericArguments": null,
+        "IsGenericArgument": false,
+        "HasGenericArguments": false,
+        "PropertyClass": null,
+        "ControlTagName": null
+      },
+      "Methods": [
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "IPermissionManager",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "PermissionManager",
+                "DefaultIncludeName": "permission_manager",
+                "LibraryName": "ccoreobjects",
+                "Modifiers": "*",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "parentManager",
+              "DefaultValue": null,
+              "IsOutParam": false,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "ccoreobjects",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "setParent",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "IPermissionManager",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "PermissionManager",
+                    "DefaultIncludeName": "permission_manager",
+                    "LibraryName": "ccoreobjects",
+                    "Modifiers": "*",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "parentManager",
+                  "DefaultValue": null,
+                  "IsOutParam": false,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "ccoreobjects",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Change the parant of a permission manager.",
+                  "Elements": [
+                    {
+                      "RawText": "Change the parant of a permission manager.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Change the parant of a permission manager.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "parentManager",
+                "IsOut": false,
+                "Lines": [
+                  {
+                    "FullText": "A reference to the permission manager of a parent object.",
+                    "Elements": [
+                      {
+                        "RawText": "A reference to the permission manager of a parent object.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param parentManager A reference to the permission manager of a parent object.",
+                "ElementType": 2
+              }
+            ],
+            "Description": null
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "IPermissionManager",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "PermissionManager",
+                "DefaultIncludeName": "permission_manager",
+                "LibraryName": "ccoreobjects",
+                "Modifiers": "*",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "childManager",
+              "DefaultValue": null,
+              "IsOutParam": false,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "ccoreobjects",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "addChildManager",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "IPermissionManager",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "PermissionManager",
+                    "DefaultIncludeName": "permission_manager",
+                    "LibraryName": "ccoreobjects",
+                    "Modifiers": "*",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "childManager",
+                  "DefaultValue": null,
+                  "IsOutParam": false,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "ccoreobjects",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Adds a reference to the permission manager of a child object.",
+                  "Elements": [
+                    {
+                      "RawText": "Adds a reference to the permission manager of a child object.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Adds a reference to the permission manager of a child object.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "childManager",
+                "IsOut": false,
+                "Lines": [
+                  {
+                    "FullText": "A reference to the permission manager of a child object.",
+                    "Elements": [
+                      {
+                        "RawText": "A reference to the permission manager of a child object.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param childManager A reference to the permission manager of a child object.",
+                "ElementType": 2
+              }
+            ],
+            "Description": null
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "IPermissionManager",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "PermissionManager",
+                "DefaultIncludeName": "permission_manager",
+                "LibraryName": "ccoreobjects",
+                "Modifiers": "*",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "childManager",
+              "DefaultValue": null,
+              "IsOutParam": false,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "ccoreobjects",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "removeChildManager",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "IPermissionManager",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "PermissionManager",
+                    "DefaultIncludeName": "permission_manager",
+                    "LibraryName": "ccoreobjects",
+                    "Modifiers": "*",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "childManager",
+                  "DefaultValue": null,
+                  "IsOutParam": false,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "ccoreobjects",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Removes a reference to the permission manager of a child object.",
+                  "Elements": [
+                    {
+                      "RawText": "Removes a reference to the permission manager of a child object.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Removes a reference to the permission manager of a child object.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "childManager",
+                "IsOut": false,
+                "Lines": [
+                  {
+                    "FullText": "A reference to the permission manager of a child object.",
+                    "Elements": [
+                      {
+                        "RawText": "A reference to the permission manager of a child object.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param childManager A reference to the permission manager of a child object.",
+                "ElementType": 2
+              }
+            ],
+            "Description": null
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "IPermissions",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "Permissions",
+                "DefaultIncludeName": "permissions",
+                "LibraryName": "ccoreobjects",
+                "Modifiers": "**",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "permissionsOut",
+              "DefaultValue": null,
+              "IsOutParam": true,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "ccoreobjects",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "getPermissions",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "IPermissions",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "Permissions",
+                    "DefaultIncludeName": "permissions",
+                    "LibraryName": "ccoreobjects",
+                    "Modifiers": "**",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "permissionsOut",
+                  "DefaultValue": null,
+                  "IsOutParam": true,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "ccoreobjects",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Returns permisisons configuration object.",
+                  "Elements": [
+                    {
+                      "RawText": "Returns permisisons configuration object.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Returns permisisons configuration object.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "permissionsOut[out]",
+                "IsOut": false,
+                "Lines": [
+                  {
+                    "FullText": "A Permissions configuration object.",
+                    "Elements": [
+                      {
+                        "RawText": "A Permissions configuration object.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param permissionsOut[out] A Permissions configuration object.",
+                "ElementType": 2
+              }
+            ],
+            "Description": null
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "ccoreobjects",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "updateInheritedPermissions",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "ccoreobjects",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Recursively update permissions of objects with new permissions from their parents.",
+                  "Elements": [
+                    {
+                      "RawText": "Recursively update permissions of objects with new permissions from their parents.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Recursively update permissions of objects with new permissions from their parents.\n",
+              "ElementType": 2
+            },
+            "Tags": [],
+            "Description": null
+          }
+        }
+      ],
+      "GetSet": [
+        {
+          "Name": "Parent",
+          "Getter": null,
+          "Setter": {
+            "Modifiers": [
+              "virtual"
+            ],
+            "Arguments": [
+              {
+                "Type": {
+                  "UnmappedName": "IPermissionManager",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "PermissionManager",
+                  "DefaultIncludeName": "permission_manager",
+                  "LibraryName": "ccoreobjects",
+                  "Modifiers": "*",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Name": "parentManager",
+                "DefaultValue": null,
+                "IsOutParam": false,
+                "IsOutPointer": false,
+                "IsConst": false,
+                "ArrayInfo": null,
+                "IsPolymorphic": false,
+                "IsStealRef": false,
+                "AllowNull": false,
+                "RawBuffer": null,
+                "IsInOutParam": false
+              }
+            ],
+            "ReturnType": {
+              "UnmappedName": "ErrCode",
+              "Namespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "UnmappedNamespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "Guid": "00000000-0000-0000-0000-000000000000",
+              "NonInterfaceName": "ErrCode",
+              "DefaultIncludeName": "err_code",
+              "LibraryName": "ccoreobjects",
+              "Modifiers": "",
+              "GenericArguments": null,
+              "IsGenericArgument": false,
+              "HasGenericArguments": false,
+              "PropertyClass": null,
+              "ControlTagName": null
+            },
+            "Property": null,
+            "Name": "setParent",
+            "IsPure": true,
+            "IsIgnored": 0,
+            "ReturnSelf": false,
+            "OverloadFor": null,
+            "CallingConvention": "stdcall",
+            "Overloads": [
+              {
+                "Arguments": [
+                  {
+                    "Type": {
+                      "UnmappedName": "IPermissionManager",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "PermissionManager",
+                      "DefaultIncludeName": "permission_manager",
+                      "LibraryName": "ccoreobjects",
+                      "Modifiers": "*",
+                      "GenericArguments": null,
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": false,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    },
+                    "Name": "parentManager",
+                    "DefaultValue": null,
+                    "IsOutParam": false,
+                    "IsOutPointer": false,
+                    "IsConst": false,
+                    "ArrayInfo": null,
+                    "IsPolymorphic": false,
+                    "IsStealRef": false,
+                    "AllowNull": false,
+                    "RawBuffer": null,
+                    "IsInOutParam": false
+                  }
+                ],
+                "ReturnType": {
+                  "UnmappedName": "ErrCode",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ErrCode",
+                  "DefaultIncludeName": "err_code",
+                  "LibraryName": "ccoreobjects",
+                  "Modifiers": "",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Type": 1,
+                "Tag": null
+              }
+            ],
+            "Documentation": {
+              "Brief": {
+                "TagIndex": 0,
+                "Lines": [
+                  {
+                    "FullText": "Change the parant of a permission manager.",
+                    "Elements": [
+                      {
+                        "RawText": "Change the parant of a permission manager.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 1,
+                "TagName": "brief",
+                "RawText": "* @brief Change the parant of a permission manager.\n",
+                "ElementType": 2
+              },
+              "Tags": [
+                {
+                  "ParamName": "parentManager",
+                  "IsOut": false,
+                  "Lines": [
+                    {
+                      "FullText": "A reference to the permission manager of a parent object.",
+                      "Elements": [
+                        {
+                          "RawText": "A reference to the permission manager of a parent object.",
+                          "ElementType": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "TagType": 3,
+                  "TagName": "param",
+                  "RawText": "@param parentManager A reference to the permission manager of a parent object.",
+                  "ElementType": 2
+                }
+              ],
+              "Description": null
+            }
+          }
+        },
+        {
+          "Name": "Permissions",
+          "Getter": {
+            "Modifiers": [
+              "virtual"
+            ],
+            "Arguments": [
+              {
+                "Type": {
+                  "UnmappedName": "IPermissions",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "Permissions",
+                  "DefaultIncludeName": "permissions",
+                  "LibraryName": "ccoreobjects",
+                  "Modifiers": "**",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Name": "permissionsOut",
+                "DefaultValue": null,
+                "IsOutParam": true,
+                "IsOutPointer": false,
+                "IsConst": false,
+                "ArrayInfo": null,
+                "IsPolymorphic": false,
+                "IsStealRef": false,
+                "AllowNull": false,
+                "RawBuffer": null,
+                "IsInOutParam": false
+              }
+            ],
+            "ReturnType": {
+              "UnmappedName": "ErrCode",
+              "Namespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "UnmappedNamespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "Guid": "00000000-0000-0000-0000-000000000000",
+              "NonInterfaceName": "ErrCode",
+              "DefaultIncludeName": "err_code",
+              "LibraryName": "ccoreobjects",
+              "Modifiers": "",
+              "GenericArguments": null,
+              "IsGenericArgument": false,
+              "HasGenericArguments": false,
+              "PropertyClass": null,
+              "ControlTagName": null
+            },
+            "Property": null,
+            "Name": "getPermissions",
+            "IsPure": true,
+            "IsIgnored": 0,
+            "ReturnSelf": false,
+            "OverloadFor": null,
+            "CallingConvention": "stdcall",
+            "Overloads": [
+              {
+                "Arguments": [
+                  {
+                    "Type": {
+                      "UnmappedName": "IPermissions",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "Permissions",
+                      "DefaultIncludeName": "permissions",
+                      "LibraryName": "ccoreobjects",
+                      "Modifiers": "**",
+                      "GenericArguments": null,
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": false,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    },
+                    "Name": "permissionsOut",
+                    "DefaultValue": null,
+                    "IsOutParam": true,
+                    "IsOutPointer": false,
+                    "IsConst": false,
+                    "ArrayInfo": null,
+                    "IsPolymorphic": false,
+                    "IsStealRef": false,
+                    "AllowNull": false,
+                    "RawBuffer": null,
+                    "IsInOutParam": false
+                  }
+                ],
+                "ReturnType": {
+                  "UnmappedName": "ErrCode",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ErrCode",
+                  "DefaultIncludeName": "err_code",
+                  "LibraryName": "ccoreobjects",
+                  "Modifiers": "",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Type": 1,
+                "Tag": null
+              }
+            ],
+            "Documentation": {
+              "Brief": {
+                "TagIndex": 0,
+                "Lines": [
+                  {
+                    "FullText": "Returns permisisons configuration object.",
+                    "Elements": [
+                      {
+                        "RawText": "Returns permisisons configuration object.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 1,
+                "TagName": "brief",
+                "RawText": "* @brief Returns permisisons configuration object.\n",
+                "ElementType": 2
+              },
+              "Tags": [
+                {
+                  "ParamName": "permissionsOut[out]",
+                  "IsOut": false,
+                  "Lines": [
+                    {
+                      "FullText": "A Permissions configuration object.",
+                      "Elements": [
+                        {
+                          "RawText": "A Permissions configuration object.",
+                          "ElementType": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "TagType": 3,
+                  "TagName": "param",
+                  "RawText": "@param permissionsOut[out] A Permissions configuration object.",
+                  "ElementType": 2
+                }
+              ],
+              "Description": null
+            }
+          },
+          "Setter": null
+        }
+      ],
+      "Events": {},
+      "Documentation": {
+        "Brief": {
+          "TagIndex": 0,
+          "Lines": [
+            {
+              "FullText": "Internal PermissionManager interface. It should be used only in openDAQ core implementation files.",
+              "Elements": [
+                {
+                  "RawText": "Internal PermissionManager interface. It should be used only in openDAQ core implementation files.",
+                  "ElementType": 1
+                }
+              ]
+            }
+          ],
+          "TagType": 1,
+          "TagName": "brief",
+          "RawText": "* @brief Internal PermissionManager interface. It should be used only in openDAQ core implementation files.\n",
+          "ElementType": 2
+        },
+        "Tags": [],
+        "Description": null
+      }
+    }
+  ],
+  "GlobalMethods": [],
+  "TypeAliases": {},
+  "Includes": [],
+  "Factories": [],
+  "StartNamespaceMacro": "BEGIN_NAMESPACE_OPENDAQ",
+  "EndNamespaceMacro": "END_NAMESPACE_OPENDAQ",
+  "SourceFileName": "permission_manager_internal.h",
+  "AttributeInfo": [],
+  "AdditionalFeatures": 0,
+  "Tag": null,
+  "LeadingDocumentation": [],
+  "TrailingDocumentation": []
+}

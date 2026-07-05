@@ -1,0 +1,2655 @@
+{
+  "Variables": [],
+  "Enums": [],
+  "Classes": [
+    {
+      "Type": {
+        "UnmappedName": "IArgumentInfo",
+        "Namespace": {
+          "Raw": "daq",
+          "Components": [
+            "daq"
+          ]
+        },
+        "UnmappedNamespace": {
+          "Raw": "daq",
+          "Components": [
+            "daq"
+          ]
+        },
+        "Guid": "42b793b0-657e-5ec0-b368-59da5528a93e",
+        "NonInterfaceName": "ArgumentInfo",
+        "DefaultIncludeName": "argument_info",
+        "LibraryName": "ccoreobjects",
+        "Modifiers": "*",
+        "GenericArguments": null,
+        "IsGenericArgument": false,
+        "HasGenericArguments": false,
+        "PropertyClass": null,
+        "ControlTagName": null
+      },
+      "BaseType": {
+        "UnmappedName": "IBaseObject",
+        "Namespace": {
+          "Raw": "daq",
+          "Components": [
+            "daq"
+          ]
+        },
+        "UnmappedNamespace": {
+          "Raw": "daq",
+          "Components": [
+            "daq"
+          ]
+        },
+        "Guid": "00000000-0000-0000-0000-000000000000",
+        "NonInterfaceName": "BaseObject",
+        "DefaultIncludeName": "base_object",
+        "LibraryName": "coretypes",
+        "Modifiers": "",
+        "GenericArguments": null,
+        "IsGenericArgument": false,
+        "HasGenericArguments": false,
+        "PropertyClass": null,
+        "ControlTagName": null
+      },
+      "Methods": [
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "IString",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "String",
+                "DefaultIncludeName": "string",
+                "LibraryName": "coretypes",
+                "Modifiers": "**",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "name",
+              "DefaultValue": null,
+              "IsOutParam": true,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "ccoreobjects",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "getName",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "IString",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "String",
+                    "DefaultIncludeName": "string",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "**",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "name",
+                  "DefaultValue": null,
+                  "IsOutParam": true,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "ccoreobjects",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Gets the name of the argument.",
+                  "Elements": [
+                    {
+                      "RawText": "Gets the name of the argument.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Gets the name of the argument.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "name",
+                "IsOut": true,
+                "Lines": [
+                  {
+                    "FullText": "The name of the argument.",
+                    "Elements": [
+                      {
+                        "RawText": "The name of the argument.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param[out] name The name of the argument.",
+                "ElementType": 2
+              }
+            ],
+            "Description": null
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "CoreType",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "CoreType",
+                "DefaultIncludeName": "core_type",
+                "LibraryName": "coretypes",
+                "Modifiers": "*",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "type",
+              "DefaultValue": null,
+              "IsOutParam": true,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "ccoreobjects",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "getType",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "CoreType",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "CoreType",
+                    "DefaultIncludeName": "core_type",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "*",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "type",
+                  "DefaultValue": null,
+                  "IsOutParam": true,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "ccoreobjects",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Gets the core type of the argument.",
+                  "Elements": [
+                    {
+                      "RawText": "Gets the core type of the argument.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Gets the core type of the argument.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "type",
+                "IsOut": true,
+                "Lines": [
+                  {
+                    "FullText": "The type of the argument.",
+                    "Elements": [
+                      {
+                        "RawText": "The type of the argument.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param[out] type The type of the argument.",
+                "ElementType": 2
+              }
+            ],
+            "Description": {
+              "TagIndex": 2,
+              "Lines": [
+                {
+                  "FullText": "",
+                  "Elements": [
+                    {
+                      "RawText": "",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "Dictionary, List and Object types should be avoided in public function/procedure callable objects",
+                  "Elements": [
+                    {
+                      "RawText": "Dictionary, List and Object types should be avoided in public function/procedure callable objects",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "as their key, item, or base interface type cannot be determined without internal knowledge",
+                  "Elements": [
+                    {
+                      "RawText": "as their key, item, or base interface type cannot be determined without internal knowledge",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "of the function/procedure.",
+                  "Elements": [
+                    {
+                      "RawText": "of the function/procedure.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 7,
+              "TagName": "",
+              "RawText": "*\n     * Dictionary, List and Object types should be avoided in public function/procedure callable objects\n     * as their key, item, or base interface type cannot be determined without internal knowledge\n     * of the function/procedure.\n",
+              "ElementType": 2
+            }
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "CoreType",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "CoreType",
+                "DefaultIncludeName": "core_type",
+                "LibraryName": "coretypes",
+                "Modifiers": "*",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "itemType",
+              "DefaultValue": null,
+              "IsOutParam": true,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "ccoreobjects",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "getItemType",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "CoreType",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "CoreType",
+                    "DefaultIncludeName": "core_type",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "*",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "itemType",
+                  "DefaultValue": null,
+                  "IsOutParam": true,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "ccoreobjects",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Gets the item type of list/dict-type Argument Info objects. The item type specifies the",
+                  "Elements": [
+                    {
+                      "RawText": "Gets the item type of list/dict-type Argument Info objects. The item type specifies the",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "type of values in the list or dictionary arguments.",
+                  "Elements": [
+                    {
+                      "RawText": "type of values in the list or dictionary arguments.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Gets the item type of list/dict-type Argument Info objects. The item type specifies the\n     * type of values in the list or dictionary arguments.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "itemType",
+                "IsOut": true,
+                "Lines": [
+                  {
+                    "FullText": "The item type of the list/dictionary argument.",
+                    "Elements": [
+                      {
+                        "RawText": "The item type of the list/dictionary argument.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param[out] itemType The item type of the list/dictionary argument.",
+                "ElementType": 2
+              },
+              {
+                "TagIndex": 3,
+                "Lines": [
+                  {
+                    "FullText": "",
+                    "Elements": [
+                      {
+                        "RawText": "",
+                        "ElementType": 1
+                      }
+                    ]
+                  },
+                  {
+                    "FullText": "In dict-type Argument Info, the type of each value in the <key, value> pairing corresponds to the",
+                    "Elements": [
+                      {
+                        "RawText": "In dict-type Argument Info, the type of each value in the <key, value> pairing corresponds to the",
+                        "ElementType": 1
+                      }
+                    ]
+                  },
+                  {
+                    "FullText": "item type.",
+                    "Elements": [
+                      {
+                        "RawText": "item type.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 7,
+                "TagName": "",
+                "RawText": "*\n     * In dict-type Argument Info, the type of each value in the <key, value> pairing corresponds to the\n     * item type.\n",
+                "ElementType": 2
+              }
+            ],
+            "Description": {
+              "TagIndex": 2,
+              "Lines": [
+                {
+                  "FullText": "",
+                  "Elements": [
+                    {
+                      "RawText": "",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "In list-type Argument Info, the type of each item corresponds to the item type.",
+                  "Elements": [
+                    {
+                      "RawText": "In list-type Argument Info, the type of each item corresponds to the item type.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 7,
+              "TagName": "",
+              "RawText": "*\n     * In list-type Argument Info, the type of each item corresponds to the item type.\n",
+              "ElementType": 2
+            }
+          }
+        },
+        {
+          "Modifiers": [
+            "virtual"
+          ],
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "CoreType",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "CoreType",
+                "DefaultIncludeName": "core_type",
+                "LibraryName": "coretypes",
+                "Modifiers": "*",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Name": "keyType",
+              "DefaultValue": null,
+              "IsOutParam": true,
+              "IsOutPointer": false,
+              "IsConst": false,
+              "ArrayInfo": null,
+              "IsPolymorphic": false,
+              "IsStealRef": false,
+              "AllowNull": false,
+              "RawBuffer": null,
+              "IsInOutParam": false
+            }
+          ],
+          "ReturnType": {
+            "UnmappedName": "ErrCode",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ErrCode",
+            "DefaultIncludeName": "err_code",
+            "LibraryName": "ccoreobjects",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Property": null,
+          "Name": "getKeyType",
+          "IsPure": true,
+          "IsIgnored": 0,
+          "ReturnSelf": false,
+          "OverloadFor": null,
+          "CallingConvention": "stdcall",
+          "Overloads": [
+            {
+              "Arguments": [
+                {
+                  "Type": {
+                    "UnmappedName": "CoreType",
+                    "Namespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "UnmappedNamespace": {
+                      "Raw": "daq",
+                      "Components": [
+                        "daq"
+                      ]
+                    },
+                    "Guid": "00000000-0000-0000-0000-000000000000",
+                    "NonInterfaceName": "CoreType",
+                    "DefaultIncludeName": "core_type",
+                    "LibraryName": "coretypes",
+                    "Modifiers": "*",
+                    "GenericArguments": null,
+                    "IsGenericArgument": false,
+                    "HasGenericArguments": false,
+                    "PropertyClass": null,
+                    "ControlTagName": null
+                  },
+                  "Name": "keyType",
+                  "DefaultValue": null,
+                  "IsOutParam": true,
+                  "IsOutPointer": false,
+                  "IsConst": false,
+                  "ArrayInfo": null,
+                  "IsPolymorphic": false,
+                  "IsStealRef": false,
+                  "AllowNull": false,
+                  "RawBuffer": null,
+                  "IsInOutParam": false
+                }
+              ],
+              "ReturnType": {
+                "UnmappedName": "ErrCode",
+                "Namespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "UnmappedNamespace": {
+                  "Raw": "daq",
+                  "Components": [
+                    "daq"
+                  ]
+                },
+                "Guid": "00000000-0000-0000-0000-000000000000",
+                "NonInterfaceName": "ErrCode",
+                "DefaultIncludeName": "err_code",
+                "LibraryName": "ccoreobjects",
+                "Modifiers": "",
+                "GenericArguments": null,
+                "IsGenericArgument": false,
+                "HasGenericArguments": false,
+                "PropertyClass": null,
+                "ControlTagName": null
+              },
+              "Type": 1,
+              "Tag": null
+            }
+          ],
+          "Documentation": {
+            "Brief": {
+              "TagIndex": 0,
+              "Lines": [
+                {
+                  "FullText": "Gets the key type of dict-type Argument Info objects. The item type specifies the type of",
+                  "Elements": [
+                    {
+                      "RawText": "Gets the key type of dict-type Argument Info objects. The item type specifies the type of",
+                      "ElementType": 1
+                    }
+                  ]
+                },
+                {
+                  "FullText": "keys in dictionary arguments.",
+                  "Elements": [
+                    {
+                      "RawText": "keys in dictionary arguments.",
+                      "ElementType": 1
+                    }
+                  ]
+                }
+              ],
+              "TagType": 1,
+              "TagName": "brief",
+              "RawText": "* @brief Gets the key type of dict-type Argument Info objects. The item type specifies the type of\n     * keys in dictionary arguments.\n",
+              "ElementType": 2
+            },
+            "Tags": [
+              {
+                "ParamName": "keyType",
+                "IsOut": true,
+                "Lines": [
+                  {
+                    "FullText": "The key type of the dictionary argument.",
+                    "Elements": [
+                      {
+                        "RawText": "The key type of the dictionary argument.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 3,
+                "TagName": "param",
+                "RawText": "@param[out] keyType The key type of the dictionary argument.",
+                "ElementType": 2
+              }
+            ],
+            "Description": null
+          }
+        }
+      ],
+      "GetSet": [
+        {
+          "Name": "Name",
+          "Getter": {
+            "Modifiers": [
+              "virtual"
+            ],
+            "Arguments": [
+              {
+                "Type": {
+                  "UnmappedName": "IString",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "String",
+                  "DefaultIncludeName": "string",
+                  "LibraryName": "coretypes",
+                  "Modifiers": "**",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Name": "name",
+                "DefaultValue": null,
+                "IsOutParam": true,
+                "IsOutPointer": false,
+                "IsConst": false,
+                "ArrayInfo": null,
+                "IsPolymorphic": false,
+                "IsStealRef": false,
+                "AllowNull": false,
+                "RawBuffer": null,
+                "IsInOutParam": false
+              }
+            ],
+            "ReturnType": {
+              "UnmappedName": "ErrCode",
+              "Namespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "UnmappedNamespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "Guid": "00000000-0000-0000-0000-000000000000",
+              "NonInterfaceName": "ErrCode",
+              "DefaultIncludeName": "err_code",
+              "LibraryName": "ccoreobjects",
+              "Modifiers": "",
+              "GenericArguments": null,
+              "IsGenericArgument": false,
+              "HasGenericArguments": false,
+              "PropertyClass": null,
+              "ControlTagName": null
+            },
+            "Property": null,
+            "Name": "getName",
+            "IsPure": true,
+            "IsIgnored": 0,
+            "ReturnSelf": false,
+            "OverloadFor": null,
+            "CallingConvention": "stdcall",
+            "Overloads": [
+              {
+                "Arguments": [
+                  {
+                    "Type": {
+                      "UnmappedName": "IString",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "String",
+                      "DefaultIncludeName": "string",
+                      "LibraryName": "coretypes",
+                      "Modifiers": "**",
+                      "GenericArguments": null,
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": false,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    },
+                    "Name": "name",
+                    "DefaultValue": null,
+                    "IsOutParam": true,
+                    "IsOutPointer": false,
+                    "IsConst": false,
+                    "ArrayInfo": null,
+                    "IsPolymorphic": false,
+                    "IsStealRef": false,
+                    "AllowNull": false,
+                    "RawBuffer": null,
+                    "IsInOutParam": false
+                  }
+                ],
+                "ReturnType": {
+                  "UnmappedName": "ErrCode",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ErrCode",
+                  "DefaultIncludeName": "err_code",
+                  "LibraryName": "ccoreobjects",
+                  "Modifiers": "",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Type": 1,
+                "Tag": null
+              }
+            ],
+            "Documentation": {
+              "Brief": {
+                "TagIndex": 0,
+                "Lines": [
+                  {
+                    "FullText": "Gets the name of the argument.",
+                    "Elements": [
+                      {
+                        "RawText": "Gets the name of the argument.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 1,
+                "TagName": "brief",
+                "RawText": "* @brief Gets the name of the argument.\n",
+                "ElementType": 2
+              },
+              "Tags": [
+                {
+                  "ParamName": "name",
+                  "IsOut": true,
+                  "Lines": [
+                    {
+                      "FullText": "The name of the argument.",
+                      "Elements": [
+                        {
+                          "RawText": "The name of the argument.",
+                          "ElementType": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "TagType": 3,
+                  "TagName": "param",
+                  "RawText": "@param[out] name The name of the argument.",
+                  "ElementType": 2
+                }
+              ],
+              "Description": null
+            }
+          },
+          "Setter": null
+        },
+        {
+          "Name": "Type",
+          "Getter": {
+            "Modifiers": [
+              "virtual"
+            ],
+            "Arguments": [
+              {
+                "Type": {
+                  "UnmappedName": "CoreType",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "CoreType",
+                  "DefaultIncludeName": "core_type",
+                  "LibraryName": "coretypes",
+                  "Modifiers": "*",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Name": "type",
+                "DefaultValue": null,
+                "IsOutParam": true,
+                "IsOutPointer": false,
+                "IsConst": false,
+                "ArrayInfo": null,
+                "IsPolymorphic": false,
+                "IsStealRef": false,
+                "AllowNull": false,
+                "RawBuffer": null,
+                "IsInOutParam": false
+              }
+            ],
+            "ReturnType": {
+              "UnmappedName": "ErrCode",
+              "Namespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "UnmappedNamespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "Guid": "00000000-0000-0000-0000-000000000000",
+              "NonInterfaceName": "ErrCode",
+              "DefaultIncludeName": "err_code",
+              "LibraryName": "ccoreobjects",
+              "Modifiers": "",
+              "GenericArguments": null,
+              "IsGenericArgument": false,
+              "HasGenericArguments": false,
+              "PropertyClass": null,
+              "ControlTagName": null
+            },
+            "Property": null,
+            "Name": "getType",
+            "IsPure": true,
+            "IsIgnored": 0,
+            "ReturnSelf": false,
+            "OverloadFor": null,
+            "CallingConvention": "stdcall",
+            "Overloads": [
+              {
+                "Arguments": [
+                  {
+                    "Type": {
+                      "UnmappedName": "CoreType",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "CoreType",
+                      "DefaultIncludeName": "core_type",
+                      "LibraryName": "coretypes",
+                      "Modifiers": "*",
+                      "GenericArguments": null,
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": false,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    },
+                    "Name": "type",
+                    "DefaultValue": null,
+                    "IsOutParam": true,
+                    "IsOutPointer": false,
+                    "IsConst": false,
+                    "ArrayInfo": null,
+                    "IsPolymorphic": false,
+                    "IsStealRef": false,
+                    "AllowNull": false,
+                    "RawBuffer": null,
+                    "IsInOutParam": false
+                  }
+                ],
+                "ReturnType": {
+                  "UnmappedName": "ErrCode",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ErrCode",
+                  "DefaultIncludeName": "err_code",
+                  "LibraryName": "ccoreobjects",
+                  "Modifiers": "",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Type": 1,
+                "Tag": null
+              }
+            ],
+            "Documentation": {
+              "Brief": {
+                "TagIndex": 0,
+                "Lines": [
+                  {
+                    "FullText": "Gets the core type of the argument.",
+                    "Elements": [
+                      {
+                        "RawText": "Gets the core type of the argument.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 1,
+                "TagName": "brief",
+                "RawText": "* @brief Gets the core type of the argument.\n",
+                "ElementType": 2
+              },
+              "Tags": [
+                {
+                  "ParamName": "type",
+                  "IsOut": true,
+                  "Lines": [
+                    {
+                      "FullText": "The type of the argument.",
+                      "Elements": [
+                        {
+                          "RawText": "The type of the argument.",
+                          "ElementType": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "TagType": 3,
+                  "TagName": "param",
+                  "RawText": "@param[out] type The type of the argument.",
+                  "ElementType": 2
+                }
+              ],
+              "Description": {
+                "TagIndex": 2,
+                "Lines": [
+                  {
+                    "FullText": "",
+                    "Elements": [
+                      {
+                        "RawText": "",
+                        "ElementType": 1
+                      }
+                    ]
+                  },
+                  {
+                    "FullText": "Dictionary, List and Object types should be avoided in public function/procedure callable objects",
+                    "Elements": [
+                      {
+                        "RawText": "Dictionary, List and Object types should be avoided in public function/procedure callable objects",
+                        "ElementType": 1
+                      }
+                    ]
+                  },
+                  {
+                    "FullText": "as their key, item, or base interface type cannot be determined without internal knowledge",
+                    "Elements": [
+                      {
+                        "RawText": "as their key, item, or base interface type cannot be determined without internal knowledge",
+                        "ElementType": 1
+                      }
+                    ]
+                  },
+                  {
+                    "FullText": "of the function/procedure.",
+                    "Elements": [
+                      {
+                        "RawText": "of the function/procedure.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 7,
+                "TagName": "",
+                "RawText": "*\n     * Dictionary, List and Object types should be avoided in public function/procedure callable objects\n     * as their key, item, or base interface type cannot be determined without internal knowledge\n     * of the function/procedure.\n",
+                "ElementType": 2
+              }
+            }
+          },
+          "Setter": null
+        },
+        {
+          "Name": "ItemType",
+          "Getter": {
+            "Modifiers": [
+              "virtual"
+            ],
+            "Arguments": [
+              {
+                "Type": {
+                  "UnmappedName": "CoreType",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "CoreType",
+                  "DefaultIncludeName": "core_type",
+                  "LibraryName": "coretypes",
+                  "Modifiers": "*",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Name": "itemType",
+                "DefaultValue": null,
+                "IsOutParam": true,
+                "IsOutPointer": false,
+                "IsConst": false,
+                "ArrayInfo": null,
+                "IsPolymorphic": false,
+                "IsStealRef": false,
+                "AllowNull": false,
+                "RawBuffer": null,
+                "IsInOutParam": false
+              }
+            ],
+            "ReturnType": {
+              "UnmappedName": "ErrCode",
+              "Namespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "UnmappedNamespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "Guid": "00000000-0000-0000-0000-000000000000",
+              "NonInterfaceName": "ErrCode",
+              "DefaultIncludeName": "err_code",
+              "LibraryName": "ccoreobjects",
+              "Modifiers": "",
+              "GenericArguments": null,
+              "IsGenericArgument": false,
+              "HasGenericArguments": false,
+              "PropertyClass": null,
+              "ControlTagName": null
+            },
+            "Property": null,
+            "Name": "getItemType",
+            "IsPure": true,
+            "IsIgnored": 0,
+            "ReturnSelf": false,
+            "OverloadFor": null,
+            "CallingConvention": "stdcall",
+            "Overloads": [
+              {
+                "Arguments": [
+                  {
+                    "Type": {
+                      "UnmappedName": "CoreType",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "CoreType",
+                      "DefaultIncludeName": "core_type",
+                      "LibraryName": "coretypes",
+                      "Modifiers": "*",
+                      "GenericArguments": null,
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": false,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    },
+                    "Name": "itemType",
+                    "DefaultValue": null,
+                    "IsOutParam": true,
+                    "IsOutPointer": false,
+                    "IsConst": false,
+                    "ArrayInfo": null,
+                    "IsPolymorphic": false,
+                    "IsStealRef": false,
+                    "AllowNull": false,
+                    "RawBuffer": null,
+                    "IsInOutParam": false
+                  }
+                ],
+                "ReturnType": {
+                  "UnmappedName": "ErrCode",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ErrCode",
+                  "DefaultIncludeName": "err_code",
+                  "LibraryName": "ccoreobjects",
+                  "Modifiers": "",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Type": 1,
+                "Tag": null
+              }
+            ],
+            "Documentation": {
+              "Brief": {
+                "TagIndex": 0,
+                "Lines": [
+                  {
+                    "FullText": "Gets the item type of list/dict-type Argument Info objects. The item type specifies the",
+                    "Elements": [
+                      {
+                        "RawText": "Gets the item type of list/dict-type Argument Info objects. The item type specifies the",
+                        "ElementType": 1
+                      }
+                    ]
+                  },
+                  {
+                    "FullText": "type of values in the list or dictionary arguments.",
+                    "Elements": [
+                      {
+                        "RawText": "type of values in the list or dictionary arguments.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 1,
+                "TagName": "brief",
+                "RawText": "* @brief Gets the item type of list/dict-type Argument Info objects. The item type specifies the\n     * type of values in the list or dictionary arguments.\n",
+                "ElementType": 2
+              },
+              "Tags": [
+                {
+                  "ParamName": "itemType",
+                  "IsOut": true,
+                  "Lines": [
+                    {
+                      "FullText": "The item type of the list/dictionary argument.",
+                      "Elements": [
+                        {
+                          "RawText": "The item type of the list/dictionary argument.",
+                          "ElementType": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "TagType": 3,
+                  "TagName": "param",
+                  "RawText": "@param[out] itemType The item type of the list/dictionary argument.",
+                  "ElementType": 2
+                },
+                {
+                  "TagIndex": 3,
+                  "Lines": [
+                    {
+                      "FullText": "",
+                      "Elements": [
+                        {
+                          "RawText": "",
+                          "ElementType": 1
+                        }
+                      ]
+                    },
+                    {
+                      "FullText": "In dict-type Argument Info, the type of each value in the <key, value> pairing corresponds to the",
+                      "Elements": [
+                        {
+                          "RawText": "In dict-type Argument Info, the type of each value in the <key, value> pairing corresponds to the",
+                          "ElementType": 1
+                        }
+                      ]
+                    },
+                    {
+                      "FullText": "item type.",
+                      "Elements": [
+                        {
+                          "RawText": "item type.",
+                          "ElementType": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "TagType": 7,
+                  "TagName": "",
+                  "RawText": "*\n     * In dict-type Argument Info, the type of each value in the <key, value> pairing corresponds to the\n     * item type.\n",
+                  "ElementType": 2
+                }
+              ],
+              "Description": {
+                "TagIndex": 2,
+                "Lines": [
+                  {
+                    "FullText": "",
+                    "Elements": [
+                      {
+                        "RawText": "",
+                        "ElementType": 1
+                      }
+                    ]
+                  },
+                  {
+                    "FullText": "In list-type Argument Info, the type of each item corresponds to the item type.",
+                    "Elements": [
+                      {
+                        "RawText": "In list-type Argument Info, the type of each item corresponds to the item type.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 7,
+                "TagName": "",
+                "RawText": "*\n     * In list-type Argument Info, the type of each item corresponds to the item type.\n",
+                "ElementType": 2
+              }
+            }
+          },
+          "Setter": null
+        },
+        {
+          "Name": "KeyType",
+          "Getter": {
+            "Modifiers": [
+              "virtual"
+            ],
+            "Arguments": [
+              {
+                "Type": {
+                  "UnmappedName": "CoreType",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "CoreType",
+                  "DefaultIncludeName": "core_type",
+                  "LibraryName": "coretypes",
+                  "Modifiers": "*",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Name": "keyType",
+                "DefaultValue": null,
+                "IsOutParam": true,
+                "IsOutPointer": false,
+                "IsConst": false,
+                "ArrayInfo": null,
+                "IsPolymorphic": false,
+                "IsStealRef": false,
+                "AllowNull": false,
+                "RawBuffer": null,
+                "IsInOutParam": false
+              }
+            ],
+            "ReturnType": {
+              "UnmappedName": "ErrCode",
+              "Namespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "UnmappedNamespace": {
+                "Raw": "daq",
+                "Components": [
+                  "daq"
+                ]
+              },
+              "Guid": "00000000-0000-0000-0000-000000000000",
+              "NonInterfaceName": "ErrCode",
+              "DefaultIncludeName": "err_code",
+              "LibraryName": "ccoreobjects",
+              "Modifiers": "",
+              "GenericArguments": null,
+              "IsGenericArgument": false,
+              "HasGenericArguments": false,
+              "PropertyClass": null,
+              "ControlTagName": null
+            },
+            "Property": null,
+            "Name": "getKeyType",
+            "IsPure": true,
+            "IsIgnored": 0,
+            "ReturnSelf": false,
+            "OverloadFor": null,
+            "CallingConvention": "stdcall",
+            "Overloads": [
+              {
+                "Arguments": [
+                  {
+                    "Type": {
+                      "UnmappedName": "CoreType",
+                      "Namespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "UnmappedNamespace": {
+                        "Raw": "daq",
+                        "Components": [
+                          "daq"
+                        ]
+                      },
+                      "Guid": "00000000-0000-0000-0000-000000000000",
+                      "NonInterfaceName": "CoreType",
+                      "DefaultIncludeName": "core_type",
+                      "LibraryName": "coretypes",
+                      "Modifiers": "*",
+                      "GenericArguments": null,
+                      "IsGenericArgument": false,
+                      "HasGenericArguments": false,
+                      "PropertyClass": null,
+                      "ControlTagName": null
+                    },
+                    "Name": "keyType",
+                    "DefaultValue": null,
+                    "IsOutParam": true,
+                    "IsOutPointer": false,
+                    "IsConst": false,
+                    "ArrayInfo": null,
+                    "IsPolymorphic": false,
+                    "IsStealRef": false,
+                    "AllowNull": false,
+                    "RawBuffer": null,
+                    "IsInOutParam": false
+                  }
+                ],
+                "ReturnType": {
+                  "UnmappedName": "ErrCode",
+                  "Namespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "UnmappedNamespace": {
+                    "Raw": "daq",
+                    "Components": [
+                      "daq"
+                    ]
+                  },
+                  "Guid": "00000000-0000-0000-0000-000000000000",
+                  "NonInterfaceName": "ErrCode",
+                  "DefaultIncludeName": "err_code",
+                  "LibraryName": "ccoreobjects",
+                  "Modifiers": "",
+                  "GenericArguments": null,
+                  "IsGenericArgument": false,
+                  "HasGenericArguments": false,
+                  "PropertyClass": null,
+                  "ControlTagName": null
+                },
+                "Type": 1,
+                "Tag": null
+              }
+            ],
+            "Documentation": {
+              "Brief": {
+                "TagIndex": 0,
+                "Lines": [
+                  {
+                    "FullText": "Gets the key type of dict-type Argument Info objects. The item type specifies the type of",
+                    "Elements": [
+                      {
+                        "RawText": "Gets the key type of dict-type Argument Info objects. The item type specifies the type of",
+                        "ElementType": 1
+                      }
+                    ]
+                  },
+                  {
+                    "FullText": "keys in dictionary arguments.",
+                    "Elements": [
+                      {
+                        "RawText": "keys in dictionary arguments.",
+                        "ElementType": 1
+                      }
+                    ]
+                  }
+                ],
+                "TagType": 1,
+                "TagName": "brief",
+                "RawText": "* @brief Gets the key type of dict-type Argument Info objects. The item type specifies the type of\n     * keys in dictionary arguments.\n",
+                "ElementType": 2
+              },
+              "Tags": [
+                {
+                  "ParamName": "keyType",
+                  "IsOut": true,
+                  "Lines": [
+                    {
+                      "FullText": "The key type of the dictionary argument.",
+                      "Elements": [
+                        {
+                          "RawText": "The key type of the dictionary argument.",
+                          "ElementType": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "TagType": 3,
+                  "TagName": "param",
+                  "RawText": "@param[out] keyType The key type of the dictionary argument.",
+                  "ElementType": 2
+                }
+              ],
+              "Description": null
+            }
+          },
+          "Setter": null
+        }
+      ],
+      "Events": {},
+      "Documentation": {
+        "Brief": {
+          "TagIndex": 0,
+          "Lines": [
+            {
+              "FullText": "Provides the name and type of a single function/procedure argument",
+              "Elements": [
+                {
+                  "RawText": "Provides the name and type of a single function/procedure argument",
+                  "ElementType": 1
+                }
+              ]
+            }
+          ],
+          "TagType": 1,
+          "TagName": "brief",
+          "RawText": "* @brief Provides the name and type of a single function/procedure argument\n",
+          "ElementType": 2
+        },
+        "Tags": [
+          {
+            "TagIndex": 2,
+            "Lines": [
+              {
+                "FullText": "",
+                "Elements": [
+                  {
+                    "RawText": "",
+                    "ElementType": 1
+                  }
+                ]
+              },
+              {
+                "FullText": "Argument info objects implement the Struct methods internally and are Core type `ctStruct`.",
+                "Elements": [
+                  {
+                    "RawText": "Argument info objects implement the Struct methods internally and are Core type `ctStruct`.",
+                    "ElementType": 1
+                  }
+                ]
+              }
+            ],
+            "TagType": 7,
+            "TagName": "",
+            "RawText": "*\n * Argument info objects implement the Struct methods internally and are Core type `ctStruct`.\n",
+            "ElementType": 2
+          }
+        ],
+        "Description": {
+          "TagIndex": 1,
+          "Lines": [
+            {
+              "FullText": "",
+              "Elements": [
+                {
+                  "RawText": "",
+                  "ElementType": 1
+                }
+              ]
+            },
+            {
+              "FullText": "Usually part of a list of arguments in a Callable info object.",
+              "Elements": [
+                {
+                  "RawText": "Usually part of a list of arguments in a Callable info object.",
+                  "ElementType": 1
+                }
+              ]
+            }
+          ],
+          "TagType": 7,
+          "TagName": "",
+          "RawText": "*\n * Usually part of a list of arguments in a Callable info object.\n",
+          "ElementType": 2
+        }
+      }
+    }
+  ],
+  "GlobalMethods": [],
+  "TypeAliases": {},
+  "Includes": [],
+  "Factories": [
+    {
+      "Name": "createArgumentInfo",
+      "PrettyName": "ArgumentInfo",
+      "Tag": "",
+      "IsConstructorWithMultipleFactories": false,
+      "InterfaceName": "IArgumentInfo",
+      "Arguments": [
+        {
+          "Type": {
+            "UnmappedName": "IArgumentInfo",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ArgumentInfo",
+            "DefaultIncludeName": "argument_info",
+            "LibraryName": "ccoreobjects",
+            "Modifiers": "**",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Name": "obj",
+          "DefaultValue": null,
+          "IsOutParam": true,
+          "IsOutPointer": false,
+          "IsConst": false,
+          "ArrayInfo": null,
+          "IsPolymorphic": false,
+          "IsStealRef": false,
+          "AllowNull": false,
+          "RawBuffer": null,
+          "IsInOutParam": false
+        },
+        {
+          "Type": {
+            "UnmappedName": "IString",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "d2ed1120-f7ff-556f-a98d-3f3edf1a3874",
+            "NonInterfaceName": "String",
+            "DefaultIncludeName": "string",
+            "LibraryName": "coretypes",
+            "Modifiers": "*",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Name": "name",
+          "DefaultValue": null,
+          "IsOutParam": false,
+          "IsOutPointer": false,
+          "IsConst": false,
+          "ArrayInfo": null,
+          "IsPolymorphic": false,
+          "IsStealRef": false,
+          "AllowNull": false,
+          "RawBuffer": null,
+          "IsInOutParam": false
+        },
+        {
+          "Type": {
+            "UnmappedName": "CoreType",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "1b0ddfc5-1085-5e3f-9b93-1c181db21dcb",
+            "NonInterfaceName": "CoreType",
+            "DefaultIncludeName": "core_type",
+            "LibraryName": "coretypes",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Name": "type",
+          "DefaultValue": null,
+          "IsOutParam": false,
+          "IsOutPointer": false,
+          "IsConst": false,
+          "ArrayInfo": null,
+          "IsPolymorphic": false,
+          "IsStealRef": false,
+          "AllowNull": false,
+          "RawBuffer": null,
+          "IsInOutParam": false
+        }
+      ],
+      "Options": 0,
+      "SpecificOptions": [],
+      "IsGeneric": false,
+      "Documentation": {
+        "Brief": {
+          "TagIndex": 0,
+          "Lines": [
+            {
+              "FullText": "Creates an Argument info object with the specified name and type.",
+              "Elements": [
+                {
+                  "RawText": "Creates an Argument info object with the specified name and type.",
+                  "ElementType": 1
+                }
+              ]
+            }
+          ],
+          "TagType": 1,
+          "TagName": "brief",
+          "RawText": "* @brief Creates an Argument info object with the specified name and type.\n",
+          "ElementType": 2
+        },
+        "Tags": [
+          {
+            "ParamName": "name",
+            "IsOut": false,
+            "Lines": [
+              {
+                "FullText": "The name of the argument.",
+                "Elements": [
+                  {
+                    "RawText": "The name of the argument.",
+                    "ElementType": 1
+                  }
+                ]
+              }
+            ],
+            "TagType": 3,
+            "TagName": "param",
+            "RawText": "@param name The name of the argument.",
+            "ElementType": 2
+          },
+          {
+            "ParamName": "type",
+            "IsOut": false,
+            "Lines": [
+              {
+                "FullText": "The type expected of the argument.",
+                "Elements": [
+                  {
+                    "RawText": "The type expected of the argument.",
+                    "ElementType": 1
+                  }
+                ]
+              }
+            ],
+            "TagType": 3,
+            "TagName": "param",
+            "RawText": "@param type The type expected of the argument.",
+            "ElementType": 2
+          }
+        ],
+        "Description": null
+      }
+    },
+    {
+      "Name": "createListArgumentInfo",
+      "PrettyName": "ListArgumentInfo",
+      "Tag": "List",
+      "IsConstructorWithMultipleFactories": false,
+      "InterfaceName": "IArgumentInfo",
+      "Arguments": [
+        {
+          "Type": {
+            "UnmappedName": "IArgumentInfo",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ArgumentInfo",
+            "DefaultIncludeName": "argument_info",
+            "LibraryName": "ccoreobjects",
+            "Modifiers": "**",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Name": "obj",
+          "DefaultValue": null,
+          "IsOutParam": true,
+          "IsOutPointer": false,
+          "IsConst": false,
+          "ArrayInfo": null,
+          "IsPolymorphic": false,
+          "IsStealRef": false,
+          "AllowNull": false,
+          "RawBuffer": null,
+          "IsInOutParam": false
+        },
+        {
+          "Type": {
+            "UnmappedName": "IString",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "d2ed1120-f7ff-556f-a98d-3f3edf1a3874",
+            "NonInterfaceName": "String",
+            "DefaultIncludeName": "string",
+            "LibraryName": "coretypes",
+            "Modifiers": "*",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Name": "name",
+          "DefaultValue": null,
+          "IsOutParam": false,
+          "IsOutPointer": false,
+          "IsConst": false,
+          "ArrayInfo": null,
+          "IsPolymorphic": false,
+          "IsStealRef": false,
+          "AllowNull": false,
+          "RawBuffer": null,
+          "IsInOutParam": false
+        },
+        {
+          "Type": {
+            "UnmappedName": "CoreType",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "1b0ddfc5-1085-5e3f-9b93-1c181db21dcb",
+            "NonInterfaceName": "CoreType",
+            "DefaultIncludeName": "core_type",
+            "LibraryName": "coretypes",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Name": "itemType",
+          "DefaultValue": null,
+          "IsOutParam": false,
+          "IsOutPointer": false,
+          "IsConst": false,
+          "ArrayInfo": null,
+          "IsPolymorphic": false,
+          "IsStealRef": false,
+          "AllowNull": false,
+          "RawBuffer": null,
+          "IsInOutParam": false
+        }
+      ],
+      "Options": 0,
+      "SpecificOptions": [],
+      "IsGeneric": false,
+      "Documentation": {
+        "Brief": {
+          "TagIndex": 0,
+          "Lines": [
+            {
+              "FullText": "Creates a list-type Argument info object with the specified name and item type.",
+              "Elements": [
+                {
+                  "RawText": "Creates a list-type Argument info object with the specified name and item type.",
+                  "ElementType": 1
+                }
+              ]
+            }
+          ],
+          "TagType": 1,
+          "TagName": "brief",
+          "RawText": "* @brief Creates a list-type Argument info object with the specified name and item type.\n",
+          "ElementType": 2
+        },
+        "Tags": [
+          {
+            "ParamName": "name",
+            "IsOut": false,
+            "Lines": [
+              {
+                "FullText": "The name of the argument.",
+                "Elements": [
+                  {
+                    "RawText": "The name of the argument.",
+                    "ElementType": 1
+                  }
+                ]
+              }
+            ],
+            "TagType": 3,
+            "TagName": "param",
+            "RawText": "@param name The name of the argument.",
+            "ElementType": 2
+          },
+          {
+            "ParamName": "itemType",
+            "IsOut": false,
+            "Lines": [
+              {
+                "FullText": "Corresponds to the expected type of items in the list argument.",
+                "Elements": [
+                  {
+                    "RawText": "Corresponds to the expected type of items in the list argument.",
+                    "ElementType": 1
+                  }
+                ]
+              }
+            ],
+            "TagType": 3,
+            "TagName": "param",
+            "RawText": "@param itemType Corresponds to the expected type of items in the list argument.",
+            "ElementType": 2
+          }
+        ],
+        "Description": null
+      }
+    },
+    {
+      "Name": "createDictArgumentInfo",
+      "PrettyName": "DictArgumentInfo",
+      "Tag": "Dict",
+      "IsConstructorWithMultipleFactories": false,
+      "InterfaceName": "IArgumentInfo",
+      "Arguments": [
+        {
+          "Type": {
+            "UnmappedName": "IArgumentInfo",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "00000000-0000-0000-0000-000000000000",
+            "NonInterfaceName": "ArgumentInfo",
+            "DefaultIncludeName": "argument_info",
+            "LibraryName": "ccoreobjects",
+            "Modifiers": "**",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Name": "obj",
+          "DefaultValue": null,
+          "IsOutParam": true,
+          "IsOutPointer": false,
+          "IsConst": false,
+          "ArrayInfo": null,
+          "IsPolymorphic": false,
+          "IsStealRef": false,
+          "AllowNull": false,
+          "RawBuffer": null,
+          "IsInOutParam": false
+        },
+        {
+          "Type": {
+            "UnmappedName": "IString",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "d2ed1120-f7ff-556f-a98d-3f3edf1a3874",
+            "NonInterfaceName": "String",
+            "DefaultIncludeName": "string",
+            "LibraryName": "coretypes",
+            "Modifiers": "*",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Name": "name",
+          "DefaultValue": null,
+          "IsOutParam": false,
+          "IsOutPointer": false,
+          "IsConst": false,
+          "ArrayInfo": null,
+          "IsPolymorphic": false,
+          "IsStealRef": false,
+          "AllowNull": false,
+          "RawBuffer": null,
+          "IsInOutParam": false
+        },
+        {
+          "Type": {
+            "UnmappedName": "CoreType",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "1b0ddfc5-1085-5e3f-9b93-1c181db21dcb",
+            "NonInterfaceName": "CoreType",
+            "DefaultIncludeName": "core_type",
+            "LibraryName": "coretypes",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Name": "keyType",
+          "DefaultValue": null,
+          "IsOutParam": false,
+          "IsOutPointer": false,
+          "IsConst": false,
+          "ArrayInfo": null,
+          "IsPolymorphic": false,
+          "IsStealRef": false,
+          "AllowNull": false,
+          "RawBuffer": null,
+          "IsInOutParam": false
+        },
+        {
+          "Type": {
+            "UnmappedName": "CoreType",
+            "Namespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "UnmappedNamespace": {
+              "Raw": "daq",
+              "Components": [
+                "daq"
+              ]
+            },
+            "Guid": "1b0ddfc5-1085-5e3f-9b93-1c181db21dcb",
+            "NonInterfaceName": "CoreType",
+            "DefaultIncludeName": "core_type",
+            "LibraryName": "coretypes",
+            "Modifiers": "",
+            "GenericArguments": null,
+            "IsGenericArgument": false,
+            "HasGenericArguments": false,
+            "PropertyClass": null,
+            "ControlTagName": null
+          },
+          "Name": "itemType",
+          "DefaultValue": null,
+          "IsOutParam": false,
+          "IsOutPointer": false,
+          "IsConst": false,
+          "ArrayInfo": null,
+          "IsPolymorphic": false,
+          "IsStealRef": false,
+          "AllowNull": false,
+          "RawBuffer": null,
+          "IsInOutParam": false
+        }
+      ],
+      "Options": 0,
+      "SpecificOptions": [],
+      "IsGeneric": false,
+      "Documentation": {
+        "Brief": {
+          "TagIndex": 0,
+          "Lines": [
+            {
+              "FullText": "Creates a dict-type Argument info object with the specified name, key type and item type.",
+              "Elements": [
+                {
+                  "RawText": "Creates a dict-type Argument info object with the specified name, key type and item type.",
+                  "ElementType": 1
+                }
+              ]
+            }
+          ],
+          "TagType": 1,
+          "TagName": "brief",
+          "RawText": "* @brief Creates a dict-type Argument info object with the specified name, key type and item type.\n",
+          "ElementType": 2
+        },
+        "Tags": [
+          {
+            "ParamName": "name",
+            "IsOut": false,
+            "Lines": [
+              {
+                "FullText": "The name of the argument.",
+                "Elements": [
+                  {
+                    "RawText": "The name of the argument.",
+                    "ElementType": 1
+                  }
+                ]
+              }
+            ],
+            "TagType": 3,
+            "TagName": "param",
+            "RawText": "@param name The name of the argument.",
+            "ElementType": 2
+          },
+          {
+            "ParamName": "keyType",
+            "IsOut": false,
+            "Lines": [
+              {
+                "FullText": "Corresponds to the expected type of key in the dictionary argument.",
+                "Elements": [
+                  {
+                    "RawText": "Corresponds to the expected type of key in the dictionary argument.",
+                    "ElementType": 1
+                  }
+                ]
+              }
+            ],
+            "TagType": 3,
+            "TagName": "param",
+            "RawText": "@param keyType Corresponds to the expected type of key in the dictionary argument.",
+            "ElementType": 2
+          },
+          {
+            "ParamName": "itemType",
+            "IsOut": false,
+            "Lines": [
+              {
+                "FullText": "Corresponds to the expected type of items in the dictionary argument.",
+                "Elements": [
+                  {
+                    "RawText": "Corresponds to the expected type of items in the dictionary argument.",
+                    "ElementType": 1
+                  }
+                ]
+              }
+            ],
+            "TagType": 3,
+            "TagName": "param",
+            "RawText": "@param itemType Corresponds to the expected type of items in the dictionary argument.",
+            "ElementType": 2
+          }
+        ],
+        "Description": null
+      }
+    }
+  ],
+  "StartNamespaceMacro": "BEGIN_NAMESPACE_OPENDAQ",
+  "EndNamespaceMacro": "END_NAMESPACE_OPENDAQ",
+  "SourceFileName": "argument_info.h",
+  "AttributeInfo": [],
+  "AdditionalFeatures": 0,
+  "Tag": null,
+  "LeadingDocumentation": [
+    {
+      "Brief": null,
+      "Tags": [
+        {
+          "Lines": [
+            {
+              "FullText": "objects_utility",
+              "Elements": [
+                {
+                  "RawText": "objects_utility",
+                  "ElementType": 1
+                }
+              ]
+            }
+          ],
+          "TagType": 0,
+          "TagName": "ingroup",
+          "RawText": "@ingroup objects_utility",
+          "ElementType": 2
+        },
+        {
+          "Lines": [
+            {
+              "FullText": "objects_argument_info ArgumentInfo",
+              "Elements": [
+                {
+                  "RawText": "objects_argument_info ArgumentInfo",
+                  "ElementType": 1
+                }
+              ]
+            }
+          ],
+          "TagType": 0,
+          "TagName": "addtogroup",
+          "RawText": "@addtogroup objects_argument_info ArgumentInfo",
+          "ElementType": 2
+        },
+        {
+          "TagType": 8,
+          "TagName": "@{",
+          "RawText": "* @{\n",
+          "ElementType": 2
+        }
+      ],
+      "Description": null
+    }
+  ],
+  "TrailingDocumentation": [
+    {
+      "Brief": null,
+      "Tags": [
+        {
+          "TagType": 8,
+          "TagName": "@}",
+          "RawText": "@}",
+          "ElementType": 2
+        }
+      ],
+      "Description": null
+    },
+    {
+      "Brief": null,
+      "Tags": [
+        {
+          "Lines": [
+            {
+              "FullText": "objects_argument_info_factories Factories",
+              "Elements": [
+                {
+                  "RawText": "objects_argument_info_factories Factories",
+                  "ElementType": 1
+                }
+              ]
+            }
+          ],
+          "TagType": 0,
+          "TagName": "addtogroup",
+          "RawText": "@addtogroup objects_argument_info_factories Factories",
+          "ElementType": 2
+        },
+        {
+          "TagType": 8,
+          "TagName": "@{",
+          "RawText": "* @{\n",
+          "ElementType": 2
+        }
+      ],
+      "Description": null
+    },
+    {
+      "Brief": null,
+      "Tags": [
+        {
+          "TagType": 8,
+          "TagName": "@}",
+          "RawText": "@}",
+          "ElementType": 2
+        }
+      ],
+      "Description": null
+    }
+  ]
+}

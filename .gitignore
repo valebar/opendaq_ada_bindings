@@ -1,0 +1,31 @@
+# --- Alire / GPRbuild build outputs (per crate) -----------------------------
+obj/
+lib/
+bin/
+alire/
+config/
+
+# Stray compiler artifacts from manual gnatmake/gcc runs outside obj/
+*.o
+*.ali
+*.bexch
+*.lexch
+b__*.ad[sb]
+*.dSYM/
+
+# --- Machine-local -----------------------------------------------------------
+# The vendor lib dir is a symlink to an openDAQ build's bin/, maintained by
+# scripts/refresh_vendor.sh
+vendor/copendaq/lib
+
+# Transient Ada Language Server / Alire lock
+.als-alire
+
+# --- OS / editor junk --------------------------------------------------------
+.DS_Store
+*.swp
+*.swo
+*~
+.#*
+.idea/
+.vscode/

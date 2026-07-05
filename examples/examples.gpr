@@ -1,0 +1,26 @@
+with "opendaq.gpr";
+with "opendaq_bindings.gpr";
+
+project Examples is
+   for Source_Dirs use ("src");
+   for Object_Dir use "obj";
+   for Exec_Dir use "bin";
+   for Create_Missing_Dirs use "True";
+   for Main use
+     ("smoke_low.adb",
+      "quick_start.adb",
+      "add_function_block.adb",
+      "component_tree.adb",
+      "call_function.adb",
+      "core_events.adb",
+      "signals_packets.adb",
+      "device_modes.adb");
+
+   package Compiler is
+      for Default_Switches ("Ada") use ("-gnat2022", "-O2", "-g", "-gnatwa");
+   end Compiler;
+
+   package Binder is
+      for Switches ("Ada") use ("-Es");
+   end Binder;
+end Examples;

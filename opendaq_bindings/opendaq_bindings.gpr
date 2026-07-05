@@ -1,0 +1,59 @@
+library project Opendaq_Bindings is
+   for Library_Name use "opendaq_bindings";
+   for Library_Version use "0.1.0";
+
+   type OS_Kind is ("macos", "linux", "windows");
+   OS : OS_Kind := external ("OPENDAQ_OS", "macos");
+
+   type Library_Type_Type is ("relocatable", "static", "static-pic");
+   Library_Type : Library_Type_Type :=
+     external ("OPENDAQ_BINDINGS_LIBRARY_TYPE", external ("LIBRARY_TYPE", "static"));
+   for Library_Kind use Library_Type;
+
+   --  Directory holding libcopendaq.{dylib,so} / copendaq.dll plus the openDAQ
+   --  core and module libraries. Default: the in-repo symlink maintained by
+   --  scripts/refresh_vendor.sh, so the -L/-rpath switches are never malformed.
+   Lib_Dir := external ("COPENDAQ_LIB_DIR",
+                        Project'Project_Dir & "../vendor/copendaq/lib");
+
+   --  libcopendaq does not re-export daqFreeMemory/daqAllocateMemory (needed
+   --  to free daqBaseObject_toString results); they live in the coretypes
+   --  library next to it. Override when the ABI suffix bumps (-64-3 -> -64-4).
+   Coretypes_Lib := external ("COPENDAQ_CORETYPES_LIB", "daqcoretypes-64-3");
+
+   for Source_Dirs use ("src", "src/gen");
+   for Object_Dir use "obj/" & Library_Type;
+   for Library_Dir use "lib/" & Library_Type;
+   for Create_Missing_Dirs use "True";
+
+   package Compiler is
+      for Default_Switches ("Ada") use ("-gnat2022", "-O2", "-g", "-gnatwa");
+   end Compiler;
+
+   --  Linker_Options propagate to any executable that (transitively) withs
+   --  this library project — examples and user programs inherit the copendaq
+   --  link line and run path automatically.
+   package Linker is
+      case OS is
+         when "macos" =>
+            --  -nodefaultrpaths: GNAT's gcc driver otherwise injects rpaths
+            --  to its own toolchain lib dirs, one of them twice - and newer
+            --  dyld hard-errors on duplicate LC_RPATH. The GNAT runtime is
+            --  linked statically, so those rpaths are never needed.
+            for Linker_Options use
+              ("-L" & Lib_Dir, "-lcopendaq", "-l" & Coretypes_Lib,
+               "-Wl,-rpath," & Lib_Dir, "-nodefaultrpaths");
+         when "linux" =>
+            for Linker_Options use
+              ("-L" & Lib_Dir, "-lcopendaq", "-l" & Coretypes_Lib,
+               "-Wl,-rpath," & Lib_Dir, "-Wl,--enable-new-dtags");
+         when "windows" =>
+            --  MinGW ld links directly against copendaq.dll; drop a
+            --  libcopendaq.dll.a import lib into Lib_Dir if that misbehaves
+            --  (gendef copendaq.dll && dlltool -d copendaq.def -D copendaq.dll
+            --   -l libcopendaq.dll.a). Unverified — no local Windows box yet.
+            for Linker_Options use
+              ("-L" & Lib_Dir, "-lcopendaq", "-l" & Coretypes_Lib);
+      end case;
+   end Linker;
+end Opendaq_Bindings;

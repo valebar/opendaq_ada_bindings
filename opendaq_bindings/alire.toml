@@ -1,0 +1,19 @@
+name = "opendaq_bindings"
+description = "Thin Ada bindings to the openDAQ flat C API (libcopendaq)"
+version = "0.1.0-dev"
+licenses = "Apache-2.0"
+authors = ["Vasja Lebar"]
+maintainers = ["Vasja Lebar <vasja.lebar@pawsm.com>"]
+maintainers-logins = ["vasjalebar"]
+
+[[depends-on]]
+gnat = ">=12 & <2000"
+
+[gpr-externals]
+OPENDAQ_OS = ["macos", "linux", "windows"]
+OPENDAQ_BINDINGS_LIBRARY_TYPE = ["static", "relocatable", "static-pic"]
+
+[gpr-set-externals."case(os)"]
+macos = { OPENDAQ_OS = "macos" }
+linux = { OPENDAQ_OS = "linux" }
+windows = { OPENDAQ_OS = "windows" }

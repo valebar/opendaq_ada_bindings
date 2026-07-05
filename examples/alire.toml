@@ -1,0 +1,26 @@
+name = "examples"
+description = "Examples for the openDAQ Ada bindings"
+version = "0.1.0-dev"
+licenses = "Apache-2.0"
+authors = ["Vasja Lebar"]
+maintainers = ["Vasja Lebar <vasja.lebar@pawsm.com>"]
+maintainers-logins = ["vasjalebar"]
+executables = [
+  "smoke_low",
+  "quick_start",
+  "add_function_block",
+  "component_tree",
+  "call_function",
+  "core_events",
+  "signals_packets",
+  "device_modes",
+]
+
+[[depends-on]]
+gnat = ">=12 & <2000"
+opendaq = "~0.1.0-dev"
+opendaq_bindings = "~0.1.0-dev"
+
+[[pins]]
+opendaq = { path = "../opendaq" }
+opendaq_bindings = { path = "../opendaq_bindings" }

@@ -1,0 +1,14 @@
+name = "opendaq"
+description = "High-level Ada API for openDAQ"
+version = "0.1.0-dev"
+licenses = "Apache-2.0"
+authors = ["Vasja Lebar"]
+maintainers = ["Vasja Lebar <vasja.lebar@pawsm.com>"]
+maintainers-logins = ["vasjalebar"]
+
+[[depends-on]]
+gnat = ">=12 & <2000"
+opendaq_bindings = "~0.1.0-dev"
+
+[[pins]]
+opendaq_bindings = { path = "../opendaq_bindings" }

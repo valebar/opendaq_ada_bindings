@@ -1,0 +1,52 @@
+{
+  "_comment": "Hand-authored model for IFunction. RTGen cannot parse coretypes/function.h (the FuncCall function-pointer typedef trips its C++ grammar, which is why upstream run_rtgen.sh leaves it commented out). This mirrors the fields the Dart generator reads (see opendaq_codegen/lib/src/model.dart): the single `call(IBaseObject* params, IBaseObject** result)` method. The callback-creation factory is emitted from the Target's CallbackSpec, not from this model.",
+  "Classes": [
+    {
+      "Type": {
+        "UnmappedName": "IFunction",
+        "NonInterfaceName": "Function",
+        "Modifiers": "*",
+        "GenericArguments": null
+      },
+      "BaseType": {
+        "UnmappedName": "IBaseObject",
+        "NonInterfaceName": "BaseObject",
+        "Modifiers": "",
+        "GenericArguments": null
+      },
+      "Methods": [
+        {
+          "Name": "call",
+          "IsIgnored": 0,
+          "Arguments": [
+            {
+              "Type": {
+                "UnmappedName": "IBaseObject",
+                "NonInterfaceName": "BaseObject",
+                "Modifiers": "*",
+                "GenericArguments": null
+              },
+              "Name": "params",
+              "IsOutParam": false,
+              "IsStealRef": false,
+              "AllowNull": true
+            },
+            {
+              "Type": {
+                "UnmappedName": "IBaseObject",
+                "NonInterfaceName": "BaseObject",
+                "Modifiers": "**",
+                "GenericArguments": null
+              },
+              "Name": "result",
+              "IsOutParam": true,
+              "IsStealRef": false,
+              "AllowNull": false
+            }
+          ]
+        }
+      ],
+      "GetSet": []
+    }
+  ]
+}

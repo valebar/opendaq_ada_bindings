@@ -1,0 +1,107 @@
+#!/usr/bin/env bash
+# Task runner for the openDAQ Ada bindings.
+#
+#   ./daq gen              build the generator and regenerate src/gen in both crates
+#   ./daq build            alr build every crate (generator, bindings, opendaq, examples)
+#   ./daq check            full gate: build + generator drift check + symbol audit + run examples
+#   ./daq run <example>    build examples and run one (smoke_low, quick_start)
+#   ./daq symbols          audit generated imports against libcopendaq exports
+#   ./daq refresh <dir>    refresh vendor headers/lib/symbols from an openDAQ build dir
+#   ./daq clean            remove build outputs in all crates
+set -euo pipefail
+
+root="$(cd "$(dirname "$0")" && pwd)"
+source "$root/scripts/env.sh"
+
+# Optional pinned alr: if a binary is dropped at tools/bin/alr, prefer it
+# over the global one (see README "Toolchain" — the alr must be arm64-capable
+# on Apple Silicon).
+if [ -x "$root/tools/bin/alr" ]; then
+  export PATH="$root/tools/bin:$PATH"
+fi
+
+crates=(tools/opendaq_codegen opendaq_bindings opendaq examples)
+
+# gprbuild on macOS emits the toolchain lib dir as LC_RPATH twice; newer
+# dyld hard-errors on duplicates. Dedup in place (safe: GNAT runtime is
+# statically linked).
+fix_rpaths() {
+  local bin="$1"
+  [ -f "$bin" ] || return 0
+  otool -l "$bin" | awk '/LC_RPATH/{getline; getline; print $2}' \
+    | sort | uniq -d | while read -r dup; do
+      install_name_tool -delete_rpath "$dup" "$bin" 2>/dev/null || true
+    done
+}
+
+fix_all_rpaths() {
+  [ "$(uname)" = "Darwin" ] || return 0
+  for b in "$root"/tools/opendaq_codegen/bin/* "$root"/examples/bin/*; do
+    fix_rpaths "$b"
+  done
+}
+
+build_all() {
+  for c in "${crates[@]}"; do
+    echo "== alr build: $c"
+    (cd "$root/$c" && alr -n build)
+  done
+  fix_all_rpaths
+}
+
+run_example() {
+  local ex="${1:?usage: ./daq run <example>}"
+  (cd "$root/examples" && alr -n build)
+  fix_all_rpaths
+  echo "== running $ex (COPENDAQ_LIB_DIR=$COPENDAQ_LIB_DIR)"
+  OPENDAQ_MODULE_PATH="${OPENDAQ_MODULE_PATH:-$COPENDAQ_LIB_DIR}" \
+  DYLD_LIBRARY_PATH="$COPENDAQ_LIB_DIR:${DYLD_LIBRARY_PATH:-}" \
+  LD_LIBRARY_PATH="$COPENDAQ_LIB_DIR:${LD_LIBRARY_PATH:-}" \
+    "$root/examples/bin/$ex"
+}
+
+cmd="${1:-build}"
+case "$cmd" in
+  gen)
+    (cd "$root/tools/opendaq_codegen" && alr -n build)
+    fix_rpaths "$root/tools/opendaq_codegen/bin/opendaq_codegen"
+    "$root/tools/opendaq_codegen/bin/opendaq_codegen" all
+    ;;
+  build)
+    build_all
+    ;;
+  check)
+    build_all
+    echo "== generator drift check"
+    "$root/tools/opendaq_codegen/bin/opendaq_codegen" check
+    echo "== symbol audit"
+    "$root/scripts/check_symbols.sh"
+    for ex in smoke_low quick_start add_function_block component_tree \
+              call_function core_events signals_packets device_modes; do
+      echo "== $ex"
+      run_example "$ex"
+    done
+    echo "== all gates passed"
+    ;;
+  run)
+    shift
+    run_example "${1:-smoke_low}"
+    ;;
+  symbols)
+    "$root/scripts/check_symbols.sh"
+    ;;
+  refresh)
+    shift
+    "$root/scripts/refresh_vendor.sh" "$@"
+    ;;
+  clean)
+    for c in "${crates[@]}"; do
+      rm -rf "$root/$c/obj" "$root/$c/lib" "$root/$c/bin"
+    done
+    echo "cleaned"
+    ;;
+  *)
+    sed -n '2,10p' "$0"
+    exit 1
+    ;;
+esac

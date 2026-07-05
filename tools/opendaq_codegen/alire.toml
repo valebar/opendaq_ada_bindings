@@ -1,0 +1,20 @@
+name = "opendaq_codegen"
+description = "Self-hosted code generator for the openDAQ Ada bindings"
+version = "0.1.0-dev"
+licenses = "Apache-2.0"
+authors = ["Vasja Lebar"]
+maintainers = ["Vasja Lebar <vasja.lebar@pawsm.com>"]
+maintainers-logins = ["vasjalebar"]
+executables = ["opendaq_codegen"]
+
+[[depends-on]]
+gnat = ">=12 & <2000"
+json = "^6.0.0"
+
+[gpr-externals]
+OPENDAQ_OS = ["macos", "linux", "windows"]
+
+[gpr-set-externals."case(os)"]
+macos = { OPENDAQ_OS = "macos" }
+linux = { OPENDAQ_OS = "linux" }
+windows = { OPENDAQ_OS = "windows" }
